@@ -1,9 +1,18 @@
 module Humanize
-  LOTS = %w(hundred thousand million billion trillion quadrillion quintrillion sextillion septillion octillion nonitrillon decillion)
+  
+  # Accommodate for 66-digit long numbers
+  LOTS = %w(hundred thousand million billion trillion quadrillion quintrillion sextillion septillion octillion nonillion decillion undecillion duodecillion tredecillion quattuordecillion quindecillion sexdecillion septendecillion octodecillion novemdecillion vigintillion)
+  
+  # Tens, without the 10.
   TENS = %w(twenty thirty forty fifty sixty seventy eighty ninety)
+  
+  # Numbers after 10 are classed as "strange", as their kind are not seen elsewhere.
   STRANGE = %w(eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen)
+  
+  # Count to ten!
   ONES = %w(zero one two three four five six seven eight nine ten)
   
+  # Accepts humanize method
   def humanize(with_hypen=false)
     o = parse(self, with_hypen)
     o = "negative " << o if self < 0
@@ -20,8 +29,9 @@ module Humanize
       STRANGE[self-11]
     when 20..99
       remainder = self % 10
-      [TENS[(self / 10) - 2].to_s, remainder.humanize].join(" ")
-    when 100..999999999999999999999999999999
+      a = [TENS[(self / 10) - 2].to_s, remainder.humanize]
+      with_hyphen ? a.join("-") : a.join(" ")
+    when 100..(("9" * 66).to_i)
       log = Math.log10(num).floor
       o_remainder = log % 3
       log = (log - o_remainder) if o_remainder != 0 && log > 3
@@ -37,14 +47,10 @@ module Humanize
   def extra(base)
     remainder = self % base
     length = self.to_s.length.to_f
-    lots = if length > 3
-      (length / 3).ceil - 1
-    else
-      0
-    end
+    lots = length > 3 ? (length / 3).ceil - 1 : 0
+    
     number = [self.parts_of(base).humanize]
-    number << " "
-    number << LOTS[lots]
+    number << " " << LOTS[lots]
     if remainder != 0
       if %w(hundred).include?(number.last)
         number << " and " 
