@@ -32,7 +32,7 @@ module Humanize
         remainder = num % 10
         a = [TENS[num / 10 - 2].to_s, remainder.humanize]
         with_hyphen ? a.join("-") : a.join(" ")
-      when 100..(("9" * 66).to_i)
+      when 100..(("9" * 183).to_i)
         # Calculates the correct number of zeroes, base is 100, 1000, 1000000, 1000000000, etc.
         log = Math.log10(num).floor
         log = (log - log % 3) if log % 3 != 0 && log > 3
