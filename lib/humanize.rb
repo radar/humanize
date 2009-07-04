@@ -26,10 +26,10 @@ module Humanize
       when 0..10
         ONES[num]
       when 11..19
-        STRANGE[self-11]
+        STRANGE[num-11]
       when 20..99
-        remainder = self % 10
-        a = [TENS[(self / 10) - 2].to_s, remainder.humanize]
+        remainder = num % 10
+        a = [TENS[num / 10 - 2].to_s, remainder.humanize]
         with_hyphen ? a.join("-") : a.join(" ")
       when 100..(("9" * 66).to_i)
         # Calculates the correct number of zeroes, base is 100, 1000, 1000000, 1000000000, etc.
