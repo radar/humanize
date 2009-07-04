@@ -1,7 +1,8 @@
 module Humanize
   
-  # Accommodate for 66-digit long numbers
-  LOTS = %w(hundred thousand million billion trillion quadrillion quintrillion sextillion septillion octillion nonillion decillion undecillion duodecillion tredecillion quattuordecillion quindecillion sexdecillion septendecillion octodecillion novemdecillion vigintillion)
+  # Accommodate for 183-digit long numbers
+  # Big numbers are big: http://wiki.answers.com/Q/What_number_is_after_vigintillion&src=ansTT
+  require File.join(File.dirname(__FILE__), 'lots')
   
   # Tens, without the 10.
   TENS = %w(twenty thirty forty fifty sixty seventy eighty ninety)
