@@ -10,6 +10,7 @@ describe "Humanize" do
   
   [
     [-1, "negative one"],
+    [0, "zero"],
     [8.15, "eight point one five"],
     [11, "eleven"],
     [21, "twenty one"],

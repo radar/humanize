@@ -22,22 +22,22 @@ module Humanize
   
   def parse(num, with_hyphen)
     num = num.abs
-    case num
-    when 1..10
-      ONES[num]
-    when 11..19
-      STRANGE[self-11]
-    when 20..99
-      remainder = self % 10
-      a = [TENS[(self / 10) - 2].to_s, remainder.humanize]
-      with_hyphen ? a.join("-") : a.join(" ")
-    when 100..(("9" * 66).to_i)
-      log = Math.log10(num).floor
-      o_remainder = log % 3
-      log = (log - o_remainder) if o_remainder != 0 && log > 3
-      base = "1#{'0' * log}".to_i
-      num.extra(base)
-    end 
+    case num        
+      when 0..10
+        ONES[num]
+      when 11..19
+        STRANGE[self-11]
+      when 20..99
+        remainder = self % 10
+        a = [TENS[(self / 10) - 2].to_s, remainder.humanize]
+        with_hyphen ? a.join("-") : a.join(" ")
+      when 100..(("9" * 66).to_i)
+        # Calculates the correct number of zeroes, base is 100, 1000, 1000000, 1000000000, etc.
+        log = Math.log10(num).floor
+        log = (log - log % 3) if log % 3 != 0 && log > 3
+        base = "1#{'0' * log}".to_i
+        num.extra(base)
+      end 
   end
   
   def parts_of(num)
