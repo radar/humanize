@@ -16,6 +16,7 @@ module Humanize
   ZERO_TO_NINETEEN = ONES + STRANGE
   
   def humanize
+    @@humanize_cache ||= Array.new(1000)
     num, dec = to_s.split('.', 2).map { |n| n.to_i }
     
     o = []
@@ -37,8 +38,7 @@ module Humanize
     size_m1 = size - 1
     size_m2 = size - 2
     sets.each_with_index do |set, i|      
-      o << "#{three_digits_to_words(set)}#{" #{LOTS[size - i - 1]}" if size_m1 - i > 0}#{' and' if i == size_m2 && sets[i + 1] < 100}"
-      
+      o << "#{three_digits_to_words(set)}#{" #{LOTS[size_m1 - i]}" if size_m1 - i > 0}#{' and' if i == size_m2 && sets[i + 1] < 100}"
     end
 
     d = []
@@ -56,22 +56,26 @@ module Humanize
   
   
   
-  def three_digits_to_words(num, add_and = false)
-    dig3 = num % 10
-    dig2 = (num / 10) % 10
-    dig1 = (num / 100) % 10
+  def three_digits_to_words(num)
+    if (r = @@humanize_cache[num])
+      return r
+    end
+    
+    t, dig3 = num.divmod(10)
+    dig1, dig2 = t.divmod(10)
     
     o = ''
     if dig1 > 0
       o << "#{ONES[dig1]} hundred"
     end
     
-    o << ' and ' if ((dig2 | dig3 != 0) && dig1 > 0) || add_and
+    o << ' and ' if ((dig2 | dig3 != 0) && dig1 > 0)
     if dig2 > 1
       o << "#{TENS[dig2]}#{" #{ONES[dig3]}" if dig3 > 0}"
     elsif dig3 | dig2 != 0
       o << ZERO_TO_NINETEEN[dig2 * 10 + dig3]
     end
+    @@humanize_cache[num] = o
     o
   end
   
