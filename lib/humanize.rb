@@ -34,10 +34,10 @@ module Humanize
     end
     sets.reverse!
     size = sets.size
-    sets.each_with_index do |set, i|
-      # puts "#{set} #{sets[i-1]}" if i > 0
-      
-      o << "#{three_digits_to_words(set)}#{" #{LOTS[size - i - 1]}" if size - 1 - i > 0}#{' and' if i == size - 2 && sets[i + 1] < 100}"
+    size_m1 = size - 1
+    size_m2 = size - 2
+    sets.each_with_index do |set, i|      
+      o << "#{three_digits_to_words(set)}#{" #{LOTS[size - i - 1]}" if size_m1 - i > 0}#{' and' if i == size_m2 && sets[i + 1] < 100}"
       
     end
 

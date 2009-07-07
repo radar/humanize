@@ -98,8 +98,8 @@ tests = [
 
 Benchmark.benchmark do |x|
   x.report do
-    1.times { tests.each do |x, y|
+    1000.times { tests.each do |x, y|
       x.humanize
-    end }
+    end } # 14.734131
   end
 end
