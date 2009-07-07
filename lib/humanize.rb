@@ -16,10 +16,13 @@ module Humanize
   ZERO_TO_NINETEEN = ONES + STRANGE
   
   def humanize
-    p self
     num, dec = to_s.split('.', 2).map { |n| n.to_i }
     
     o = []
+    if num < 0
+      neg = true
+      num *= -1
+    end
     if num == 0
       o << 'zero'
     end
@@ -48,7 +51,7 @@ module Humanize
       d.reverse!
     end
     last = o.pop
-    "#{(r = o.join(', ')).size > 0 ? "#{r} " : ''}#{last}#{d.join(' ')}"
+    "#{'negative ' if neg}#{(r = o.join(', ')).size > 0 ? "#{r} " : ''}#{last}#{d.join(' ')}"
   end
   
   

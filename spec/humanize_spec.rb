@@ -8,7 +8,8 @@ describe "Humanize" do
   # YOU WILL ONLY EXPERIENCE PAIN.
   # TODO: investigate decimal_parse
   [
-    
+    [-12348.32321, "negative twelve thousand three hundred and forty eight point three two three two one"],
+    [-1001, "negative one thousand and one"],
     [-1, "negative one"],
     [0, "zero"],
     [8.15, "eight point one five"],
