@@ -17,7 +17,7 @@ module Humanize
   
   def humanize
     @@humanize_cache ||= Array.new(1000)
-    num, dec = to_s.split('.', 2).map { |n| n.to_i }
+    num, dec = to_s.split(/\./, 2).map { |n| n.to_i }
     
     o = []
     if num < 0
