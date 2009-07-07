@@ -3,10 +3,6 @@ require 'lib/humanize'
 require 'spec'
 
 describe "Humanize" do
-  # 8 IS VOODOO.
-  # DO NOT USE 8.
-  # YOU WILL ONLY EXPERIENCE PAIN.
-  # TODO: investigate decimal_parse
   [
     [-12348.32321, "negative twelve thousand three hundred and forty eight point three two three two one"],
     [-1001, "negative one thousand and one"],
