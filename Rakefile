@@ -3,9 +3,9 @@ task :gemspec => "version:read" do
   spec = Gem::Specification.new do |gem|
     gem.name = "humanize"
     gem.summary = "Extension to Numeric to humanize numbers"
-    gem.email = "mislav.marohnic@gmail.com"
+    gem.email = "radarlistener@gmail.com"
     gem.homepage = "http://github.com/mislav/humanize"
-    gem.authors = ["Mislav Marohnić", "Ryan Bigg"]
+    gem.authors = ["Jack Chen", "Ryan Bigg"]
     gem.has_rdoc = true
     
     gem.version = GEM_VERSION
