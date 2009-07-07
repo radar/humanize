@@ -69,14 +69,13 @@ module Humanize
       o << "#{ONES[dig1]} hundred"
     end
     
-    o << ' and ' if ((dig2 | dig3 != 0) && dig1 > 0)
+    o << ' and ' if ((dig2 | dig3 > 0) && dig1 > 0)
     if dig2 > 1
       o << "#{TENS[dig2]}#{" #{ONES[dig3]}" if dig3 > 0}"
-    elsif dig3 | dig2 != 0
+    elsif dig3 | dig2 > 0
       o << ZERO_TO_NINETEEN[dig2 * 10 + dig3]
     end
     @@humanize_cache[num] = o
-    o
   end
   
 end
