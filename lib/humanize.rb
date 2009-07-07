@@ -30,8 +30,8 @@ module Humanize
     i = 0
     sets = []
     while num > 0
-      sets << num % 1000
-      num /= 1000
+      num, n = num.divmod(1000)
+      sets << n
     end
     sets.reverse!
     size = sets.size
@@ -44,8 +44,8 @@ module Humanize
     d = []
     if dec
       while dec > 0
-        d << ONES[dec % 10]
-        dec /= 10
+        dec, n = dec.divmod(10)
+        d << ONES[n]
       end
       d << ' point'
       d.reverse!
