@@ -37,7 +37,7 @@ module Humanize
     size = sets.size
     size_m2 = size - 2
     size_m1 = size_m2.succ
-    sets.each_with_index do |set, i|      
+    sets.each_with_index do |set, i|                                                      # TODO: should be able move this check out of the loop
       o << "#{three_digits_to_words(set)}#{if (j = size_m1 - i) > 0; " #{LOTS[j]}"; end}#{' and' if i == size_m2 && sets[i.succ] < 100}"
     end
 
