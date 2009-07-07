@@ -16,6 +16,7 @@ module Humanize
   ZERO_TO_NINETEEN = ONES + STRANGE
   
   def humanize
+    p self
     num, dec = to_s.split('.', 2).map { |n| n.to_i }
     
     o = []
@@ -31,9 +32,10 @@ module Humanize
     sets.reverse!
     size = sets.size
     sets.each_with_index do |set, i|
-      # o << 'and' if i == size - 1
+      # puts "#{set} #{sets[i-1]}" if i > 0
       
-      o << "#{three_digits_to_words(set)}#{" #{LOTS[size - i - 1]}" if size - 1 - i > 0}"
+      o << "#{three_digits_to_words(set)}#{" #{LOTS[size - i - 1]}" if size - 1 - i > 0}#{' and' if i == size - 2 && sets[i + 1] < 100}"
+      
     end
 
     d = []
@@ -45,9 +47,8 @@ module Humanize
       d << ' point'
       d.reverse!
     end
-    
     last = o.pop
-    "#{o.join(', ')} #{last}#{d.join(' ')}"
+    "#{(r = o.join(', ')).size > 0 ? "#{r} " : ''}#{last}#{d.join(' ')}"
   end
   
   
@@ -76,5 +77,3 @@ end
 class Numeric
   include Humanize
 end
-
-p 1012.humanize
