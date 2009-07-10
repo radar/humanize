@@ -1,6 +1,5 @@
 require 'rubygems'
 require 'lib/humanize'
-# require 'other'
 require 'spec'
 
 describe "Humanize" do
@@ -19,8 +18,11 @@ describe "Humanize" do
     [121, "one hundred and twenty one"],
     [1001, "one thousand and one"],
     [1079, "one thousand and seventy nine"],
+    [5000, "five thousand"],
     [10079, "ten thousand and seventy nine"],
     [235409, "two hundred and thirty five thousand four hundred and nine"],
+    [500000001, "five hundred million and one"],
+    [530000000, "five hundred and thirty million"],
     [1007310, "one million, seven thousand three hundred and ten"],
     [21007310, "twenty one million, seven thousand three hundred and ten"],
     [321007310, "three hundred and twenty one million, seven thousand three hundred and ten"],
