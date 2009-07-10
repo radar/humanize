@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'lib/humanize'
+# require 'other'
 require 'spec'
 
 describe "Humanize" do
