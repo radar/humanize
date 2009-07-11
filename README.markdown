@@ -22,10 +22,25 @@ All the way up to 156 digit numbers:
     
 If you are dealing with numbers larger than 156, we accept patches. Word list is sourced from: http://home.hetnet.nl/~vanadovv/BignumbyN.html
 
+## Benchmarks
+
+### Late 2008 Macbook Pro - Ruby 1.8.7p286
+
+1. 0.540000   0.010000   0.550000 (  0.554433)
+2. 0.560000   0.010000   0.570000 (  0.564226)
+3. 0.560000   0.010000   0.570000 (  0.581700)
+
+### Late 2008 Macbook Pro - Ruby 1.91p0
+
+
+1. 0.360000   0.000000   0.360000 (  0.370702)
+2. 0.360000   0.000000   0.360000 (  0.367845)
+3. 0.360000   0.000000   0.360000 (  0.370599)
+
 ## Credits
 
-Original idea: Brenton Fletcher
-Unbastardisation of original idea: Ryan Bigg
-Awesome speed up: Jack "Chendo" Chen
+* *Original idea*: Brenton Fletcher
+* *Unbastardisation of original idea*: Ryan Bigg
+* *Awesome speed up*: Jack "Chendo" Chen
     
 
