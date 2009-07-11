@@ -18,7 +18,7 @@ module Humanize
       sets = []
       i = 0
       f = false
-      while num > 0
+      while !num.zero?
         num, r = num.divmod(1000)
         sets << "#{LOTS[i]}#{!sets.empty? ? (f ? ' and' : ',') : ''}" if !(r.zero? || i.zero?)
         f = true if i.zero? && r < 100
