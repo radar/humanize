@@ -9,28 +9,28 @@ module Humanize
     num = self.to_i
     o = ''
     if num < 0
-      o << 'negative '
+      o += 'negative '
       num = num.abs
     end
     if num.zero?
-      o << 'zero'
+      o += 'zero'
     else
       sets = []
       i = 0
       f = false
       while !num.zero?
         num, r = num.divmod(1000)
-        sets << "#{LOTS[i]}#{!sets.empty? ? (f ? ' and' : ',') : ''}" if !(r.zero? || i.zero?)
+        sets << LOTS[i] + (!sets.empty? ? (f ? ' and' : ',') : '') if !(r.zero? || i.zero?)
         f = true if i.zero? && r < 100
         
         sets << SUB_ONE_THOUSAND[r] if !r.zero?
         i = i.succ
         
       end
-      o << sets.reverse.join(' ')
+      o += sets.reverse.join(' ')
     end
     
-    o << " point #{self.to_s.split(/\./).last.split(//).map { |n| SUB_ONE_THOUSAND[n.to_i] }.join(' ')}" if self.class == Float
+    o += ' point ' + self.to_s.split(/\./, 2).last.scan(/./).map { |n| SUB_ONE_THOUSAND[n.to_i] }.join(' ') if self.class == Float
     o
   end
 end
