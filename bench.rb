@@ -5,7 +5,7 @@ require 'tests'
 
 Benchmark.benchmark do |x|
   x.report do
-    100.times { @tests.each do |x, y|
+    100.times { TESTS.each do |x, y|
       x.humanize
     end }
   end

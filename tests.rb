@@ -1,4 +1,4 @@
-@tests = [
+TESTS = [
   
   [-1, "negative one"],
   [0, "zero"],
