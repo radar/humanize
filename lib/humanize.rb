@@ -10,7 +10,7 @@ module Humanize
     o = ''
     if num < 0
       o << 'negative '
-      num = -num
+      num = num.abs
     end
     if num.zero?
       o << 'zero'
