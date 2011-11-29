@@ -7,7 +7,7 @@ Converts numbers to strings.
     8  => "eight"
     15 => "fifteen"
     16 => "sixteen"
-    23 => "twenty tree"
+    23 => "twenty three"
     42 => "forty two"
     
 All the way up to 156 digit numbers:
