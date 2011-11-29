@@ -1,0 +1,4216 @@
+This is Google's cache of http://home.kpn.nl/vanadovv/BignumbyN.html. It is a snapshot of the page as it appeared on Nov 20, 2011 08:46:34 GMT. The current page could have changed in the meantime. Learn more
+
+Text-only version
+ 
+On this page:
+Correlation between 10nnnn and the name of such large numbers.
+All possible large number words, sorted by word length.
+
+Explanations and more lists on our BigNum page in Dutch.
+How to name large numbers
+
+Suppose you want to know how to express 600 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 000 in words.
+The best way to do this is the scientific way: 6 x 1062 - six times ten to the power of sixty-two.
+Everybody who has had one or two years of education beyond elementary school will understand this. This is the most concise way and the most reproducible way to represent large numbers.
+A rather stupid way to name this number is:
+six hundred million million million million million million million million million million.
+Somewhat more useful is:
+A six with 62 zeros.
+A silly, but most amusing way, to represent large numbers is by their more or less official 'Latin' representation as is done here.
+A remarkable fact is that the American system has no way of naming numbers larger than 999 x 103000. Europeans do it bigger: 999 x 105997. But let's work out the example above which is in everybody's reach.
+First we have to extract the power of 10. We've already done that; it is 62. That's the 'n' we have to look up in the table below. But 62 is not in the list. Take the number that is a bit smaller: 60. For every factor of 10 you come short, multiply by 10. So we become: 1062 = 10 x 10 x 1060 = 100 x 1060. We have 6 of those, so we have 600 x 1060. From the table below we decide that Americans will call this number six hundred novendecillion and Europeans will call this six hundred decillion.
+
+Now another example with a combination of names.
+12 345 678 909 876 543 210
+It does help to space the digits apart in clusters of 3 from right to left. Why? Because every larger order of 1000 (to the left) a new name is needed. We start however as usual to name from left to right.
+The number is 20 digits long. The order 'n' of 10 is one less: 19.
+From the table we learn that this is some trillion in the European system and some quintillion in the American system. Let's follow the European system and let's leave numbers below 1000 as they are.
+12 trillion 345 billiard 678 billion 909 milliard 876 million 543 thousand 210
+In the American system that would be:
+12 quintillion 345 quadrillion 678 trillion 909 billion 876 million 543 thousand 210
+The scientific notation is: 1.2345678909876543210 x 1020 or 1.2345678909876543210E+20, where E is short for 'ten to the power of'.
+If you want to do it typographically right, you should not use the letter x, but the Unicode multiplication sign U+00D7 (×) or the Unicode middle dot U+00B7 (·). There is also a Unicode dot operator U+22C5 (⋅) but that sign is used for vectors. A general problem of Unicode characters is that not all browsers can display them.
+
+You could ask: "Is this for real?" "I mean, you've made this all up in a bad dream, right?"
+Nope. This is hard solid real. How the names are constructed is explained on our BigNum page. In Dutch language. If you don't read Dutch, don't despair, EVERY possible name for large numbers is listed on the current page. With the exception of rather useless fantasy names like googol, googolplex, centrifugalillion, fantastacillion, multupatillion, umpuplatillion, quadruplatillion, gazillion, zillion, jillion, katrillion and the like. Use those in cartoons!
+
+Jump to n =
+6	100	250	500	1000	 
+ 	1500	2000	2500	3000	 
+3500	4000	4500	5000	5500	end
+
+
+   n  Naming of 10n
+==============================
+   6  EU: million
+   6  US: million
+   9  EU: milliard
+   9  US: billion
+  12  EU: billion
+  12  US: trillion
+  15  EU: billiard
+  15  US: quadrillion
+  18  EU: trillion
+  18  US: quintillion
+  21  EU: trilliard
+  21  US: sextillion
+  24  EU: quadrillion
+  24  US: septillion
+  27  EU: quadrilliard
+  27  US: octillion
+  30  EU: quintillion
+  30  US: nonillion
+  33  EU: quintilliard
+  33  US: decillion
+  36  EU: sextillion
+  36  US: undecillion
+  39  EU: sextilliard
+  39  US: duodecillion
+  42  EU: septillion
+  42  US: tredecillion
+  45  EU: septilliard
+  45  US: quattuordecillion
+  48  EU: octillion
+  48  US: quinquadecillion
+  51  EU: octilliard
+  51  US: sedecillion
+  54  EU: nonillion
+  54  US: septendecillion
+  57  EU: nonilliard
+  57  US: octodecillion
+  60  EU: decillion
+  60  US: novendecillion
+  63  EU: decilliard
+  63  US: vigintillion
+  66  EU: undecillion
+  66  US: unvigintillion
+  69  EU: undecilliard
+  69  US: duovigintillion
+  72  EU: duodecillion
+  72  US: tresvigintillion
+  75  EU: duodecilliard
+  75  US: quattuorvigintillion
+  78  EU: tredecillion
+  78  US: quinquavigintillion
+  81  EU: tredecilliard
+  81  US: sesvigintillion
+  84  EU: quattuordecillion
+  84  US: septemvigintillion
+  87  EU: quattuordecilliard
+  87  US: octovigintillion
+  90  EU: quinquadecillion
+  90  US: novemvigintillion
+  93  EU: quinquadecilliard
+  93  US: trigintillion
+  96  EU: sedecillion
+  96  US: untrigintillion
+  99  EU: sedecilliard
+  99  US: duotrigintillion
+Jump to n =
+6	100	250	500	1000	 
+ 	1500	2000	2500	3000	 
+3500	4000	4500	5000	5500	end
+
+   n  Naming of 10n
+==============================
+ 102  EU: septendecillion
+ 102  US: trestrigintillion
+ 105  EU: septendecilliard
+ 105  US: quattuortrigintillion
+ 108  EU: octodecillion
+ 108  US: quinquatrigintillion
+ 111  EU: octodecilliard
+ 111  US: sestrigintillion
+ 114  EU: novendecillion
+ 114  US: septentrigintillion
+ 117  EU: novendecilliard
+ 117  US: octotrigintillion
+ 120  EU: vigintillion
+ 120  US: noventrigintillion
+ 123  EU: vigintilliard
+ 123  US: quadragintillion
+ 126  EU: unvigintillion
+ 126  US: unquadragintillion
+ 129  EU: unvigintilliard
+ 129  US: duoquadragintillion
+ 132  EU: duovigintillion
+ 132  US: tresquadragintillion
+ 135  EU: duovigintilliard
+ 135  US: quattuorquadragintillion
+ 138  EU: tresvigintillion
+ 138  US: quinquaquadragintillion
+ 141  EU: tresvigintilliard
+ 141  US: sesquadragintillion
+ 144  EU: quattuorvigintillion
+ 144  US: septenquadragintillion
+ 147  EU: quattuorvigintilliard
+ 147  US: octoquadragintillion
+ 150  EU: quinquavigintillion
+ 150  US: novenquadragintillion
+ 153  EU: quinquavigintilliard
+ 153  US: quinquagintillion
+ 156  EU: sesvigintillion
+ 156  US: unquinquagintillion
+ 159  EU: sesvigintilliard
+ 159  US: duoquinquagintillion
+ 162  EU: septemvigintillion
+ 162  US: tresquinquagintillion
+ 165  EU: septemvigintilliard
+ 165  US: quattuorquinquagintillion
+ 168  EU: octovigintillion
+ 168  US: quinquaquinquagintillion
+ 171  EU: octovigintilliard
+ 171  US: sesquinquagintillion
+ 174  EU: novemvigintillion
+ 174  US: septenquinquagintillion
+ 177  EU: novemvigintilliard
+ 177  US: octoquinquagintillion
+ 180  EU: trigintillion
+ 180  US: novenquinquagintillion
+ 183  EU: trigintilliard
+ 183  US: sexagintillion
+ 186  EU: untrigintillion
+ 186  US: unsexagintillion
+ 189  EU: untrigintilliard
+ 189  US: duosexagintillion
+ 192  EU: duotrigintillion
+ 192  US: tresexagintillion
+ 195  EU: duotrigintilliard
+ 195  US: quattuorsexagintillion
+ 198  EU: trestrigintillion
+ 198  US: quinquasexagintillion
+ 201  EU: trestrigintilliard
+ 201  US: sesexagintillion
+ 204  EU: quattuortrigintillion
+ 204  US: septensexagintillion
+ 207  EU: quattuortrigintilliard
+ 207  US: octosexagintillion
+ 210  EU: quinquatrigintillion
+ 210  US: novensexagintillion
+ 213  EU: quinquatrigintilliard
+ 213  US: septuagintillion
+ 216  EU: sestrigintillion
+ 216  US: unseptuagintillion
+ 219  EU: sestrigintilliard
+ 219  US: duoseptuagintillion
+ 222  EU: septentrigintillion
+ 222  US: treseptuagintillion
+ 225  EU: septentrigintilliard
+ 225  US: quattuorseptuagintillion
+ 228  EU: octotrigintillion
+ 228  US: quinquaseptuagintillion
+ 231  EU: octotrigintilliard
+ 231  US: seseptuagintillion
+ 234  EU: noventrigintillion
+ 234  US: septenseptuagintillion
+ 237  EU: noventrigintilliard
+ 237  US: octoseptuagintillion
+ 240  EU: quadragintillion
+ 240  US: novenseptuagintillion
+ 243  EU: quadragintilliard
+ 243  US: octogintillion
+ 246  EU: unquadragintillion
+ 246  US: unoctogintillion
+ 249  EU: unquadragintilliard
+ 249  US: duooctogintillion
+Jump to n =
+6	100	250	500	1000	 
+ 	1500	2000	2500	3000	 
+3500	4000	4500	5000	5500	end
+
+   n  Naming of 10n
+==============================
+ 252  EU: duoquadragintillion
+ 252  US: tresoctogintillion
+ 255  EU: duoquadragintilliard
+ 255  US: quattuoroctogintillion
+ 258  EU: tresquadragintillion
+ 258  US: quinquaoctogintillion
+ 261  EU: tresquadragintilliard
+ 261  US: sexoctogintillion
+ 264  EU: quattuorquadragintillion
+ 264  US: septemoctogintillion
+ 267  EU: quattuorquadragintilliard
+ 267  US: octooctogintillion
+ 270  EU: quinquaquadragintillion
+ 270  US: novemoctogintillion
+ 273  EU: quinquaquadragintilliard
+ 273  US: nonagintillion
+ 276  EU: sesquadragintillion
+ 276  US: unnonagintillion
+ 279  EU: sesquadragintilliard
+ 279  US: duononagintillion
+ 282  EU: septenquadragintillion
+ 282  US: trenonagintillion
+ 285  EU: septenquadragintilliard
+ 285  US: quattuornonagintillion
+ 288  EU: octoquadragintillion
+ 288  US: quinquanonagintillion
+ 291  EU: octoquadragintilliard
+ 291  US: senonagintillion
+ 294  EU: novenquadragintillion
+ 294  US: septenonagintillion
+ 297  EU: novenquadragintilliard
+ 297  US: octononagintillion
+ 300  EU: quinquagintillion
+ 300  US: novenonagintillion
+ 303  EU: quinquagintilliard
+ 303  US: centillion
+ 306  EU: unquinquagintillion
+ 306  US: uncentillion
+ 309  EU: unquinquagintilliard
+ 309  US: duocentillion
+ 312  EU: duoquinquagintillion
+ 312  US: trescentillion
+ 315  EU: duoquinquagintilliard
+ 315  US: quattuorcentillion
+ 318  EU: tresquinquagintillion
+ 318  US: quinquacentillion
+ 321  EU: tresquinquagintilliard
+ 321  US: sexcentillion
+ 324  EU: quattuorquinquagintillion
+ 324  US: septencentillion
+ 327  EU: quattuorquinquagintilliard
+ 327  US: octocentillion
+ 330  EU: quinquaquinquagintillion
+ 330  US: novencentillion
+ 333  EU: quinquaquinquagintilliard
+ 333  US: decicentillion
+ 336  EU: sesquinquagintillion
+ 336  US: undecicentillion
+ 339  EU: sesquinquagintilliard
+ 339  US: duodecicentillion
+ 342  EU: septenquinquagintillion
+ 342  US: tredecicentillion
+ 345  EU: septenquinquagintilliard
+ 345  US: quattuordecicentillion
+ 348  EU: octoquinquagintillion
+ 348  US: quinquadecicentillion
+ 351  EU: octoquinquagintilliard
+ 351  US: sedecicentillion
+ 354  EU: novenquinquagintillion
+ 354  US: septendecicentillion
+ 357  EU: novenquinquagintilliard
+ 357  US: octodecicentillion
+ 360  EU: sexagintillion
+ 360  US: novendecicentillion
+ 363  EU: sexagintilliard
+ 363  US: viginticentillion
+ 366  EU: unsexagintillion
+ 366  US: unviginticentillion
+ 369  EU: unsexagintilliard
+ 369  US: duoviginticentillion
+ 372  EU: duosexagintillion
+ 372  US: tresviginticentillion
+ 375  EU: duosexagintilliard
+ 375  US: quattuorviginticentillion
+ 378  EU: tresexagintillion
+ 378  US: quinquaviginticentillion
+ 381  EU: tresexagintilliard
+ 381  US: sesviginticentillion
+ 384  EU: quattuorsexagintillion
+ 384  US: septemviginticentillion
+ 387  EU: quattuorsexagintilliard
+ 387  US: octoviginticentillion
+ 390  EU: quinquasexagintillion
+ 390  US: novemviginticentillion
+ 393  EU: quinquasexagintilliard
+ 393  US: trigintacentillion
+ 396  EU: sesexagintillion
+ 396  US: untrigintacentillion
+ 399  EU: sesexagintilliard
+ 399  US: duotrigintacentillion
+ 402  EU: septensexagintillion
+ 402  US: trestrigintacentillion
+ 405  EU: septensexagintilliard
+ 405  US: quattuortrigintacentillion
+ 408  EU: octosexagintillion
+ 408  US: quinquatrigintacentillion
+ 411  EU: octosexagintilliard
+ 411  US: sestrigintacentillion
+ 414  EU: novensexagintillion
+ 414  US: septentrigintacentillion
+ 417  EU: novensexagintilliard
+ 417  US: octotrigintacentillion
+ 420  EU: septuagintillion
+ 420  US: noventrigintacentillion
+ 423  EU: septuagintilliard
+ 423  US: quadragintacentillion
+ 426  EU: unseptuagintillion
+ 426  US: unquadragintacentillion
+ 429  EU: unseptuagintilliard
+ 429  US: duoquadragintacentillion
+ 432  EU: duoseptuagintillion
+ 432  US: tresquadragintacentillion
+ 435  EU: duoseptuagintilliard
+ 435  US: quattuorquadragintacentillion
+ 438  EU: treseptuagintillion
+ 438  US: quinquaquadragintacentillion
+ 441  EU: treseptuagintilliard
+ 441  US: sesquadragintacentillion
+ 444  EU: quattuorseptuagintillion
+ 444  US: septenquadragintacentillion
+ 447  EU: quattuorseptuagintilliard
+ 447  US: octoquadragintacentillion
+ 450  EU: quinquaseptuagintillion
+ 450  US: novenquadragintacentillion
+ 453  EU: quinquaseptuagintilliard
+ 453  US: quinquagintacentillion
+ 456  EU: seseptuagintillion
+ 456  US: unquinquagintacentillion
+ 459  EU: seseptuagintilliard
+ 459  US: duoquinquagintacentillion
+ 462  EU: septenseptuagintillion
+ 462  US: tresquinquagintacentillion
+ 465  EU: septenseptuagintilliard
+ 465  US: quattuorquinquagintacentillion
+ 468  EU: octoseptuagintillion
+ 468  US: quinquaquinquagintacentillion
+ 471  EU: octoseptuagintilliard
+ 471  US: sesquinquagintacentillion
+ 474  EU: novenseptuagintillion
+ 474  US: septenquinquagintacentillion
+ 477  EU: novenseptuagintilliard
+ 477  US: octoquinquagintacentillion
+ 480  EU: octogintillion
+ 480  US: novenquinquagintacentillion
+ 483  EU: octogintilliard
+ 483  US: sexagintacentillion
+ 486  EU: unoctogintillion
+ 486  US: unsexagintacentillion
+ 489  EU: unoctogintilliard
+ 489  US: duosexagintacentillion
+ 492  EU: duooctogintillion
+ 492  US: tresexagintacentillion
+ 495  EU: duooctogintilliard
+ 495  US: quattuorsexagintacentillion
+ 498  EU: tresoctogintillion
+ 498  US: quinquasexagintacentillion
+Jump to n =
+6	100	250	500	1000	 
+ 	1500	2000	2500	3000	 
+3500	4000	4500	5000	5500	end
+
+   n  Naming of 10n
+==============================
+ 501  EU: tresoctogintilliard
+ 501  US: sesexagintacentillion
+ 504  EU: quattuoroctogintillion
+ 504  US: septensexagintacentillion
+ 507  EU: quattuoroctogintilliard
+ 507  US: octosexagintacentillion
+ 510  EU: quinquaoctogintillion
+ 510  US: novensexagintacentillion
+ 513  EU: quinquaoctogintilliard
+ 513  US: septuagintacentillion
+ 516  EU: sexoctogintillion
+ 516  US: unseptuagintacentillion
+ 519  EU: sexoctogintilliard
+ 519  US: duoseptuagintacentillion
+ 522  EU: septemoctogintillion
+ 522  US: treseptuagintacentillion
+ 525  EU: septemoctogintilliard
+ 525  US: quattuorseptuagintacentillion
+ 528  EU: octooctogintillion
+ 528  US: quinquaseptuagintacentillion
+ 531  EU: octooctogintilliard
+ 531  US: seseptuagintacentillion
+ 534  EU: novemoctogintillion
+ 534  US: septenseptuagintacentillion
+ 537  EU: novemoctogintilliard
+ 537  US: octoseptuagintacentillion
+ 540  EU: nonagintillion
+ 540  US: novenseptuagintacentillion
+ 543  EU: nonagintilliard
+ 543  US: octogintacentillion
+ 546  EU: unnonagintillion
+ 546  US: unoctogintacentillion
+ 549  EU: unnonagintilliard
+ 549  US: duooctogintacentillion
+ 552  EU: duononagintillion
+ 552  US: tresoctogintacentillion
+ 555  EU: duononagintilliard
+ 555  US: quattuoroctogintacentillion
+ 558  EU: trenonagintillion
+ 558  US: quinquaoctogintacentillion
+ 561  EU: trenonagintilliard
+ 561  US: sexoctogintacentillion
+ 564  EU: quattuornonagintillion
+ 564  US: septemoctogintacentillion
+ 567  EU: quattuornonagintilliard
+ 567  US: octooctogintacentillion
+ 570  EU: quinquanonagintillion
+ 570  US: novemoctogintacentillion
+ 573  EU: quinquanonagintilliard
+ 573  US: nonagintacentillion
+ 576  EU: senonagintillion
+ 576  US: unnonagintacentillion
+ 579  EU: senonagintilliard
+ 579  US: duononagintacentillion
+ 582  EU: septenonagintillion
+ 582  US: trenonagintacentillion
+ 585  EU: septenonagintilliard
+ 585  US: quattuornonagintacentillion
+ 588  EU: octononagintillion
+ 588  US: quinquanonagintacentillion
+ 591  EU: octononagintilliard
+ 591  US: senonagintacentillion
+ 594  EU: novenonagintillion
+ 594  US: septenonagintacentillion
+ 597  EU: novenonagintilliard
+ 597  US: octononagintacentillion
+ 600  EU: centillion
+ 600  US: novenonagintacentillion
+ 603  EU: centilliard
+ 603  US: ducentillion
+ 606  EU: uncentillion
+ 606  US: unducentillion
+ 609  EU: uncentilliard
+ 609  US: duoducentillion
+ 612  EU: duocentillion
+ 612  US: treducentillion
+ 615  EU: duocentilliard
+ 615  US: quattuorducentillion
+ 618  EU: trescentillion
+ 618  US: quinquaducentillion
+ 621  EU: trescentilliard
+ 621  US: seducentillion
+ 624  EU: quattuorcentillion
+ 624  US: septenducentillion
+ 627  EU: quattuorcentilliard
+ 627  US: octoducentillion
+ 630  EU: quinquacentillion
+ 630  US: novenducentillion
+ 633  EU: quinquacentilliard
+ 633  US: deciducentillion
+ 636  EU: sexcentillion
+ 636  US: undeciducentillion
+ 639  EU: sexcentilliard
+ 639  US: duodeciducentillion
+ 642  EU: septencentillion
+ 642  US: tredeciducentillion
+ 645  EU: septencentilliard
+ 645  US: quattuordeciducentillion
+ 648  EU: octocentillion
+ 648  US: quinquadeciducentillion
+ 651  EU: octocentilliard
+ 651  US: sedeciducentillion
+ 654  EU: novencentillion
+ 654  US: septendeciducentillion
+ 657  EU: novencentilliard
+ 657  US: octodeciducentillion
+ 660  EU: decicentillion
+ 660  US: novendeciducentillion
+ 663  EU: decicentilliard
+ 663  US: vigintiducentillion
+ 666  EU: undecicentillion
+ 666  US: unvigintiducentillion
+ 669  EU: undecicentilliard
+ 669  US: duovigintiducentillion
+ 672  EU: duodecicentillion
+ 672  US: tresvigintiducentillion
+ 675  EU: duodecicentilliard
+ 675  US: quattuorvigintiducentillion
+ 678  EU: tredecicentillion
+ 678  US: quinquavigintiducentillion
+ 681  EU: tredecicentilliard
+ 681  US: sesvigintiducentillion
+ 684  EU: quattuordecicentillion
+ 684  US: septemvigintiducentillion
+ 687  EU: quattuordecicentilliard
+ 687  US: octovigintiducentillion
+ 690  EU: quinquadecicentillion
+ 690  US: novemvigintiducentillion
+ 693  EU: quinquadecicentilliard
+ 693  US: trigintaducentillion
+ 696  EU: sedecicentillion
+ 696  US: untrigintaducentillion
+ 699  EU: sedecicentilliard
+ 699  US: duotrigintaducentillion
+ 702  EU: septendecicentillion
+ 702  US: trestrigintaducentillion
+ 705  EU: septendecicentilliard
+ 705  US: quattuortrigintaducentillion
+ 708  EU: octodecicentillion
+ 708  US: quinquatrigintaducentillion
+ 711  EU: octodecicentilliard
+ 711  US: sestrigintaducentillion
+ 714  EU: novendecicentillion
+ 714  US: septentrigintaducentillion
+ 717  EU: novendecicentilliard
+ 717  US: octotrigintaducentillion
+ 720  EU: viginticentillion
+ 720  US: noventrigintaducentillion
+ 723  EU: viginticentilliard
+ 723  US: quadragintaducentillion
+ 726  EU: unviginticentillion
+ 726  US: unquadragintaducentillion
+ 729  EU: unviginticentilliard
+ 729  US: duoquadragintaducentillion
+ 732  EU: duoviginticentillion
+ 732  US: tresquadragintaducentillion
+ 735  EU: duoviginticentilliard
+ 735  US: quattuorquadragintaducentillion
+ 738  EU: tresviginticentillion
+ 738  US: quinquaquadragintaducentillion
+ 741  EU: tresviginticentilliard
+ 741  US: sesquadragintaducentillion
+ 744  EU: quattuorviginticentillion
+ 744  US: septenquadragintaducentillion
+ 747  EU: quattuorviginticentilliard
+ 747  US: octoquadragintaducentillion
+ 750  EU: quinquaviginticentillion
+ 750  US: novenquadragintaducentillion
+ 753  EU: quinquaviginticentilliard
+ 753  US: quinquagintaducentillion
+ 756  EU: sesviginticentillion
+ 756  US: unquinquagintaducentillion
+ 759  EU: sesviginticentilliard
+ 759  US: duoquinquagintaducentillion
+ 762  EU: septemviginticentillion
+ 762  US: tresquinquagintaducentillion
+ 765  EU: septemviginticentilliard
+ 765  US: quattuorquinquagintaducentillion
+ 768  EU: octoviginticentillion
+ 768  US: quinquaquinquagintaducentillion
+ 771  EU: octoviginticentilliard
+ 771  US: sesquinquagintaducentillion
+ 774  EU: novemviginticentillion
+ 774  US: septenquinquagintaducentillion
+ 777  EU: novemviginticentilliard
+ 777  US: octoquinquagintaducentillion
+ 780  EU: trigintacentillion
+ 780  US: novenquinquagintaducentillion
+ 783  EU: trigintacentilliard
+ 783  US: sexagintaducentillion
+ 786  EU: untrigintacentillion
+ 786  US: unsexagintaducentillion
+ 789  EU: untrigintacentilliard
+ 789  US: duosexagintaducentillion
+ 792  EU: duotrigintacentillion
+ 792  US: tresexagintaducentillion
+ 795  EU: duotrigintacentilliard
+ 795  US: quattuorsexagintaducentillion
+ 798  EU: trestrigintacentillion
+ 798  US: quinquasexagintaducentillion
+ 801  EU: trestrigintacentilliard
+ 801  US: sesexagintaducentillion
+ 804  EU: quattuortrigintacentillion
+ 804  US: septensexagintaducentillion
+ 807  EU: quattuortrigintacentilliard
+ 807  US: octosexagintaducentillion
+ 810  EU: quinquatrigintacentillion
+ 810  US: novensexagintaducentillion
+ 813  EU: quinquatrigintacentilliard
+ 813  US: septuagintaducentillion
+ 816  EU: sestrigintacentillion
+ 816  US: unseptuagintaducentillion
+ 819  EU: sestrigintacentilliard
+ 819  US: duoseptuagintaducentillion
+ 822  EU: septentrigintacentillion
+ 822  US: treseptuagintaducentillion
+ 825  EU: septentrigintacentilliard
+ 825  US: quattuorseptuagintaducentillion
+ 828  EU: octotrigintacentillion
+ 828  US: quinquaseptuagintaducentillion
+ 831  EU: octotrigintacentilliard
+ 831  US: seseptuagintaducentillion
+ 834  EU: noventrigintacentillion
+ 834  US: septenseptuagintaducentillion
+ 837  EU: noventrigintacentilliard
+ 837  US: octoseptuagintaducentillion
+ 840  EU: quadragintacentillion
+ 840  US: novenseptuagintaducentillion
+ 843  EU: quadragintacentilliard
+ 843  US: octogintaducentillion
+ 846  EU: unquadragintacentillion
+ 846  US: unoctogintaducentillion
+ 849  EU: unquadragintacentilliard
+ 849  US: duooctogintaducentillion
+ 852  EU: duoquadragintacentillion
+ 852  US: tresoctogintaducentillion
+ 855  EU: duoquadragintacentilliard
+ 855  US: quattuoroctogintaducentillion
+ 858  EU: tresquadragintacentillion
+ 858  US: quinquaoctogintaducentillion
+ 861  EU: tresquadragintacentilliard
+ 861  US: sexoctogintaducentillion
+ 864  EU: quattuorquadragintacentillion
+ 864  US: septemoctogintaducentillion
+ 867  EU: quattuorquadragintacentilliard
+ 867  US: octooctogintaducentillion
+ 870  EU: quinquaquadragintacentillion
+ 870  US: novemoctogintaducentillion
+ 873  EU: quinquaquadragintacentilliard
+ 873  US: nonagintaducentillion
+ 876  EU: sesquadragintacentillion
+ 876  US: unnonagintaducentillion
+ 879  EU: sesquadragintacentilliard
+ 879  US: duononagintaducentillion
+ 882  EU: septenquadragintacentillion
+ 882  US: trenonagintaducentillion
+ 885  EU: septenquadragintacentilliard
+ 885  US: quattuornonagintaducentillion
+ 888  EU: octoquadragintacentillion
+ 888  US: quinquanonagintaducentillion
+ 891  EU: octoquadragintacentilliard
+ 891  US: senonagintaducentillion
+ 894  EU: novenquadragintacentillion
+ 894  US: septenonagintaducentillion
+ 897  EU: novenquadragintacentilliard
+ 897  US: octononagintaducentillion
+ 900  EU: quinquagintacentillion
+ 900  US: novenonagintaducentillion
+ 903  EU: quinquagintacentilliard
+ 903  US: trecentillion
+ 906  EU: unquinquagintacentillion
+ 906  US: untrecentillion
+ 909  EU: unquinquagintacentilliard
+ 909  US: duotrecentillion
+ 912  EU: duoquinquagintacentillion
+ 912  US: trestrecentillion
+ 915  EU: duoquinquagintacentilliard
+ 915  US: quattuortrecentillion
+ 918  EU: tresquinquagintacentillion
+ 918  US: quinquatrecentillion
+ 921  EU: tresquinquagintacentilliard
+ 921  US: sestrecentillion
+ 924  EU: quattuorquinquagintacentillion
+ 924  US: septentrecentillion
+ 927  EU: quattuorquinquagintacentilliard
+ 927  US: octotrecentillion
+ 930  EU: quinquaquinquagintacentillion
+ 930  US: noventrecentillion
+ 933  EU: quinquaquinquagintacentilliard
+ 933  US: decitrecentillion
+ 936  EU: sesquinquagintacentillion
+ 936  US: undecitrecentillion
+ 939  EU: sesquinquagintacentilliard
+ 939  US: duodecitrecentillion
+ 942  EU: septenquinquagintacentillion
+ 942  US: tredecitrecentillion
+ 945  EU: septenquinquagintacentilliard
+ 945  US: quattuordecitrecentillion
+ 948  EU: octoquinquagintacentillion
+ 948  US: quinquadecitrecentillion
+ 951  EU: octoquinquagintacentilliard
+ 951  US: sedecitrecentillion
+ 954  EU: novenquinquagintacentillion
+ 954  US: septendecitrecentillion
+ 957  EU: novenquinquagintacentilliard
+ 957  US: octodecitrecentillion
+ 960  EU: sexagintacentillion
+ 960  US: novendecitrecentillion
+ 963  EU: sexagintacentilliard
+ 963  US: vigintitrecentillion
+ 966  EU: unsexagintacentillion
+ 966  US: unvigintitrecentillion
+ 969  EU: unsexagintacentilliard
+ 969  US: duovigintitrecentillion
+ 972  EU: duosexagintacentillion
+ 972  US: tresvigintitrecentillion
+ 975  EU: duosexagintacentilliard
+ 975  US: quattuorvigintitrecentillion
+ 978  EU: tresexagintacentillion
+ 978  US: quinquavigintitrecentillion
+ 981  EU: tresexagintacentilliard
+ 981  US: sesvigintitrecentillion
+ 984  EU: quattuorsexagintacentillion
+ 984  US: septemvigintitrecentillion
+ 987  EU: quattuorsexagintacentilliard
+ 987  US: octovigintitrecentillion
+ 990  EU: quinquasexagintacentillion
+ 990  US: novemvigintitrecentillion
+ 993  EU: quinquasexagintacentilliard
+ 993  US: trigintatrecentillion
+ 996  EU: sesexagintacentillion
+ 996  US: untrigintatrecentillion
+ 999  EU: sesexagintacentilliard
+ 999  US: duotrigintatrecentillion
+Jump to n =
+6	100	250	500	1000	 
+ 	1500	2000	2500	3000	 
+3500	4000	4500	5000	5500	end
+
+   n  Naming of 10n
+==============================
+1002  EU: septensexagintacentillion
+1002  US: trestrigintatrecentillion
+1005  EU: septensexagintacentilliard
+1005  US: quattuortrigintatrecentillion
+1008  EU: octosexagintacentillion
+1008  US: quinquatrigintatrecentillion
+1011  EU: octosexagintacentilliard
+1011  US: sestrigintatrecentillion
+1014  EU: novensexagintacentillion
+1014  US: septentrigintatrecentillion
+1017  EU: novensexagintacentilliard
+1017  US: octotrigintatrecentillion
+1020  EU: septuagintacentillion
+1020  US: noventrigintatrecentillion
+1023  EU: septuagintacentilliard
+1023  US: quadragintatrecentillion
+1026  EU: unseptuagintacentillion
+1026  US: unquadragintatrecentillion
+1029  EU: unseptuagintacentilliard
+1029  US: duoquadragintatrecentillion
+1032  EU: duoseptuagintacentillion
+1032  US: tresquadragintatrecentillion
+1035  EU: duoseptuagintacentilliard
+1035  US: quattuorquadragintatrecentillion
+1038  EU: treseptuagintacentillion
+1038  US: quinquaquadragintatrecentillion
+1041  EU: treseptuagintacentilliard
+1041  US: sesquadragintatrecentillion
+1044  EU: quattuorseptuagintacentillion
+1044  US: septenquadragintatrecentillion
+1047  EU: quattuorseptuagintacentilliard
+1047  US: octoquadragintatrecentillion
+1050  EU: quinquaseptuagintacentillion
+1050  US: novenquadragintatrecentillion
+1053  EU: quinquaseptuagintacentilliard
+1053  US: quinquagintatrecentillion
+1056  EU: seseptuagintacentillion
+1056  US: unquinquagintatrecentillion
+1059  EU: seseptuagintacentilliard
+1059  US: duoquinquagintatrecentillion
+1062  EU: septenseptuagintacentillion
+1062  US: tresquinquagintatrecentillion
+1065  EU: septenseptuagintacentilliard
+1065  US: quattuorquinquagintatrecentillion
+1068  EU: octoseptuagintacentillion
+1068  US: quinquaquinquagintatrecentillion
+1071  EU: octoseptuagintacentilliard
+1071  US: sesquinquagintatrecentillion
+1074  EU: novenseptuagintacentillion
+1074  US: septenquinquagintatrecentillion
+1077  EU: novenseptuagintacentilliard
+1077  US: octoquinquagintatrecentillion
+1080  EU: octogintacentillion
+1080  US: novenquinquagintatrecentillion
+1083  EU: octogintacentilliard
+1083  US: sexagintatrecentillion
+1086  EU: unoctogintacentillion
+1086  US: unsexagintatrecentillion
+1089  EU: unoctogintacentilliard
+1089  US: duosexagintatrecentillion
+1092  EU: duooctogintacentillion
+1092  US: tresexagintatrecentillion
+1095  EU: duooctogintacentilliard
+1095  US: quattuorsexagintatrecentillion
+1098  EU: tresoctogintacentillion
+1098  US: quinquasexagintatrecentillion
+1101  EU: tresoctogintacentilliard
+1101  US: sesexagintatrecentillion
+1104  EU: quattuoroctogintacentillion
+1104  US: septensexagintatrecentillion
+1107  EU: quattuoroctogintacentilliard
+1107  US: octosexagintatrecentillion
+1110  EU: quinquaoctogintacentillion
+1110  US: novensexagintatrecentillion
+1113  EU: quinquaoctogintacentilliard
+1113  US: septuagintatrecentillion
+1116  EU: sexoctogintacentillion
+1116  US: unseptuagintatrecentillion
+1119  EU: sexoctogintacentilliard
+1119  US: duoseptuagintatrecentillion
+1122  EU: septemoctogintacentillion
+1122  US: treseptuagintatrecentillion
+1125  EU: septemoctogintacentilliard
+1125  US: quattuorseptuagintatrecentillion
+1128  EU: octooctogintacentillion
+1128  US: quinquaseptuagintatrecentillion
+1131  EU: octooctogintacentilliard
+1131  US: seseptuagintatrecentillion
+1134  EU: novemoctogintacentillion
+1134  US: septenseptuagintatrecentillion
+1137  EU: novemoctogintacentilliard
+1137  US: octoseptuagintatrecentillion
+1140  EU: nonagintacentillion
+1140  US: novenseptuagintatrecentillion
+1143  EU: nonagintacentilliard
+1143  US: octogintatrecentillion
+1146  EU: unnonagintacentillion
+1146  US: unoctogintatrecentillion
+1149  EU: unnonagintacentilliard
+1149  US: duooctogintatrecentillion
+1152  EU: duononagintacentillion
+1152  US: tresoctogintatrecentillion
+1155  EU: duononagintacentilliard
+1155  US: quattuoroctogintatrecentillion
+1158  EU: trenonagintacentillion
+1158  US: quinquaoctogintatrecentillion
+1161  EU: trenonagintacentilliard
+1161  US: sexoctogintatrecentillion
+1164  EU: quattuornonagintacentillion
+1164  US: septemoctogintatrecentillion
+1167  EU: quattuornonagintacentilliard
+1167  US: octooctogintatrecentillion
+1170  EU: quinquanonagintacentillion
+1170  US: novemoctogintatrecentillion
+1173  EU: quinquanonagintacentilliard
+1173  US: nonagintatrecentillion
+1176  EU: senonagintacentillion
+1176  US: unnonagintatrecentillion
+1179  EU: senonagintacentilliard
+1179  US: duononagintatrecentillion
+1182  EU: septenonagintacentillion
+1182  US: trenonagintatrecentillion
+1185  EU: septenonagintacentilliard
+1185  US: quattuornonagintatrecentillion
+1188  EU: octononagintacentillion
+1188  US: quinquanonagintatrecentillion
+1191  EU: octononagintacentilliard
+1191  US: senonagintatrecentillion
+1194  EU: novenonagintacentillion
+1194  US: septenonagintatrecentillion
+1197  EU: novenonagintacentilliard
+1197  US: octononagintatrecentillion
+1200  EU: ducentillion
+1200  US: novenonagintatrecentillion
+1203  EU: ducentilliard
+1203  US: quadringentillion
+1206  EU: unducentillion
+1206  US: unquadringentillion
+1209  EU: unducentilliard
+1209  US: duoquadringentillion
+1212  EU: duoducentillion
+1212  US: tresquadringentillion
+1215  EU: duoducentilliard
+1215  US: quattuorquadringentillion
+1218  EU: treducentillion
+1218  US: quinquaquadringentillion
+1221  EU: treducentilliard
+1221  US: sesquadringentillion
+1224  EU: quattuorducentillion
+1224  US: septenquadringentillion
+1227  EU: quattuorducentilliard
+1227  US: octoquadringentillion
+1230  EU: quinquaducentillion
+1230  US: novenquadringentillion
+1233  EU: quinquaducentilliard
+1233  US: deciquadringentillion
+1236  EU: seducentillion
+1236  US: undeciquadringentillion
+1239  EU: seducentilliard
+1239  US: duodeciquadringentillion
+1242  EU: septenducentillion
+1242  US: tredeciquadringentillion
+1245  EU: septenducentilliard
+1245  US: quattuordeciquadringentillion
+1248  EU: octoducentillion
+1248  US: quinquadeciquadringentillion
+1251  EU: octoducentilliard
+1251  US: sedeciquadringentillion
+1254  EU: novenducentillion
+1254  US: septendeciquadringentillion
+1257  EU: novenducentilliard
+1257  US: octodeciquadringentillion
+1260  EU: deciducentillion
+1260  US: novendeciquadringentillion
+1263  EU: deciducentilliard
+1263  US: vigintiquadringentillion
+1266  EU: undeciducentillion
+1266  US: unvigintiquadringentillion
+1269  EU: undeciducentilliard
+1269  US: duovigintiquadringentillion
+1272  EU: duodeciducentillion
+1272  US: tresvigintiquadringentillion
+1275  EU: duodeciducentilliard
+1275  US: quattuorvigintiquadringentillion
+1278  EU: tredeciducentillion
+1278  US: quinquavigintiquadringentillion
+1281  EU: tredeciducentilliard
+1281  US: sesvigintiquadringentillion
+1284  EU: quattuordeciducentillion
+1284  US: septemvigintiquadringentillion
+1287  EU: quattuordeciducentilliard
+1287  US: octovigintiquadringentillion
+1290  EU: quinquadeciducentillion
+1290  US: novemvigintiquadringentillion
+1293  EU: quinquadeciducentilliard
+1293  US: trigintaquadringentillion
+1296  EU: sedeciducentillion
+1296  US: untrigintaquadringentillion
+1299  EU: sedeciducentilliard
+1299  US: duotrigintaquadringentillion
+1302  EU: septendeciducentillion
+1302  US: trestrigintaquadringentillion
+1305  EU: septendeciducentilliard
+1305  US: quattuortrigintaquadringentillion
+1308  EU: octodeciducentillion
+1308  US: quinquatrigintaquadringentillion
+1311  EU: octodeciducentilliard
+1311  US: sestrigintaquadringentillion
+1314  EU: novendeciducentillion
+1314  US: septentrigintaquadringentillion
+1317  EU: novendeciducentilliard
+1317  US: octotrigintaquadringentillion
+1320  EU: vigintiducentillion
+1320  US: noventrigintaquadringentillion
+1323  EU: vigintiducentilliard
+1323  US: quadragintaquadringentillion
+1326  EU: unvigintiducentillion
+1326  US: unquadragintaquadringentillion
+1329  EU: unvigintiducentilliard
+1329  US: duoquadragintaquadringentillion
+1332  EU: duovigintiducentillion
+1332  US: tresquadragintaquadringentillion
+1335  EU: duovigintiducentilliard
+1335  US: quattuorquadragintaquadringentillion
+1338  EU: tresvigintiducentillion
+1338  US: quinquaquadragintaquadringentillion
+1341  EU: tresvigintiducentilliard
+1341  US: sesquadragintaquadringentillion
+1344  EU: quattuorvigintiducentillion
+1344  US: septenquadragintaquadringentillion
+1347  EU: quattuorvigintiducentilliard
+1347  US: octoquadragintaquadringentillion
+1350  EU: quinquavigintiducentillion
+1350  US: novenquadragintaquadringentillion
+1353  EU: quinquavigintiducentilliard
+1353  US: quinquagintaquadringentillion
+1356  EU: sesvigintiducentillion
+1356  US: unquinquagintaquadringentillion
+1359  EU: sesvigintiducentilliard
+1359  US: duoquinquagintaquadringentillion
+1362  EU: septemvigintiducentillion
+1362  US: tresquinquagintaquadringentillion
+1365  EU: septemvigintiducentilliard
+1365  US: quattuorquinquagintaquadringentillion
+1368  EU: octovigintiducentillion
+1368  US: quinquaquinquagintaquadringentillion
+1371  EU: octovigintiducentilliard
+1371  US: sesquinquagintaquadringentillion
+1374  EU: novemvigintiducentillion
+1374  US: septenquinquagintaquadringentillion
+1377  EU: novemvigintiducentilliard
+1377  US: octoquinquagintaquadringentillion
+1380  EU: trigintaducentillion
+1380  US: novenquinquagintaquadringentillion
+1383  EU: trigintaducentilliard
+1383  US: sexagintaquadringentillion
+1386  EU: untrigintaducentillion
+1386  US: unsexagintaquadringentillion
+1389  EU: untrigintaducentilliard
+1389  US: duosexagintaquadringentillion
+1392  EU: duotrigintaducentillion
+1392  US: tresexagintaquadringentillion
+1395  EU: duotrigintaducentilliard
+1395  US: quattuorsexagintaquadringentillion
+1398  EU: trestrigintaducentillion
+1398  US: quinquasexagintaquadringentillion
+1401  EU: trestrigintaducentilliard
+1401  US: sesexagintaquadringentillion
+1404  EU: quattuortrigintaducentillion
+1404  US: septensexagintaquadringentillion
+1407  EU: quattuortrigintaducentilliard
+1407  US: octosexagintaquadringentillion
+1410  EU: quinquatrigintaducentillion
+1410  US: novensexagintaquadringentillion
+1413  EU: quinquatrigintaducentilliard
+1413  US: septuagintaquadringentillion
+1416  EU: sestrigintaducentillion
+1416  US: unseptuagintaquadringentillion
+1419  EU: sestrigintaducentilliard
+1419  US: duoseptuagintaquadringentillion
+1422  EU: septentrigintaducentillion
+1422  US: treseptuagintaquadringentillion
+1425  EU: septentrigintaducentilliard
+1425  US: quattuorseptuagintaquadringentillion
+1428  EU: octotrigintaducentillion
+1428  US: quinquaseptuagintaquadringentillion
+1431  EU: octotrigintaducentilliard
+1431  US: seseptuagintaquadringentillion
+1434  EU: noventrigintaducentillion
+1434  US: septenseptuagintaquadringentillion
+1437  EU: noventrigintaducentilliard
+1437  US: octoseptuagintaquadringentillion
+1440  EU: quadragintaducentillion
+1440  US: novenseptuagintaquadringentillion
+1443  EU: quadragintaducentilliard
+1443  US: octogintaquadringentillion
+1446  EU: unquadragintaducentillion
+1446  US: unoctogintaquadringentillion
+1449  EU: unquadragintaducentilliard
+1449  US: duooctogintaquadringentillion
+1452  EU: duoquadragintaducentillion
+1452  US: tresoctogintaquadringentillion
+1455  EU: duoquadragintaducentilliard
+1455  US: quattuoroctogintaquadringentillion
+1458  EU: tresquadragintaducentillion
+1458  US: quinquaoctogintaquadringentillion
+1461  EU: tresquadragintaducentilliard
+1461  US: sexoctogintaquadringentillion
+1464  EU: quattuorquadragintaducentillion
+1464  US: septemoctogintaquadringentillion
+1467  EU: quattuorquadragintaducentilliard
+1467  US: octooctogintaquadringentillion
+1470  EU: quinquaquadragintaducentillion
+1470  US: novemoctogintaquadringentillion
+1473  EU: quinquaquadragintaducentilliard
+1473  US: nonagintaquadringentillion
+1476  EU: sesquadragintaducentillion
+1476  US: unnonagintaquadringentillion
+1479  EU: sesquadragintaducentilliard
+1479  US: duononagintaquadringentillion
+1482  EU: septenquadragintaducentillion
+1482  US: trenonagintaquadringentillion
+1485  EU: septenquadragintaducentilliard
+1485  US: quattuornonagintaquadringentillion
+1488  EU: octoquadragintaducentillion
+1488  US: quinquanonagintaquadringentillion
+1491  EU: octoquadragintaducentilliard
+1491  US: senonagintaquadringentillion
+1494  EU: novenquadragintaducentillion
+1494  US: septenonagintaquadringentillion
+1497  EU: novenquadragintaducentilliard
+1497  US: octononagintaquadringentillion
+Jump to n =
+6	100	250	500	1000	 
+ 	1500	2000	2500	3000	 
+3500	4000	4500	5000	5500	end
+
+   n  Naming of 10n
+==============================
+1500  EU: quinquagintaducentillion
+1500  US: novenonagintaquadringentillion
+1503  EU: quinquagintaducentilliard
+1503  US: quingentillion
+1506  EU: unquinquagintaducentillion
+1506  US: unquingentillion
+1509  EU: unquinquagintaducentilliard
+1509  US: duoquingentillion
+1512  EU: duoquinquagintaducentillion
+1512  US: tresquingentillion
+1515  EU: duoquinquagintaducentilliard
+1515  US: quattuorquingentillion
+1518  EU: tresquinquagintaducentillion
+1518  US: quinquaquingentillion
+1521  EU: tresquinquagintaducentilliard
+1521  US: sesquingentillion
+1524  EU: quattuorquinquagintaducentillion
+1524  US: septenquingentillion
+1527  EU: quattuorquinquagintaducentilliard
+1527  US: octoquingentillion
+1530  EU: quinquaquinquagintaducentillion
+1530  US: novenquingentillion
+1533  EU: quinquaquinquagintaducentilliard
+1533  US: deciquingentillion
+1536  EU: sesquinquagintaducentillion
+1536  US: undeciquingentillion
+1539  EU: sesquinquagintaducentilliard
+1539  US: duodeciquingentillion
+1542  EU: septenquinquagintaducentillion
+1542  US: tredeciquingentillion
+1545  EU: septenquinquagintaducentilliard
+1545  US: quattuordeciquingentillion
+1548  EU: octoquinquagintaducentillion
+1548  US: quinquadeciquingentillion
+1551  EU: octoquinquagintaducentilliard
+1551  US: sedeciquingentillion
+1554  EU: novenquinquagintaducentillion
+1554  US: septendeciquingentillion
+1557  EU: novenquinquagintaducentilliard
+1557  US: octodeciquingentillion
+1560  EU: sexagintaducentillion
+1560  US: novendeciquingentillion
+1563  EU: sexagintaducentilliard
+1563  US: vigintiquingentillion
+1566  EU: unsexagintaducentillion
+1566  US: unvigintiquingentillion
+1569  EU: unsexagintaducentilliard
+1569  US: duovigintiquingentillion
+1572  EU: duosexagintaducentillion
+1572  US: tresvigintiquingentillion
+1575  EU: duosexagintaducentilliard
+1575  US: quattuorvigintiquingentillion
+1578  EU: tresexagintaducentillion
+1578  US: quinquavigintiquingentillion
+1581  EU: tresexagintaducentilliard
+1581  US: sesvigintiquingentillion
+1584  EU: quattuorsexagintaducentillion
+1584  US: septemvigintiquingentillion
+1587  EU: quattuorsexagintaducentilliard
+1587  US: octovigintiquingentillion
+1590  EU: quinquasexagintaducentillion
+1590  US: novemvigintiquingentillion
+1593  EU: quinquasexagintaducentilliard
+1593  US: trigintaquingentillion
+1596  EU: sesexagintaducentillion
+1596  US: untrigintaquingentillion
+1599  EU: sesexagintaducentilliard
+1599  US: duotrigintaquingentillion
+1602  EU: septensexagintaducentillion
+1602  US: trestrigintaquingentillion
+1605  EU: septensexagintaducentilliard
+1605  US: quattuortrigintaquingentillion
+1608  EU: octosexagintaducentillion
+1608  US: quinquatrigintaquingentillion
+1611  EU: octosexagintaducentilliard
+1611  US: sestrigintaquingentillion
+1614  EU: novensexagintaducentillion
+1614  US: septentrigintaquingentillion
+1617  EU: novensexagintaducentilliard
+1617  US: octotrigintaquingentillion
+1620  EU: septuagintaducentillion
+1620  US: noventrigintaquingentillion
+1623  EU: septuagintaducentilliard
+1623  US: quadragintaquingentillion
+1626  EU: unseptuagintaducentillion
+1626  US: unquadragintaquingentillion
+1629  EU: unseptuagintaducentilliard
+1629  US: duoquadragintaquingentillion
+1632  EU: duoseptuagintaducentillion
+1632  US: tresquadragintaquingentillion
+1635  EU: duoseptuagintaducentilliard
+1635  US: quattuorquadragintaquingentillion
+1638  EU: treseptuagintaducentillion
+1638  US: quinquaquadragintaquingentillion
+1641  EU: treseptuagintaducentilliard
+1641  US: sesquadragintaquingentillion
+1644  EU: quattuorseptuagintaducentillion
+1644  US: septenquadragintaquingentillion
+1647  EU: quattuorseptuagintaducentilliard
+1647  US: octoquadragintaquingentillion
+1650  EU: quinquaseptuagintaducentillion
+1650  US: novenquadragintaquingentillion
+1653  EU: quinquaseptuagintaducentilliard
+1653  US: quinquagintaquingentillion
+1656  EU: seseptuagintaducentillion
+1656  US: unquinquagintaquingentillion
+1659  EU: seseptuagintaducentilliard
+1659  US: duoquinquagintaquingentillion
+1662  EU: septenseptuagintaducentillion
+1662  US: tresquinquagintaquingentillion
+1665  EU: septenseptuagintaducentilliard
+1665  US: quattuorquinquagintaquingentillion
+1668  EU: octoseptuagintaducentillion
+1668  US: quinquaquinquagintaquingentillion
+1671  EU: octoseptuagintaducentilliard
+1671  US: sesquinquagintaquingentillion
+1674  EU: novenseptuagintaducentillion
+1674  US: septenquinquagintaquingentillion
+1677  EU: novenseptuagintaducentilliard
+1677  US: octoquinquagintaquingentillion
+1680  EU: octogintaducentillion
+1680  US: novenquinquagintaquingentillion
+1683  EU: octogintaducentilliard
+1683  US: sexagintaquingentillion
+1686  EU: unoctogintaducentillion
+1686  US: unsexagintaquingentillion
+1689  EU: unoctogintaducentilliard
+1689  US: duosexagintaquingentillion
+1692  EU: duooctogintaducentillion
+1692  US: tresexagintaquingentillion
+1695  EU: duooctogintaducentilliard
+1695  US: quattuorsexagintaquingentillion
+1698  EU: tresoctogintaducentillion
+1698  US: quinquasexagintaquingentillion
+1701  EU: tresoctogintaducentilliard
+1701  US: sesexagintaquingentillion
+1704  EU: quattuoroctogintaducentillion
+1704  US: septensexagintaquingentillion
+1707  EU: quattuoroctogintaducentilliard
+1707  US: octosexagintaquingentillion
+1710  EU: quinquaoctogintaducentillion
+1710  US: novensexagintaquingentillion
+1713  EU: quinquaoctogintaducentilliard
+1713  US: septuagintaquingentillion
+1716  EU: sexoctogintaducentillion
+1716  US: unseptuagintaquingentillion
+1719  EU: sexoctogintaducentilliard
+1719  US: duoseptuagintaquingentillion
+1722  EU: septemoctogintaducentillion
+1722  US: treseptuagintaquingentillion
+1725  EU: septemoctogintaducentilliard
+1725  US: quattuorseptuagintaquingentillion
+1728  EU: octooctogintaducentillion
+1728  US: quinquaseptuagintaquingentillion
+1731  EU: octooctogintaducentilliard
+1731  US: seseptuagintaquingentillion
+1734  EU: novemoctogintaducentillion
+1734  US: septenseptuagintaquingentillion
+1737  EU: novemoctogintaducentilliard
+1737  US: octoseptuagintaquingentillion
+1740  EU: nonagintaducentillion
+1740  US: novenseptuagintaquingentillion
+1743  EU: nonagintaducentilliard
+1743  US: octogintaquingentillion
+1746  EU: unnonagintaducentillion
+1746  US: unoctogintaquingentillion
+1749  EU: unnonagintaducentilliard
+1749  US: duooctogintaquingentillion
+1752  EU: duononagintaducentillion
+1752  US: tresoctogintaquingentillion
+1755  EU: duononagintaducentilliard
+1755  US: quattuoroctogintaquingentillion
+1758  EU: trenonagintaducentillion
+1758  US: quinquaoctogintaquingentillion
+1761  EU: trenonagintaducentilliard
+1761  US: sexoctogintaquingentillion
+1764  EU: quattuornonagintaducentillion
+1764  US: septemoctogintaquingentillion
+1767  EU: quattuornonagintaducentilliard
+1767  US: octooctogintaquingentillion
+1770  EU: quinquanonagintaducentillion
+1770  US: novemoctogintaquingentillion
+1773  EU: quinquanonagintaducentilliard
+1773  US: nonagintaquingentillion
+1776  EU: senonagintaducentillion
+1776  US: unnonagintaquingentillion
+1779  EU: senonagintaducentilliard
+1779  US: duononagintaquingentillion
+1782  EU: septenonagintaducentillion
+1782  US: trenonagintaquingentillion
+1785  EU: septenonagintaducentilliard
+1785  US: quattuornonagintaquingentillion
+1788  EU: octononagintaducentillion
+1788  US: quinquanonagintaquingentillion
+1791  EU: octononagintaducentilliard
+1791  US: senonagintaquingentillion
+1794  EU: novenonagintaducentillion
+1794  US: septenonagintaquingentillion
+1797  EU: novenonagintaducentilliard
+1797  US: octononagintaquingentillion
+1800  EU: trecentillion
+1800  US: novenonagintaquingentillion
+1803  EU: trecentilliard
+1803  US: sescentillion
+1806  EU: untrecentillion
+1806  US: unsescentillion
+1809  EU: untrecentilliard
+1809  US: duosescentillion
+1812  EU: duotrecentillion
+1812  US: tresescentillion
+1815  EU: duotrecentilliard
+1815  US: quattuorsescentillion
+1818  EU: trestrecentillion
+1818  US: quinquasescentillion
+1821  EU: trestrecentilliard
+1821  US: sesescentillion
+1824  EU: quattuortrecentillion
+1824  US: septensescentillion
+1827  EU: quattuortrecentilliard
+1827  US: octosescentillion
+1830  EU: quinquatrecentillion
+1830  US: novensescentillion
+1833  EU: quinquatrecentilliard
+1833  US: decisescentillion
+1836  EU: sestrecentillion
+1836  US: undecisescentillion
+1839  EU: sestrecentilliard
+1839  US: duodecisescentillion
+1842  EU: septentrecentillion
+1842  US: tredecisescentillion
+1845  EU: septentrecentilliard
+1845  US: quattuordecisescentillion
+1848  EU: octotrecentillion
+1848  US: quinquadecisescentillion
+1851  EU: octotrecentilliard
+1851  US: sedecisescentillion
+1854  EU: noventrecentillion
+1854  US: septendecisescentillion
+1857  EU: noventrecentilliard
+1857  US: octodecisescentillion
+1860  EU: decitrecentillion
+1860  US: novendecisescentillion
+1863  EU: decitrecentilliard
+1863  US: vigintisescentillion
+1866  EU: undecitrecentillion
+1866  US: unvigintisescentillion
+1869  EU: undecitrecentilliard
+1869  US: duovigintisescentillion
+1872  EU: duodecitrecentillion
+1872  US: tresvigintisescentillion
+1875  EU: duodecitrecentilliard
+1875  US: quattuorvigintisescentillion
+1878  EU: tredecitrecentillion
+1878  US: quinquavigintisescentillion
+1881  EU: tredecitrecentilliard
+1881  US: sesvigintisescentillion
+1884  EU: quattuordecitrecentillion
+1884  US: septemvigintisescentillion
+1887  EU: quattuordecitrecentilliard
+1887  US: octovigintisescentillion
+1890  EU: quinquadecitrecentillion
+1890  US: novemvigintisescentillion
+1893  EU: quinquadecitrecentilliard
+1893  US: trigintasescentillion
+1896  EU: sedecitrecentillion
+1896  US: untrigintasescentillion
+1899  EU: sedecitrecentilliard
+1899  US: duotrigintasescentillion
+1902  EU: septendecitrecentillion
+1902  US: trestrigintasescentillion
+1905  EU: septendecitrecentilliard
+1905  US: quattuortrigintasescentillion
+1908  EU: octodecitrecentillion
+1908  US: quinquatrigintasescentillion
+1911  EU: octodecitrecentilliard
+1911  US: sestrigintasescentillion
+1914  EU: novendecitrecentillion
+1914  US: septentrigintasescentillion
+1917  EU: novendecitrecentilliard
+1917  US: octotrigintasescentillion
+1920  EU: vigintitrecentillion
+1920  US: noventrigintasescentillion
+1923  EU: vigintitrecentilliard
+1923  US: quadragintasescentillion
+1926  EU: unvigintitrecentillion
+1926  US: unquadragintasescentillion
+1929  EU: unvigintitrecentilliard
+1929  US: duoquadragintasescentillion
+1932  EU: duovigintitrecentillion
+1932  US: tresquadragintasescentillion
+1935  EU: duovigintitrecentilliard
+1935  US: quattuorquadragintasescentillion
+1938  EU: tresvigintitrecentillion
+1938  US: quinquaquadragintasescentillion
+1941  EU: tresvigintitrecentilliard
+1941  US: sesquadragintasescentillion
+1944  EU: quattuorvigintitrecentillion
+1944  US: septenquadragintasescentillion
+1947  EU: quattuorvigintitrecentilliard
+1947  US: octoquadragintasescentillion
+1950  EU: quinquavigintitrecentillion
+1950  US: novenquadragintasescentillion
+1953  EU: quinquavigintitrecentilliard
+1953  US: quinquagintasescentillion
+1956  EU: sesvigintitrecentillion
+1956  US: unquinquagintasescentillion
+1959  EU: sesvigintitrecentilliard
+1959  US: duoquinquagintasescentillion
+1962  EU: septemvigintitrecentillion
+1962  US: tresquinquagintasescentillion
+1965  EU: septemvigintitrecentilliard
+1965  US: quattuorquinquagintasescentillion
+1968  EU: octovigintitrecentillion
+1968  US: quinquaquinquagintasescentillion
+1971  EU: octovigintitrecentilliard
+1971  US: sesquinquagintasescentillion
+1974  EU: novemvigintitrecentillion
+1974  US: septenquinquagintasescentillion
+1977  EU: novemvigintitrecentilliard
+1977  US: octoquinquagintasescentillion
+1980  EU: trigintatrecentillion
+1980  US: novenquinquagintasescentillion
+1983  EU: trigintatrecentilliard
+1983  US: sexagintasescentillion
+1986  EU: untrigintatrecentillion
+1986  US: unsexagintasescentillion
+1989  EU: untrigintatrecentilliard
+1989  US: duosexagintasescentillion
+1992  EU: duotrigintatrecentillion
+1992  US: tresexagintasescentillion
+1995  EU: duotrigintatrecentilliard
+1995  US: quattuorsexagintasescentillion
+1998  EU: trestrigintatrecentillion
+1998  US: quinquasexagintasescentillion
+Jump to n =
+6	100	250	500	1000	 
+ 	1500	2000	2500	3000	 
+3500	4000	4500	5000	5500	end
+
+   n  Naming of 10n
+==============================
+2001  EU: trestrigintatrecentilliard
+2001  US: sesexagintasescentillion
+2004  EU: quattuortrigintatrecentillion
+2004  US: septensexagintasescentillion
+2007  EU: quattuortrigintatrecentilliard
+2007  US: octosexagintasescentillion
+2010  EU: quinquatrigintatrecentillion
+2010  US: novensexagintasescentillion
+2013  EU: quinquatrigintatrecentilliard
+2013  US: septuagintasescentillion
+2016  EU: sestrigintatrecentillion
+2016  US: unseptuagintasescentillion
+2019  EU: sestrigintatrecentilliard
+2019  US: duoseptuagintasescentillion
+2022  EU: septentrigintatrecentillion
+2022  US: treseptuagintasescentillion
+2025  EU: septentrigintatrecentilliard
+2025  US: quattuorseptuagintasescentillion
+2028  EU: octotrigintatrecentillion
+2028  US: quinquaseptuagintasescentillion
+2031  EU: octotrigintatrecentilliard
+2031  US: seseptuagintasescentillion
+2034  EU: noventrigintatrecentillion
+2034  US: septenseptuagintasescentillion
+2037  EU: noventrigintatrecentilliard
+2037  US: octoseptuagintasescentillion
+2040  EU: quadragintatrecentillion
+2040  US: novenseptuagintasescentillion
+2043  EU: quadragintatrecentilliard
+2043  US: octogintasescentillion
+2046  EU: unquadragintatrecentillion
+2046  US: unoctogintasescentillion
+2049  EU: unquadragintatrecentilliard
+2049  US: duooctogintasescentillion
+2052  EU: duoquadragintatrecentillion
+2052  US: tresoctogintasescentillion
+2055  EU: duoquadragintatrecentilliard
+2055  US: quattuoroctogintasescentillion
+2058  EU: tresquadragintatrecentillion
+2058  US: quinquaoctogintasescentillion
+2061  EU: tresquadragintatrecentilliard
+2061  US: sexoctogintasescentillion
+2064  EU: quattuorquadragintatrecentillion
+2064  US: septemoctogintasescentillion
+2067  EU: quattuorquadragintatrecentilliard
+2067  US: octooctogintasescentillion
+2070  EU: quinquaquadragintatrecentillion
+2070  US: novemoctogintasescentillion
+2073  EU: quinquaquadragintatrecentilliard
+2073  US: nonagintasescentillion
+2076  EU: sesquadragintatrecentillion
+2076  US: unnonagintasescentillion
+2079  EU: sesquadragintatrecentilliard
+2079  US: duononagintasescentillion
+2082  EU: septenquadragintatrecentillion
+2082  US: trenonagintasescentillion
+2085  EU: septenquadragintatrecentilliard
+2085  US: quattuornonagintasescentillion
+2088  EU: octoquadragintatrecentillion
+2088  US: quinquanonagintasescentillion
+2091  EU: octoquadragintatrecentilliard
+2091  US: senonagintasescentillion
+2094  EU: novenquadragintatrecentillion
+2094  US: septenonagintasescentillion
+2097  EU: novenquadragintatrecentilliard
+2097  US: octononagintasescentillion
+2100  EU: quinquagintatrecentillion
+2100  US: novenonagintasescentillion
+2103  EU: quinquagintatrecentilliard
+2103  US: septingentillion
+2106  EU: unquinquagintatrecentillion
+2106  US: unseptingentillion
+2109  EU: unquinquagintatrecentilliard
+2109  US: duoseptingentillion
+2112  EU: duoquinquagintatrecentillion
+2112  US: treseptingentillion
+2115  EU: duoquinquagintatrecentilliard
+2115  US: quattuorseptingentillion
+2118  EU: tresquinquagintatrecentillion
+2118  US: quinquaseptingentillion
+2121  EU: tresquinquagintatrecentilliard
+2121  US: seseptingentillion
+2124  EU: quattuorquinquagintatrecentillion
+2124  US: septenseptingentillion
+2127  EU: quattuorquinquagintatrecentilliard
+2127  US: octoseptingentillion
+2130  EU: quinquaquinquagintatrecentillion
+2130  US: novenseptingentillion
+2133  EU: quinquaquinquagintatrecentilliard
+2133  US: deciseptingentillion
+2136  EU: sesquinquagintatrecentillion
+2136  US: undeciseptingentillion
+2139  EU: sesquinquagintatrecentilliard
+2139  US: duodeciseptingentillion
+2142  EU: septenquinquagintatrecentillion
+2142  US: tredeciseptingentillion
+2145  EU: septenquinquagintatrecentilliard
+2145  US: quattuordeciseptingentillion
+2148  EU: octoquinquagintatrecentillion
+2148  US: quinquadeciseptingentillion
+2151  EU: octoquinquagintatrecentilliard
+2151  US: sedeciseptingentillion
+2154  EU: novenquinquagintatrecentillion
+2154  US: septendeciseptingentillion
+2157  EU: novenquinquagintatrecentilliard
+2157  US: octodeciseptingentillion
+2160  EU: sexagintatrecentillion
+2160  US: novendeciseptingentillion
+2163  EU: sexagintatrecentilliard
+2163  US: vigintiseptingentillion
+2166  EU: unsexagintatrecentillion
+2166  US: unvigintiseptingentillion
+2169  EU: unsexagintatrecentilliard
+2169  US: duovigintiseptingentillion
+2172  EU: duosexagintatrecentillion
+2172  US: tresvigintiseptingentillion
+2175  EU: duosexagintatrecentilliard
+2175  US: quattuorvigintiseptingentillion
+2178  EU: tresexagintatrecentillion
+2178  US: quinquavigintiseptingentillion
+2181  EU: tresexagintatrecentilliard
+2181  US: sesvigintiseptingentillion
+2184  EU: quattuorsexagintatrecentillion
+2184  US: septemvigintiseptingentillion
+2187  EU: quattuorsexagintatrecentilliard
+2187  US: octovigintiseptingentillion
+2190  EU: quinquasexagintatrecentillion
+2190  US: novemvigintiseptingentillion
+2193  EU: quinquasexagintatrecentilliard
+2193  US: trigintaseptingentillion
+2196  EU: sesexagintatrecentillion
+2196  US: untrigintaseptingentillion
+2199  EU: sesexagintatrecentilliard
+2199  US: duotrigintaseptingentillion
+2202  EU: septensexagintatrecentillion
+2202  US: trestrigintaseptingentillion
+2205  EU: septensexagintatrecentilliard
+2205  US: quattuortrigintaseptingentillion
+2208  EU: octosexagintatrecentillion
+2208  US: quinquatrigintaseptingentillion
+2211  EU: octosexagintatrecentilliard
+2211  US: sestrigintaseptingentillion
+2214  EU: novensexagintatrecentillion
+2214  US: septentrigintaseptingentillion
+2217  EU: novensexagintatrecentilliard
+2217  US: octotrigintaseptingentillion
+2220  EU: septuagintatrecentillion
+2220  US: noventrigintaseptingentillion
+2223  EU: septuagintatrecentilliard
+2223  US: quadragintaseptingentillion
+2226  EU: unseptuagintatrecentillion
+2226  US: unquadragintaseptingentillion
+2229  EU: unseptuagintatrecentilliard
+2229  US: duoquadragintaseptingentillion
+2232  EU: duoseptuagintatrecentillion
+2232  US: tresquadragintaseptingentillion
+2235  EU: duoseptuagintatrecentilliard
+2235  US: quattuorquadragintaseptingentillion
+2238  EU: treseptuagintatrecentillion
+2238  US: quinquaquadragintaseptingentillion
+2241  EU: treseptuagintatrecentilliard
+2241  US: sesquadragintaseptingentillion
+2244  EU: quattuorseptuagintatrecentillion
+2244  US: septenquadragintaseptingentillion
+2247  EU: quattuorseptuagintatrecentilliard
+2247  US: octoquadragintaseptingentillion
+2250  EU: quinquaseptuagintatrecentillion
+2250  US: novenquadragintaseptingentillion
+2253  EU: quinquaseptuagintatrecentilliard
+2253  US: quinquagintaseptingentillion
+2256  EU: seseptuagintatrecentillion
+2256  US: unquinquagintaseptingentillion
+2259  EU: seseptuagintatrecentilliard
+2259  US: duoquinquagintaseptingentillion
+2262  EU: septenseptuagintatrecentillion
+2262  US: tresquinquagintaseptingentillion
+2265  EU: septenseptuagintatrecentilliard
+2265  US: quattuorquinquagintaseptingentillion
+2268  EU: octoseptuagintatrecentillion
+2268  US: quinquaquinquagintaseptingentillion
+2271  EU: octoseptuagintatrecentilliard
+2271  US: sesquinquagintaseptingentillion
+2274  EU: novenseptuagintatrecentillion
+2274  US: septenquinquagintaseptingentillion
+2277  EU: novenseptuagintatrecentilliard
+2277  US: octoquinquagintaseptingentillion
+2280  EU: octogintatrecentillion
+2280  US: novenquinquagintaseptingentillion
+2283  EU: octogintatrecentilliard
+2283  US: sexagintaseptingentillion
+2286  EU: unoctogintatrecentillion
+2286  US: unsexagintaseptingentillion
+2289  EU: unoctogintatrecentilliard
+2289  US: duosexagintaseptingentillion
+2292  EU: duooctogintatrecentillion
+2292  US: tresexagintaseptingentillion
+2295  EU: duooctogintatrecentilliard
+2295  US: quattuorsexagintaseptingentillion
+2298  EU: tresoctogintatrecentillion
+2298  US: quinquasexagintaseptingentillion
+2301  EU: tresoctogintatrecentilliard
+2301  US: sesexagintaseptingentillion
+2304  EU: quattuoroctogintatrecentillion
+2304  US: septensexagintaseptingentillion
+2307  EU: quattuoroctogintatrecentilliard
+2307  US: octosexagintaseptingentillion
+2310  EU: quinquaoctogintatrecentillion
+2310  US: novensexagintaseptingentillion
+2313  EU: quinquaoctogintatrecentilliard
+2313  US: septuagintaseptingentillion
+2316  EU: sexoctogintatrecentillion
+2316  US: unseptuagintaseptingentillion
+2319  EU: sexoctogintatrecentilliard
+2319  US: duoseptuagintaseptingentillion
+2322  EU: septemoctogintatrecentillion
+2322  US: treseptuagintaseptingentillion
+2325  EU: septemoctogintatrecentilliard
+2325  US: quattuorseptuagintaseptingentillion
+2328  EU: octooctogintatrecentillion
+2328  US: quinquaseptuagintaseptingentillion
+2331  EU: octooctogintatrecentilliard
+2331  US: seseptuagintaseptingentillion
+2334  EU: novemoctogintatrecentillion
+2334  US: septenseptuagintaseptingentillion
+2337  EU: novemoctogintatrecentilliard
+2337  US: octoseptuagintaseptingentillion
+2340  EU: nonagintatrecentillion
+2340  US: novenseptuagintaseptingentillion
+2343  EU: nonagintatrecentilliard
+2343  US: octogintaseptingentillion
+2346  EU: unnonagintatrecentillion
+2346  US: unoctogintaseptingentillion
+2349  EU: unnonagintatrecentilliard
+2349  US: duooctogintaseptingentillion
+2352  EU: duononagintatrecentillion
+2352  US: tresoctogintaseptingentillion
+2355  EU: duononagintatrecentilliard
+2355  US: quattuoroctogintaseptingentillion
+2358  EU: trenonagintatrecentillion
+2358  US: quinquaoctogintaseptingentillion
+2361  EU: trenonagintatrecentilliard
+2361  US: sexoctogintaseptingentillion
+2364  EU: quattuornonagintatrecentillion
+2364  US: septemoctogintaseptingentillion
+2367  EU: quattuornonagintatrecentilliard
+2367  US: octooctogintaseptingentillion
+2370  EU: quinquanonagintatrecentillion
+2370  US: novemoctogintaseptingentillion
+2373  EU: quinquanonagintatrecentilliard
+2373  US: nonagintaseptingentillion
+2376  EU: senonagintatrecentillion
+2376  US: unnonagintaseptingentillion
+2379  EU: senonagintatrecentilliard
+2379  US: duononagintaseptingentillion
+2382  EU: septenonagintatrecentillion
+2382  US: trenonagintaseptingentillion
+2385  EU: septenonagintatrecentilliard
+2385  US: quattuornonagintaseptingentillion
+2388  EU: octononagintatrecentillion
+2388  US: quinquanonagintaseptingentillion
+2391  EU: octononagintatrecentilliard
+2391  US: senonagintaseptingentillion
+2394  EU: novenonagintatrecentillion
+2394  US: septenonagintaseptingentillion
+2397  EU: novenonagintatrecentilliard
+2397  US: octononagintaseptingentillion
+2400  EU: quadringentillion
+2400  US: novenonagintaseptingentillion
+2403  EU: quadringentilliard
+2403  US: octingentillion
+2406  EU: unquadringentillion
+2406  US: unoctingentillion
+2409  EU: unquadringentilliard
+2409  US: duooctingentillion
+2412  EU: duoquadringentillion
+2412  US: tresoctingentillion
+2415  EU: duoquadringentilliard
+2415  US: quattuoroctingentillion
+2418  EU: tresquadringentillion
+2418  US: quinquaoctingentillion
+2421  EU: tresquadringentilliard
+2421  US: sexoctingentillion
+2424  EU: quattuorquadringentillion
+2424  US: septemoctingentillion
+2427  EU: quattuorquadringentilliard
+2427  US: octooctingentillion
+2430  EU: quinquaquadringentillion
+2430  US: novemoctingentillion
+2433  EU: quinquaquadringentilliard
+2433  US: decioctingentillion
+2436  EU: sesquadringentillion
+2436  US: undecioctingentillion
+2439  EU: sesquadringentilliard
+2439  US: duodecioctingentillion
+2442  EU: septenquadringentillion
+2442  US: tredecioctingentillion
+2445  EU: septenquadringentilliard
+2445  US: quattuordecioctingentillion
+2448  EU: octoquadringentillion
+2448  US: quinquadecioctingentillion
+2451  EU: octoquadringentilliard
+2451  US: sedecioctingentillion
+2454  EU: novenquadringentillion
+2454  US: septendecioctingentillion
+2457  EU: novenquadringentilliard
+2457  US: octodecioctingentillion
+2460  EU: deciquadringentillion
+2460  US: novendecioctingentillion
+2463  EU: deciquadringentilliard
+2463  US: vigintioctingentillion
+2466  EU: undeciquadringentillion
+2466  US: unvigintioctingentillion
+2469  EU: undeciquadringentilliard
+2469  US: duovigintioctingentillion
+2472  EU: duodeciquadringentillion
+2472  US: tresvigintioctingentillion
+2475  EU: duodeciquadringentilliard
+2475  US: quattuorvigintioctingentillion
+2478  EU: tredeciquadringentillion
+2478  US: quinquavigintioctingentillion
+2481  EU: tredeciquadringentilliard
+2481  US: sesvigintioctingentillion
+2484  EU: quattuordeciquadringentillion
+2484  US: septemvigintioctingentillion
+2487  EU: quattuordeciquadringentilliard
+2487  US: octovigintioctingentillion
+2490  EU: quinquadeciquadringentillion
+2490  US: novemvigintioctingentillion
+2493  EU: quinquadeciquadringentilliard
+2493  US: trigintaoctingentillion
+2496  EU: sedeciquadringentillion
+2496  US: untrigintaoctingentillion
+2499  EU: sedeciquadringentilliard
+2499  US: duotrigintaoctingentillion
+Jump to n =
+6	100	250	500	1000	 
+ 	1500	2000	2500	3000	 
+3500	4000	4500	5000	5500	end
+
+   n  Naming of 10n
+==============================
+2502  EU: septendeciquadringentillion
+2502  US: trestrigintaoctingentillion
+2505  EU: septendeciquadringentilliard
+2505  US: quattuortrigintaoctingentillion
+2508  EU: octodeciquadringentillion
+2508  US: quinquatrigintaoctingentillion
+2511  EU: octodeciquadringentilliard
+2511  US: sestrigintaoctingentillion
+2514  EU: novendeciquadringentillion
+2514  US: septentrigintaoctingentillion
+2517  EU: novendeciquadringentilliard
+2517  US: octotrigintaoctingentillion
+2520  EU: vigintiquadringentillion
+2520  US: noventrigintaoctingentillion
+2523  EU: vigintiquadringentilliard
+2523  US: quadragintaoctingentillion
+2526  EU: unvigintiquadringentillion
+2526  US: unquadragintaoctingentillion
+2529  EU: unvigintiquadringentilliard
+2529  US: duoquadragintaoctingentillion
+2532  EU: duovigintiquadringentillion
+2532  US: tresquadragintaoctingentillion
+2535  EU: duovigintiquadringentilliard
+2535  US: quattuorquadragintaoctingentillion
+2538  EU: tresvigintiquadringentillion
+2538  US: quinquaquadragintaoctingentillion
+2541  EU: tresvigintiquadringentilliard
+2541  US: sesquadragintaoctingentillion
+2544  EU: quattuorvigintiquadringentillion
+2544  US: septenquadragintaoctingentillion
+2547  EU: quattuorvigintiquadringentilliard
+2547  US: octoquadragintaoctingentillion
+2550  EU: quinquavigintiquadringentillion
+2550  US: novenquadragintaoctingentillion
+2553  EU: quinquavigintiquadringentilliard
+2553  US: quinquagintaoctingentillion
+2556  EU: sesvigintiquadringentillion
+2556  US: unquinquagintaoctingentillion
+2559  EU: sesvigintiquadringentilliard
+2559  US: duoquinquagintaoctingentillion
+2562  EU: septemvigintiquadringentillion
+2562  US: tresquinquagintaoctingentillion
+2565  EU: septemvigintiquadringentilliard
+2565  US: quattuorquinquagintaoctingentillion
+2568  EU: octovigintiquadringentillion
+2568  US: quinquaquinquagintaoctingentillion
+2571  EU: octovigintiquadringentilliard
+2571  US: sesquinquagintaoctingentillion
+2574  EU: novemvigintiquadringentillion
+2574  US: septenquinquagintaoctingentillion
+2577  EU: novemvigintiquadringentilliard
+2577  US: octoquinquagintaoctingentillion
+2580  EU: trigintaquadringentillion
+2580  US: novenquinquagintaoctingentillion
+2583  EU: trigintaquadringentilliard
+2583  US: sexagintaoctingentillion
+2586  EU: untrigintaquadringentillion
+2586  US: unsexagintaoctingentillion
+2589  EU: untrigintaquadringentilliard
+2589  US: duosexagintaoctingentillion
+2592  EU: duotrigintaquadringentillion
+2592  US: tresexagintaoctingentillion
+2595  EU: duotrigintaquadringentilliard
+2595  US: quattuorsexagintaoctingentillion
+2598  EU: trestrigintaquadringentillion
+2598  US: quinquasexagintaoctingentillion
+2601  EU: trestrigintaquadringentilliard
+2601  US: sesexagintaoctingentillion
+2604  EU: quattuortrigintaquadringentillion
+2604  US: septensexagintaoctingentillion
+2607  EU: quattuortrigintaquadringentilliard
+2607  US: octosexagintaoctingentillion
+2610  EU: quinquatrigintaquadringentillion
+2610  US: novensexagintaoctingentillion
+2613  EU: quinquatrigintaquadringentilliard
+2613  US: septuagintaoctingentillion
+2616  EU: sestrigintaquadringentillion
+2616  US: unseptuagintaoctingentillion
+2619  EU: sestrigintaquadringentilliard
+2619  US: duoseptuagintaoctingentillion
+2622  EU: septentrigintaquadringentillion
+2622  US: treseptuagintaoctingentillion
+2625  EU: septentrigintaquadringentilliard
+2625  US: quattuorseptuagintaoctingentillion
+2628  EU: octotrigintaquadringentillion
+2628  US: quinquaseptuagintaoctingentillion
+2631  EU: octotrigintaquadringentilliard
+2631  US: seseptuagintaoctingentillion
+2634  EU: noventrigintaquadringentillion
+2634  US: septenseptuagintaoctingentillion
+2637  EU: noventrigintaquadringentilliard
+2637  US: octoseptuagintaoctingentillion
+2640  EU: quadragintaquadringentillion
+2640  US: novenseptuagintaoctingentillion
+2643  EU: quadragintaquadringentilliard
+2643  US: octogintaoctingentillion
+2646  EU: unquadragintaquadringentillion
+2646  US: unoctogintaoctingentillion
+2649  EU: unquadragintaquadringentilliard
+2649  US: duooctogintaoctingentillion
+2652  EU: duoquadragintaquadringentillion
+2652  US: tresoctogintaoctingentillion
+2655  EU: duoquadragintaquadringentilliard
+2655  US: quattuoroctogintaoctingentillion
+2658  EU: tresquadragintaquadringentillion
+2658  US: quinquaoctogintaoctingentillion
+2661  EU: tresquadragintaquadringentilliard
+2661  US: sexoctogintaoctingentillion
+2664  EU: quattuorquadragintaquadringentillion
+2664  US: septemoctogintaoctingentillion
+2667  EU: quattuorquadragintaquadringentilliard
+2667  US: octooctogintaoctingentillion
+2670  EU: quinquaquadragintaquadringentillion
+2670  US: novemoctogintaoctingentillion
+2673  EU: quinquaquadragintaquadringentilliard
+2673  US: nonagintaoctingentillion
+2676  EU: sesquadragintaquadringentillion
+2676  US: unnonagintaoctingentillion
+2679  EU: sesquadragintaquadringentilliard
+2679  US: duononagintaoctingentillion
+2682  EU: septenquadragintaquadringentillion
+2682  US: trenonagintaoctingentillion
+2685  EU: septenquadragintaquadringentilliard
+2685  US: quattuornonagintaoctingentillion
+2688  EU: octoquadragintaquadringentillion
+2688  US: quinquanonagintaoctingentillion
+2691  EU: octoquadragintaquadringentilliard
+2691  US: senonagintaoctingentillion
+2694  EU: novenquadragintaquadringentillion
+2694  US: septenonagintaoctingentillion
+2697  EU: novenquadragintaquadringentilliard
+2697  US: octononagintaoctingentillion
+2700  EU: quinquagintaquadringentillion
+2700  US: novenonagintaoctingentillion
+2703  EU: quinquagintaquadringentilliard
+2703  US: nongentillion
+2706  EU: unquinquagintaquadringentillion
+2706  US: unnongentillion
+2709  EU: unquinquagintaquadringentilliard
+2709  US: duonongentillion
+2712  EU: duoquinquagintaquadringentillion
+2712  US: trenongentillion
+2715  EU: duoquinquagintaquadringentilliard
+2715  US: quattuornongentillion
+2718  EU: tresquinquagintaquadringentillion
+2718  US: quinquanongentillion
+2721  EU: tresquinquagintaquadringentilliard
+2721  US: senongentillion
+2724  EU: quattuorquinquagintaquadringentillion
+2724  US: septenongentillion
+2727  EU: quattuorquinquagintaquadringentilliard
+2727  US: octonongentillion
+2730  EU: quinquaquinquagintaquadringentillion
+2730  US: novenongentillion
+2733  EU: quinquaquinquagintaquadringentilliard
+2733  US: decinongentillion
+2736  EU: sesquinquagintaquadringentillion
+2736  US: undecinongentillion
+2739  EU: sesquinquagintaquadringentilliard
+2739  US: duodecinongentillion
+2742  EU: septenquinquagintaquadringentillion
+2742  US: tredecinongentillion
+2745  EU: septenquinquagintaquadringentilliard
+2745  US: quattuordecinongentillion
+2748  EU: octoquinquagintaquadringentillion
+2748  US: quinquadecinongentillion
+2751  EU: octoquinquagintaquadringentilliard
+2751  US: sedecinongentillion
+2754  EU: novenquinquagintaquadringentillion
+2754  US: septendecinongentillion
+2757  EU: novenquinquagintaquadringentilliard
+2757  US: octodecinongentillion
+2760  EU: sexagintaquadringentillion
+2760  US: novendecinongentillion
+2763  EU: sexagintaquadringentilliard
+2763  US: vigintinongentillion
+2766  EU: unsexagintaquadringentillion
+2766  US: unvigintinongentillion
+2769  EU: unsexagintaquadringentilliard
+2769  US: duovigintinongentillion
+2772  EU: duosexagintaquadringentillion
+2772  US: tresvigintinongentillion
+2775  EU: duosexagintaquadringentilliard
+2775  US: quattuorvigintinongentillion
+2778  EU: tresexagintaquadringentillion
+2778  US: quinquavigintinongentillion
+2781  EU: tresexagintaquadringentilliard
+2781  US: sesvigintinongentillion
+2784  EU: quattuorsexagintaquadringentillion
+2784  US: septemvigintinongentillion
+2787  EU: quattuorsexagintaquadringentilliard
+2787  US: octovigintinongentillion
+2790  EU: quinquasexagintaquadringentillion
+2790  US: novemvigintinongentillion
+2793  EU: quinquasexagintaquadringentilliard
+2793  US: trigintanongentillion
+2796  EU: sesexagintaquadringentillion
+2796  US: untrigintanongentillion
+2799  EU: sesexagintaquadringentilliard
+2799  US: duotrigintanongentillion
+2802  EU: septensexagintaquadringentillion
+2802  US: trestrigintanongentillion
+2805  EU: septensexagintaquadringentilliard
+2805  US: quattuortrigintanongentillion
+2808  EU: octosexagintaquadringentillion
+2808  US: quinquatrigintanongentillion
+2811  EU: octosexagintaquadringentilliard
+2811  US: sestrigintanongentillion
+2814  EU: novensexagintaquadringentillion
+2814  US: septentrigintanongentillion
+2817  EU: novensexagintaquadringentilliard
+2817  US: octotrigintanongentillion
+2820  EU: septuagintaquadringentillion
+2820  US: noventrigintanongentillion
+2823  EU: septuagintaquadringentilliard
+2823  US: quadragintanongentillion
+2826  EU: unseptuagintaquadringentillion
+2826  US: unquadragintanongentillion
+2829  EU: unseptuagintaquadringentilliard
+2829  US: duoquadragintanongentillion
+2832  EU: duoseptuagintaquadringentillion
+2832  US: tresquadragintanongentillion
+2835  EU: duoseptuagintaquadringentilliard
+2835  US: quattuorquadragintanongentillion
+2838  EU: treseptuagintaquadringentillion
+2838  US: quinquaquadragintanongentillion
+2841  EU: treseptuagintaquadringentilliard
+2841  US: sesquadragintanongentillion
+2844  EU: quattuorseptuagintaquadringentillion
+2844  US: septenquadragintanongentillion
+2847  EU: quattuorseptuagintaquadringentilliard
+2847  US: octoquadragintanongentillion
+2850  EU: quinquaseptuagintaquadringentillion
+2850  US: novenquadragintanongentillion
+2853  EU: quinquaseptuagintaquadringentilliard
+2853  US: quinquagintanongentillion
+2856  EU: seseptuagintaquadringentillion
+2856  US: unquinquagintanongentillion
+2859  EU: seseptuagintaquadringentilliard
+2859  US: duoquinquagintanongentillion
+2862  EU: septenseptuagintaquadringentillion
+2862  US: tresquinquagintanongentillion
+2865  EU: septenseptuagintaquadringentilliard
+2865  US: quattuorquinquagintanongentillion
+2868  EU: octoseptuagintaquadringentillion
+2868  US: quinquaquinquagintanongentillion
+2871  EU: octoseptuagintaquadringentilliard
+2871  US: sesquinquagintanongentillion
+2874  EU: novenseptuagintaquadringentillion
+2874  US: septenquinquagintanongentillion
+2877  EU: novenseptuagintaquadringentilliard
+2877  US: octoquinquagintanongentillion
+2880  EU: octogintaquadringentillion
+2880  US: novenquinquagintanongentillion
+2883  EU: octogintaquadringentilliard
+2883  US: sexagintanongentillion
+2886  EU: unoctogintaquadringentillion
+2886  US: unsexagintanongentillion
+2889  EU: unoctogintaquadringentilliard
+2889  US: duosexagintanongentillion
+2892  EU: duooctogintaquadringentillion
+2892  US: tresexagintanongentillion
+2895  EU: duooctogintaquadringentilliard
+2895  US: quattuorsexagintanongentillion
+2898  EU: tresoctogintaquadringentillion
+2898  US: quinquasexagintanongentillion
+2901  EU: tresoctogintaquadringentilliard
+2901  US: sesexagintanongentillion
+2904  EU: quattuoroctogintaquadringentillion
+2904  US: septensexagintanongentillion
+2907  EU: quattuoroctogintaquadringentilliard
+2907  US: octosexagintanongentillion
+2910  EU: quinquaoctogintaquadringentillion
+2910  US: novensexagintanongentillion
+2913  EU: quinquaoctogintaquadringentilliard
+2913  US: septuagintanongentillion
+2916  EU: sexoctogintaquadringentillion
+2916  US: unseptuagintanongentillion
+2919  EU: sexoctogintaquadringentilliard
+2919  US: duoseptuagintanongentillion
+2922  EU: septemoctogintaquadringentillion
+2922  US: treseptuagintanongentillion
+2925  EU: septemoctogintaquadringentilliard
+2925  US: quattuorseptuagintanongentillion
+2928  EU: octooctogintaquadringentillion
+2928  US: quinquaseptuagintanongentillion
+2931  EU: octooctogintaquadringentilliard
+2931  US: seseptuagintanongentillion
+2934  EU: novemoctogintaquadringentillion
+2934  US: septenseptuagintanongentillion
+2937  EU: novemoctogintaquadringentilliard
+2937  US: octoseptuagintanongentillion
+2940  EU: nonagintaquadringentillion
+2940  US: novenseptuagintanongentillion
+2943  EU: nonagintaquadringentilliard
+2943  US: octogintanongentillion
+2946  EU: unnonagintaquadringentillion
+2946  US: unoctogintanongentillion
+2949  EU: unnonagintaquadringentilliard
+2949  US: duooctogintanongentillion
+2952  EU: duononagintaquadringentillion
+2952  US: tresoctogintanongentillion
+2955  EU: duononagintaquadringentilliard
+2955  US: quattuoroctogintanongentillion
+2958  EU: trenonagintaquadringentillion
+2958  US: quinquaoctogintanongentillion
+2961  EU: trenonagintaquadringentilliard
+2961  US: sexoctogintanongentillion
+2964  EU: quattuornonagintaquadringentillion
+2964  US: septemoctogintanongentillion
+2967  EU: quattuornonagintaquadringentilliard
+2967  US: octooctogintanongentillion
+2970  EU: quinquanonagintaquadringentillion
+2970  US: novemoctogintanongentillion
+2973  EU: quinquanonagintaquadringentilliard
+2973  US: nonagintanongentillion
+2976  EU: senonagintaquadringentillion
+2976  US: unnonagintanongentillion
+2979  EU: senonagintaquadringentilliard
+2979  US: duononagintanongentillion
+2982  EU: septenonagintaquadringentillion
+2982  US: trenonagintanongentillion
+2985  EU: septenonagintaquadringentilliard
+2985  US: quattuornonagintanongentillion
+2988  EU: octononagintaquadringentillion
+2988  US: quinquanonagintanongentillion
+2991  EU: octononagintaquadringentilliard
+2991  US: senonagintanongentillion
+2994  EU: novenonagintaquadringentillion
+2994  US: septenonagintanongentillion
+2997  EU: novenonagintaquadringentilliard
+2997  US: octononagintanongentillion
+Jump to n =
+6	100	250	500	1000	 
+ 	1500	2000	2500	3000	 
+3500	4000	4500	5000	5500	end
+
+   n  Naming of 10n
+==============================
+3000  EU: quingentillion
+3000  US: novenonagintanongentillion
+3003  EU: quingentilliard
+3006  EU: unquingentillion
+3009  EU: unquingentilliard
+3012  EU: duoquingentillion
+3015  EU: duoquingentilliard
+3018  EU: tresquingentillion
+3021  EU: tresquingentilliard
+3024  EU: quattuorquingentillion
+3027  EU: quattuorquingentilliard
+3030  EU: quinquaquingentillion
+3033  EU: quinquaquingentilliard
+3036  EU: sesquingentillion
+3039  EU: sesquingentilliard
+3042  EU: septenquingentillion
+3045  EU: septenquingentilliard
+3048  EU: octoquingentillion
+3051  EU: octoquingentilliard
+3054  EU: novenquingentillion
+3057  EU: novenquingentilliard
+3060  EU: deciquingentillion
+3063  EU: deciquingentilliard
+3066  EU: undeciquingentillion
+3069  EU: undeciquingentilliard
+3072  EU: duodeciquingentillion
+3075  EU: duodeciquingentilliard
+3078  EU: tredeciquingentillion
+3081  EU: tredeciquingentilliard
+3084  EU: quattuordeciquingentillion
+3087  EU: quattuordeciquingentilliard
+3090  EU: quinquadeciquingentillion
+3093  EU: quinquadeciquingentilliard
+3096  EU: sedeciquingentillion
+3099  EU: sedeciquingentilliard
+3102  EU: septendeciquingentillion
+3105  EU: septendeciquingentilliard
+3108  EU: octodeciquingentillion
+3111  EU: octodeciquingentilliard
+3114  EU: novendeciquingentillion
+3117  EU: novendeciquingentilliard
+3120  EU: vigintiquingentillion
+3123  EU: vigintiquingentilliard
+3126  EU: unvigintiquingentillion
+3129  EU: unvigintiquingentilliard
+3132  EU: duovigintiquingentillion
+3135  EU: duovigintiquingentilliard
+3138  EU: tresvigintiquingentillion
+3141  EU: tresvigintiquingentilliard
+3144  EU: quattuorvigintiquingentillion
+3147  EU: quattuorvigintiquingentilliard
+3150  EU: quinquavigintiquingentillion
+3153  EU: quinquavigintiquingentilliard
+3156  EU: sesvigintiquingentillion
+3159  EU: sesvigintiquingentilliard
+3162  EU: septemvigintiquingentillion
+3165  EU: septemvigintiquingentilliard
+3168  EU: octovigintiquingentillion
+3171  EU: octovigintiquingentilliard
+3174  EU: novemvigintiquingentillion
+3177  EU: novemvigintiquingentilliard
+3180  EU: trigintaquingentillion
+3183  EU: trigintaquingentilliard
+3186  EU: untrigintaquingentillion
+3189  EU: untrigintaquingentilliard
+3192  EU: duotrigintaquingentillion
+3195  EU: duotrigintaquingentilliard
+3198  EU: trestrigintaquingentillion
+3201  EU: trestrigintaquingentilliard
+3204  EU: quattuortrigintaquingentillion
+3207  EU: quattuortrigintaquingentilliard
+3210  EU: quinquatrigintaquingentillion
+3213  EU: quinquatrigintaquingentilliard
+3216  EU: sestrigintaquingentillion
+3219  EU: sestrigintaquingentilliard
+3222  EU: septentrigintaquingentillion
+3225  EU: septentrigintaquingentilliard
+3228  EU: octotrigintaquingentillion
+3231  EU: octotrigintaquingentilliard
+3234  EU: noventrigintaquingentillion
+3237  EU: noventrigintaquingentilliard
+3240  EU: quadragintaquingentillion
+3243  EU: quadragintaquingentilliard
+3246  EU: unquadragintaquingentillion
+3249  EU: unquadragintaquingentilliard
+3252  EU: duoquadragintaquingentillion
+3255  EU: duoquadragintaquingentilliard
+3258  EU: tresquadragintaquingentillion
+3261  EU: tresquadragintaquingentilliard
+3264  EU: quattuorquadragintaquingentillion
+3267  EU: quattuorquadragintaquingentilliard
+3270  EU: quinquaquadragintaquingentillion
+3273  EU: quinquaquadragintaquingentilliard
+3276  EU: sesquadragintaquingentillion
+3279  EU: sesquadragintaquingentilliard
+3282  EU: septenquadragintaquingentillion
+3285  EU: septenquadragintaquingentilliard
+3288  EU: octoquadragintaquingentillion
+3291  EU: octoquadragintaquingentilliard
+3294  EU: novenquadragintaquingentillion
+3297  EU: novenquadragintaquingentilliard
+3300  EU: quinquagintaquingentillion
+3303  EU: quinquagintaquingentilliard
+3306  EU: unquinquagintaquingentillion
+3309  EU: unquinquagintaquingentilliard
+3312  EU: duoquinquagintaquingentillion
+3315  EU: duoquinquagintaquingentilliard
+3318  EU: tresquinquagintaquingentillion
+3321  EU: tresquinquagintaquingentilliard
+3324  EU: quattuorquinquagintaquingentillion
+3327  EU: quattuorquinquagintaquingentilliard
+3330  EU: quinquaquinquagintaquingentillion
+3333  EU: quinquaquinquagintaquingentilliard
+3336  EU: sesquinquagintaquingentillion
+3339  EU: sesquinquagintaquingentilliard
+3342  EU: septenquinquagintaquingentillion
+3345  EU: septenquinquagintaquingentilliard
+3348  EU: octoquinquagintaquingentillion
+3351  EU: octoquinquagintaquingentilliard
+3354  EU: novenquinquagintaquingentillion
+3357  EU: novenquinquagintaquingentilliard
+3360  EU: sexagintaquingentillion
+3363  EU: sexagintaquingentilliard
+3366  EU: unsexagintaquingentillion
+3369  EU: unsexagintaquingentilliard
+3372  EU: duosexagintaquingentillion
+3375  EU: duosexagintaquingentilliard
+3378  EU: tresexagintaquingentillion
+3381  EU: tresexagintaquingentilliard
+3384  EU: quattuorsexagintaquingentillion
+3387  EU: quattuorsexagintaquingentilliard
+3390  EU: quinquasexagintaquingentillion
+3393  EU: quinquasexagintaquingentilliard
+3396  EU: sesexagintaquingentillion
+3399  EU: sesexagintaquingentilliard
+3402  EU: septensexagintaquingentillion
+3405  EU: septensexagintaquingentilliard
+3408  EU: octosexagintaquingentillion
+3411  EU: octosexagintaquingentilliard
+3414  EU: novensexagintaquingentillion
+3417  EU: novensexagintaquingentilliard
+3420  EU: septuagintaquingentillion
+3423  EU: septuagintaquingentilliard
+3426  EU: unseptuagintaquingentillion
+3429  EU: unseptuagintaquingentilliard
+3432  EU: duoseptuagintaquingentillion
+3435  EU: duoseptuagintaquingentilliard
+3438  EU: treseptuagintaquingentillion
+3441  EU: treseptuagintaquingentilliard
+3444  EU: quattuorseptuagintaquingentillion
+3447  EU: quattuorseptuagintaquingentilliard
+3450  EU: quinquaseptuagintaquingentillion
+3453  EU: quinquaseptuagintaquingentilliard
+3456  EU: seseptuagintaquingentillion
+3459  EU: seseptuagintaquingentilliard
+3462  EU: septenseptuagintaquingentillion
+3465  EU: septenseptuagintaquingentilliard
+3468  EU: octoseptuagintaquingentillion
+3471  EU: octoseptuagintaquingentilliard
+3474  EU: novenseptuagintaquingentillion
+3477  EU: novenseptuagintaquingentilliard
+3480  EU: octogintaquingentillion
+3483  EU: octogintaquingentilliard
+3486  EU: unoctogintaquingentillion
+3489  EU: unoctogintaquingentilliard
+3492  EU: duooctogintaquingentillion
+3495  EU: duooctogintaquingentilliard
+3498  EU: tresoctogintaquingentillion
+Jump to n =
+6	100	250	500	1000	 
+ 	1500	2000	2500	3000	 
+3500	4000	4500	5000	5500	end
+
+   n  Naming of 10n
+==============================
+3501  EU: tresoctogintaquingentilliard
+3504  EU: quattuoroctogintaquingentillion
+3507  EU: quattuoroctogintaquingentilliard
+3510  EU: quinquaoctogintaquingentillion
+3513  EU: quinquaoctogintaquingentilliard
+3516  EU: sexoctogintaquingentillion
+3519  EU: sexoctogintaquingentilliard
+3522  EU: septemoctogintaquingentillion
+3525  EU: septemoctogintaquingentilliard
+3528  EU: octooctogintaquingentillion
+3531  EU: octooctogintaquingentilliard
+3534  EU: novemoctogintaquingentillion
+3537  EU: novemoctogintaquingentilliard
+3540  EU: nonagintaquingentillion
+3543  EU: nonagintaquingentilliard
+3546  EU: unnonagintaquingentillion
+3549  EU: unnonagintaquingentilliard
+3552  EU: duononagintaquingentillion
+3555  EU: duononagintaquingentilliard
+3558  EU: trenonagintaquingentillion
+3561  EU: trenonagintaquingentilliard
+3564  EU: quattuornonagintaquingentillion
+3567  EU: quattuornonagintaquingentilliard
+3570  EU: quinquanonagintaquingentillion
+3573  EU: quinquanonagintaquingentilliard
+3576  EU: senonagintaquingentillion
+3579  EU: senonagintaquingentilliard
+3582  EU: septenonagintaquingentillion
+3585  EU: septenonagintaquingentilliard
+3588  EU: octononagintaquingentillion
+3591  EU: octononagintaquingentilliard
+3594  EU: novenonagintaquingentillion
+3597  EU: novenonagintaquingentilliard
+3600  EU: sescentillion
+3603  EU: sescentilliard
+3606  EU: unsescentillion
+3609  EU: unsescentilliard
+3612  EU: duosescentillion
+3615  EU: duosescentilliard
+3618  EU: tresescentillion
+3621  EU: tresescentilliard
+3624  EU: quattuorsescentillion
+3627  EU: quattuorsescentilliard
+3630  EU: quinquasescentillion
+3633  EU: quinquasescentilliard
+3636  EU: sesescentillion
+3639  EU: sesescentilliard
+3642  EU: septensescentillion
+3645  EU: septensescentilliard
+3648  EU: octosescentillion
+3651  EU: octosescentilliard
+3654  EU: novensescentillion
+3657  EU: novensescentilliard
+3660  EU: decisescentillion
+3663  EU: decisescentilliard
+3666  EU: undecisescentillion
+3669  EU: undecisescentilliard
+3672  EU: duodecisescentillion
+3675  EU: duodecisescentilliard
+3678  EU: tredecisescentillion
+3681  EU: tredecisescentilliard
+3684  EU: quattuordecisescentillion
+3687  EU: quattuordecisescentilliard
+3690  EU: quinquadecisescentillion
+3693  EU: quinquadecisescentilliard
+3696  EU: sedecisescentillion
+3699  EU: sedecisescentilliard
+3702  EU: septendecisescentillion
+3705  EU: septendecisescentilliard
+3708  EU: octodecisescentillion
+3711  EU: octodecisescentilliard
+3714  EU: novendecisescentillion
+3717  EU: novendecisescentilliard
+3720  EU: vigintisescentillion
+3723  EU: vigintisescentilliard
+3726  EU: unvigintisescentillion
+3729  EU: unvigintisescentilliard
+3732  EU: duovigintisescentillion
+3735  EU: duovigintisescentilliard
+3738  EU: tresvigintisescentillion
+3741  EU: tresvigintisescentilliard
+3744  EU: quattuorvigintisescentillion
+3747  EU: quattuorvigintisescentilliard
+3750  EU: quinquavigintisescentillion
+3753  EU: quinquavigintisescentilliard
+3756  EU: sesvigintisescentillion
+3759  EU: sesvigintisescentilliard
+3762  EU: septemvigintisescentillion
+3765  EU: septemvigintisescentilliard
+3768  EU: octovigintisescentillion
+3771  EU: octovigintisescentilliard
+3774  EU: novemvigintisescentillion
+3777  EU: novemvigintisescentilliard
+3780  EU: trigintasescentillion
+3783  EU: trigintasescentilliard
+3786  EU: untrigintasescentillion
+3789  EU: untrigintasescentilliard
+3792  EU: duotrigintasescentillion
+3795  EU: duotrigintasescentilliard
+3798  EU: trestrigintasescentillion
+3801  EU: trestrigintasescentilliard
+3804  EU: quattuortrigintasescentillion
+3807  EU: quattuortrigintasescentilliard
+3810  EU: quinquatrigintasescentillion
+3813  EU: quinquatrigintasescentilliard
+3816  EU: sestrigintasescentillion
+3819  EU: sestrigintasescentilliard
+3822  EU: septentrigintasescentillion
+3825  EU: septentrigintasescentilliard
+3828  EU: octotrigintasescentillion
+3831  EU: octotrigintasescentilliard
+3834  EU: noventrigintasescentillion
+3837  EU: noventrigintasescentilliard
+3840  EU: quadragintasescentillion
+3843  EU: quadragintasescentilliard
+3846  EU: unquadragintasescentillion
+3849  EU: unquadragintasescentilliard
+3852  EU: duoquadragintasescentillion
+3855  EU: duoquadragintasescentilliard
+3858  EU: tresquadragintasescentillion
+3861  EU: tresquadragintasescentilliard
+3864  EU: quattuorquadragintasescentillion
+3867  EU: quattuorquadragintasescentilliard
+3870  EU: quinquaquadragintasescentillion
+3873  EU: quinquaquadragintasescentilliard
+3876  EU: sesquadragintasescentillion
+3879  EU: sesquadragintasescentilliard
+3882  EU: septenquadragintasescentillion
+3885  EU: septenquadragintasescentilliard
+3888  EU: octoquadragintasescentillion
+3891  EU: octoquadragintasescentilliard
+3894  EU: novenquadragintasescentillion
+3897  EU: novenquadragintasescentilliard
+3900  EU: quinquagintasescentillion
+3903  EU: quinquagintasescentilliard
+3906  EU: unquinquagintasescentillion
+3909  EU: unquinquagintasescentilliard
+3912  EU: duoquinquagintasescentillion
+3915  EU: duoquinquagintasescentilliard
+3918  EU: tresquinquagintasescentillion
+3921  EU: tresquinquagintasescentilliard
+3924  EU: quattuorquinquagintasescentillion
+3927  EU: quattuorquinquagintasescentilliard
+3930  EU: quinquaquinquagintasescentillion
+3933  EU: quinquaquinquagintasescentilliard
+3936  EU: sesquinquagintasescentillion
+3939  EU: sesquinquagintasescentilliard
+3942  EU: septenquinquagintasescentillion
+3945  EU: septenquinquagintasescentilliard
+3948  EU: octoquinquagintasescentillion
+3951  EU: octoquinquagintasescentilliard
+3954  EU: novenquinquagintasescentillion
+3957  EU: novenquinquagintasescentilliard
+3960  EU: sexagintasescentillion
+3963  EU: sexagintasescentilliard
+3966  EU: unsexagintasescentillion
+3969  EU: unsexagintasescentilliard
+3972  EU: duosexagintasescentillion
+3975  EU: duosexagintasescentilliard
+3978  EU: tresexagintasescentillion
+3981  EU: tresexagintasescentilliard
+3984  EU: quattuorsexagintasescentillion
+3987  EU: quattuorsexagintasescentilliard
+3990  EU: quinquasexagintasescentillion
+3993  EU: quinquasexagintasescentilliard
+3996  EU: sesexagintasescentillion
+3999  EU: sesexagintasescentilliard
+Jump to n =
+6	100	250	500	1000	 
+ 	1500	2000	2500	3000	 
+3500	4000	4500	5000	5500	end
+
+   n  Naming of 10n
+==============================
+4002  EU: septensexagintasescentillion
+4005  EU: septensexagintasescentilliard
+4008  EU: octosexagintasescentillion
+4011  EU: octosexagintasescentilliard
+4014  EU: novensexagintasescentillion
+4017  EU: novensexagintasescentilliard
+4020  EU: septuagintasescentillion
+4023  EU: septuagintasescentilliard
+4026  EU: unseptuagintasescentillion
+4029  EU: unseptuagintasescentilliard
+4032  EU: duoseptuagintasescentillion
+4035  EU: duoseptuagintasescentilliard
+4038  EU: treseptuagintasescentillion
+4041  EU: treseptuagintasescentilliard
+4044  EU: quattuorseptuagintasescentillion
+4047  EU: quattuorseptuagintasescentilliard
+4050  EU: quinquaseptuagintasescentillion
+4053  EU: quinquaseptuagintasescentilliard
+4056  EU: seseptuagintasescentillion
+4059  EU: seseptuagintasescentilliard
+4062  EU: septenseptuagintasescentillion
+4065  EU: septenseptuagintasescentilliard
+4068  EU: octoseptuagintasescentillion
+4071  EU: octoseptuagintasescentilliard
+4074  EU: novenseptuagintasescentillion
+4077  EU: novenseptuagintasescentilliard
+4080  EU: octogintasescentillion
+4083  EU: octogintasescentilliard
+4086  EU: unoctogintasescentillion
+4089  EU: unoctogintasescentilliard
+4092  EU: duooctogintasescentillion
+4095  EU: duooctogintasescentilliard
+4098  EU: tresoctogintasescentillion
+4101  EU: tresoctogintasescentilliard
+4104  EU: quattuoroctogintasescentillion
+4107  EU: quattuoroctogintasescentilliard
+4110  EU: quinquaoctogintasescentillion
+4113  EU: quinquaoctogintasescentilliard
+4116  EU: sexoctogintasescentillion
+4119  EU: sexoctogintasescentilliard
+4122  EU: septemoctogintasescentillion
+4125  EU: septemoctogintasescentilliard
+4128  EU: octooctogintasescentillion
+4131  EU: octooctogintasescentilliard
+4134  EU: novemoctogintasescentillion
+4137  EU: novemoctogintasescentilliard
+4140  EU: nonagintasescentillion
+4143  EU: nonagintasescentilliard
+4146  EU: unnonagintasescentillion
+4149  EU: unnonagintasescentilliard
+4152  EU: duononagintasescentillion
+4155  EU: duononagintasescentilliard
+4158  EU: trenonagintasescentillion
+4161  EU: trenonagintasescentilliard
+4164  EU: quattuornonagintasescentillion
+4167  EU: quattuornonagintasescentilliard
+4170  EU: quinquanonagintasescentillion
+4173  EU: quinquanonagintasescentilliard
+4176  EU: senonagintasescentillion
+4179  EU: senonagintasescentilliard
+4182  EU: septenonagintasescentillion
+4185  EU: septenonagintasescentilliard
+4188  EU: octononagintasescentillion
+4191  EU: octononagintasescentilliard
+4194  EU: novenonagintasescentillion
+4197  EU: novenonagintasescentilliard
+4200  EU: septingentillion
+4203  EU: septingentilliard
+4206  EU: unseptingentillion
+4209  EU: unseptingentilliard
+4212  EU: duoseptingentillion
+4215  EU: duoseptingentilliard
+4218  EU: treseptingentillion
+4221  EU: treseptingentilliard
+4224  EU: quattuorseptingentillion
+4227  EU: quattuorseptingentilliard
+4230  EU: quinquaseptingentillion
+4233  EU: quinquaseptingentilliard
+4236  EU: seseptingentillion
+4239  EU: seseptingentilliard
+4242  EU: septenseptingentillion
+4245  EU: septenseptingentilliard
+4248  EU: octoseptingentillion
+4251  EU: octoseptingentilliard
+4254  EU: novenseptingentillion
+4257  EU: novenseptingentilliard
+4260  EU: deciseptingentillion
+4263  EU: deciseptingentilliard
+4266  EU: undeciseptingentillion
+4269  EU: undeciseptingentilliard
+4272  EU: duodeciseptingentillion
+4275  EU: duodeciseptingentilliard
+4278  EU: tredeciseptingentillion
+4281  EU: tredeciseptingentilliard
+4284  EU: quattuordeciseptingentillion
+4287  EU: quattuordeciseptingentilliard
+4290  EU: quinquadeciseptingentillion
+4293  EU: quinquadeciseptingentilliard
+4296  EU: sedeciseptingentillion
+4299  EU: sedeciseptingentilliard
+4302  EU: septendeciseptingentillion
+4305  EU: septendeciseptingentilliard
+4308  EU: octodeciseptingentillion
+4311  EU: octodeciseptingentilliard
+4314  EU: novendeciseptingentillion
+4317  EU: novendeciseptingentilliard
+4320  EU: vigintiseptingentillion
+4323  EU: vigintiseptingentilliard
+4326  EU: unvigintiseptingentillion
+4329  EU: unvigintiseptingentilliard
+4332  EU: duovigintiseptingentillion
+4335  EU: duovigintiseptingentilliard
+4338  EU: tresvigintiseptingentillion
+4341  EU: tresvigintiseptingentilliard
+4344  EU: quattuorvigintiseptingentillion
+4347  EU: quattuorvigintiseptingentilliard
+4350  EU: quinquavigintiseptingentillion
+4353  EU: quinquavigintiseptingentilliard
+4356  EU: sesvigintiseptingentillion
+4359  EU: sesvigintiseptingentilliard
+4362  EU: septemvigintiseptingentillion
+4365  EU: septemvigintiseptingentilliard
+4368  EU: octovigintiseptingentillion
+4371  EU: octovigintiseptingentilliard
+4374  EU: novemvigintiseptingentillion
+4377  EU: novemvigintiseptingentilliard
+4380  EU: trigintaseptingentillion
+4383  EU: trigintaseptingentilliard
+4386  EU: untrigintaseptingentillion
+4389  EU: untrigintaseptingentilliard
+4392  EU: duotrigintaseptingentillion
+4395  EU: duotrigintaseptingentilliard
+4398  EU: trestrigintaseptingentillion
+4401  EU: trestrigintaseptingentilliard
+4404  EU: quattuortrigintaseptingentillion
+4407  EU: quattuortrigintaseptingentilliard
+4410  EU: quinquatrigintaseptingentillion
+4413  EU: quinquatrigintaseptingentilliard
+4416  EU: sestrigintaseptingentillion
+4419  EU: sestrigintaseptingentilliard
+4422  EU: septentrigintaseptingentillion
+4425  EU: septentrigintaseptingentilliard
+4428  EU: octotrigintaseptingentillion
+4431  EU: octotrigintaseptingentilliard
+4434  EU: noventrigintaseptingentillion
+4437  EU: noventrigintaseptingentilliard
+4440  EU: quadragintaseptingentillion
+4443  EU: quadragintaseptingentilliard
+4446  EU: unquadragintaseptingentillion
+4449  EU: unquadragintaseptingentilliard
+4452  EU: duoquadragintaseptingentillion
+4455  EU: duoquadragintaseptingentilliard
+4458  EU: tresquadragintaseptingentillion
+4461  EU: tresquadragintaseptingentilliard
+4464  EU: quattuorquadragintaseptingentillion
+4467  EU: quattuorquadragintaseptingentilliard
+4470  EU: quinquaquadragintaseptingentillion
+4473  EU: quinquaquadragintaseptingentilliard
+4476  EU: sesquadragintaseptingentillion
+4479  EU: sesquadragintaseptingentilliard
+4482  EU: septenquadragintaseptingentillion
+4485  EU: septenquadragintaseptingentilliard
+4488  EU: octoquadragintaseptingentillion
+4491  EU: octoquadragintaseptingentilliard
+4494  EU: novenquadragintaseptingentillion
+4497  EU: novenquadragintaseptingentilliard
+Jump to n =
+6	100	250	500	1000	 
+ 	1500	2000	2500	3000	 
+3500	4000	4500	5000	5500	end
+
+   n  Naming of 10n
+==============================
+4500  EU: quinquagintaseptingentillion
+4503  EU: quinquagintaseptingentilliard
+4506  EU: unquinquagintaseptingentillion
+4509  EU: unquinquagintaseptingentilliard
+4512  EU: duoquinquagintaseptingentillion
+4515  EU: duoquinquagintaseptingentilliard
+4518  EU: tresquinquagintaseptingentillion
+4521  EU: tresquinquagintaseptingentilliard
+4524  EU: quattuorquinquagintaseptingentillion
+4527  EU: quattuorquinquagintaseptingentilliard
+4530  EU: quinquaquinquagintaseptingentillion
+4533  EU: quinquaquinquagintaseptingentilliard
+4536  EU: sesquinquagintaseptingentillion
+4539  EU: sesquinquagintaseptingentilliard
+4542  EU: septenquinquagintaseptingentillion
+4545  EU: septenquinquagintaseptingentilliard
+4548  EU: octoquinquagintaseptingentillion
+4551  EU: octoquinquagintaseptingentilliard
+4554  EU: novenquinquagintaseptingentillion
+4557  EU: novenquinquagintaseptingentilliard
+4560  EU: sexagintaseptingentillion
+4563  EU: sexagintaseptingentilliard
+4566  EU: unsexagintaseptingentillion
+4569  EU: unsexagintaseptingentilliard
+4572  EU: duosexagintaseptingentillion
+4575  EU: duosexagintaseptingentilliard
+4578  EU: tresexagintaseptingentillion
+4581  EU: tresexagintaseptingentilliard
+4584  EU: quattuorsexagintaseptingentillion
+4587  EU: quattuorsexagintaseptingentilliard
+4590  EU: quinquasexagintaseptingentillion
+4593  EU: quinquasexagintaseptingentilliard
+4596  EU: sesexagintaseptingentillion
+4599  EU: sesexagintaseptingentilliard
+4602  EU: septensexagintaseptingentillion
+4605  EU: septensexagintaseptingentilliard
+4608  EU: octosexagintaseptingentillion
+4611  EU: octosexagintaseptingentilliard
+4614  EU: novensexagintaseptingentillion
+4617  EU: novensexagintaseptingentilliard
+4620  EU: septuagintaseptingentillion
+4623  EU: septuagintaseptingentilliard
+4626  EU: unseptuagintaseptingentillion
+4629  EU: unseptuagintaseptingentilliard
+4632  EU: duoseptuagintaseptingentillion
+4635  EU: duoseptuagintaseptingentilliard
+4638  EU: treseptuagintaseptingentillion
+4641  EU: treseptuagintaseptingentilliard
+4644  EU: quattuorseptuagintaseptingentillion
+4647  EU: quattuorseptuagintaseptingentilliard
+4650  EU: quinquaseptuagintaseptingentillion
+4653  EU: quinquaseptuagintaseptingentilliard
+4656  EU: seseptuagintaseptingentillion
+4659  EU: seseptuagintaseptingentilliard
+4662  EU: septenseptuagintaseptingentillion
+4665  EU: septenseptuagintaseptingentilliard
+4668  EU: octoseptuagintaseptingentillion
+4671  EU: octoseptuagintaseptingentilliard
+4674  EU: novenseptuagintaseptingentillion
+4677  EU: novenseptuagintaseptingentilliard
+4680  EU: octogintaseptingentillion
+4683  EU: octogintaseptingentilliard
+4686  EU: unoctogintaseptingentillion
+4689  EU: unoctogintaseptingentilliard
+4692  EU: duooctogintaseptingentillion
+4695  EU: duooctogintaseptingentilliard
+4698  EU: tresoctogintaseptingentillion
+4701  EU: tresoctogintaseptingentilliard
+4704  EU: quattuoroctogintaseptingentillion
+4707  EU: quattuoroctogintaseptingentilliard
+4710  EU: quinquaoctogintaseptingentillion
+4713  EU: quinquaoctogintaseptingentilliard
+4716  EU: sexoctogintaseptingentillion
+4719  EU: sexoctogintaseptingentilliard
+4722  EU: septemoctogintaseptingentillion
+4725  EU: septemoctogintaseptingentilliard
+4728  EU: octooctogintaseptingentillion
+4731  EU: octooctogintaseptingentilliard
+4734  EU: novemoctogintaseptingentillion
+4737  EU: novemoctogintaseptingentilliard
+4740  EU: nonagintaseptingentillion
+4743  EU: nonagintaseptingentilliard
+4746  EU: unnonagintaseptingentillion
+4749  EU: unnonagintaseptingentilliard
+4752  EU: duononagintaseptingentillion
+4755  EU: duononagintaseptingentilliard
+4758  EU: trenonagintaseptingentillion
+4761  EU: trenonagintaseptingentilliard
+4764  EU: quattuornonagintaseptingentillion
+4767  EU: quattuornonagintaseptingentilliard
+4770  EU: quinquanonagintaseptingentillion
+4773  EU: quinquanonagintaseptingentilliard
+4776  EU: senonagintaseptingentillion
+4779  EU: senonagintaseptingentilliard
+4782  EU: septenonagintaseptingentillion
+4785  EU: septenonagintaseptingentilliard
+4788  EU: octononagintaseptingentillion
+4791  EU: octononagintaseptingentilliard
+4794  EU: novenonagintaseptingentillion
+4797  EU: novenonagintaseptingentilliard
+4800  EU: octingentillion
+4803  EU: octingentilliard
+4806  EU: unoctingentillion
+4809  EU: unoctingentilliard
+4812  EU: duooctingentillion
+4815  EU: duooctingentilliard
+4818  EU: tresoctingentillion
+4821  EU: tresoctingentilliard
+4824  EU: quattuoroctingentillion
+4827  EU: quattuoroctingentilliard
+4830  EU: quinquaoctingentillion
+4833  EU: quinquaoctingentilliard
+4836  EU: sexoctingentillion
+4839  EU: sexoctingentilliard
+4842  EU: septemoctingentillion
+4845  EU: septemoctingentilliard
+4848  EU: octooctingentillion
+4851  EU: octooctingentilliard
+4854  EU: novemoctingentillion
+4857  EU: novemoctingentilliard
+4860  EU: decioctingentillion
+4863  EU: decioctingentilliard
+4866  EU: undecioctingentillion
+4869  EU: undecioctingentilliard
+4872  EU: duodecioctingentillion
+4875  EU: duodecioctingentilliard
+4878  EU: tredecioctingentillion
+4881  EU: tredecioctingentilliard
+4884  EU: quattuordecioctingentillion
+4887  EU: quattuordecioctingentilliard
+4890  EU: quinquadecioctingentillion
+4893  EU: quinquadecioctingentilliard
+4896  EU: sedecioctingentillion
+4899  EU: sedecioctingentilliard
+4902  EU: septendecioctingentillion
+4905  EU: septendecioctingentilliard
+4908  EU: octodecioctingentillion
+4911  EU: octodecioctingentilliard
+4914  EU: novendecioctingentillion
+4917  EU: novendecioctingentilliard
+4920  EU: vigintioctingentillion
+4923  EU: vigintioctingentilliard
+4926  EU: unvigintioctingentillion
+4929  EU: unvigintioctingentilliard
+4932  EU: duovigintioctingentillion
+4935  EU: duovigintioctingentilliard
+4938  EU: tresvigintioctingentillion
+4941  EU: tresvigintioctingentilliard
+4944  EU: quattuorvigintioctingentillion
+4947  EU: quattuorvigintioctingentilliard
+4950  EU: quinquavigintioctingentillion
+4953  EU: quinquavigintioctingentilliard
+4956  EU: sesvigintioctingentillion
+4959  EU: sesvigintioctingentilliard
+4962  EU: septemvigintioctingentillion
+4965  EU: septemvigintioctingentilliard
+4968  EU: octovigintioctingentillion
+4971  EU: octovigintioctingentilliard
+4974  EU: novemvigintioctingentillion
+4977  EU: novemvigintioctingentilliard
+4980  EU: trigintaoctingentillion
+4983  EU: trigintaoctingentilliard
+4986  EU: untrigintaoctingentillion
+4989  EU: untrigintaoctingentilliard
+4992  EU: duotrigintaoctingentillion
+4995  EU: duotrigintaoctingentilliard
+4998  EU: trestrigintaoctingentillion
+Jump to n =
+6	100	250	500	1000	 
+ 	1500	2000	2500	3000	 
+3500	4000	4500	5000	5500	end
+
+   n  Naming of 10n
+==============================
+5001  EU: trestrigintaoctingentilliard
+5004  EU: quattuortrigintaoctingentillion
+5007  EU: quattuortrigintaoctingentilliard
+5010  EU: quinquatrigintaoctingentillion
+5013  EU: quinquatrigintaoctingentilliard
+5016  EU: sestrigintaoctingentillion
+5019  EU: sestrigintaoctingentilliard
+5022  EU: septentrigintaoctingentillion
+5025  EU: septentrigintaoctingentilliard
+5028  EU: octotrigintaoctingentillion
+5031  EU: octotrigintaoctingentilliard
+5034  EU: noventrigintaoctingentillion
+5037  EU: noventrigintaoctingentilliard
+5040  EU: quadragintaoctingentillion
+5043  EU: quadragintaoctingentilliard
+5046  EU: unquadragintaoctingentillion
+5049  EU: unquadragintaoctingentilliard
+5052  EU: duoquadragintaoctingentillion
+5055  EU: duoquadragintaoctingentilliard
+5058  EU: tresquadragintaoctingentillion
+5061  EU: tresquadragintaoctingentilliard
+5064  EU: quattuorquadragintaoctingentillion
+5067  EU: quattuorquadragintaoctingentilliard
+5070  EU: quinquaquadragintaoctingentillion
+5073  EU: quinquaquadragintaoctingentilliard
+5076  EU: sesquadragintaoctingentillion
+5079  EU: sesquadragintaoctingentilliard
+5082  EU: septenquadragintaoctingentillion
+5085  EU: septenquadragintaoctingentilliard
+5088  EU: octoquadragintaoctingentillion
+5091  EU: octoquadragintaoctingentilliard
+5094  EU: novenquadragintaoctingentillion
+5097  EU: novenquadragintaoctingentilliard
+5100  EU: quinquagintaoctingentillion
+5103  EU: quinquagintaoctingentilliard
+5106  EU: unquinquagintaoctingentillion
+5109  EU: unquinquagintaoctingentilliard
+5112  EU: duoquinquagintaoctingentillion
+5115  EU: duoquinquagintaoctingentilliard
+5118  EU: tresquinquagintaoctingentillion
+5121  EU: tresquinquagintaoctingentilliard
+5124  EU: quattuorquinquagintaoctingentillion
+5127  EU: quattuorquinquagintaoctingentilliard
+5130  EU: quinquaquinquagintaoctingentillion
+5133  EU: quinquaquinquagintaoctingentilliard
+5136  EU: sesquinquagintaoctingentillion
+5139  EU: sesquinquagintaoctingentilliard
+5142  EU: septenquinquagintaoctingentillion
+5145  EU: septenquinquagintaoctingentilliard
+5148  EU: octoquinquagintaoctingentillion
+5151  EU: octoquinquagintaoctingentilliard
+5154  EU: novenquinquagintaoctingentillion
+5157  EU: novenquinquagintaoctingentilliard
+5160  EU: sexagintaoctingentillion
+5163  EU: sexagintaoctingentilliard
+5166  EU: unsexagintaoctingentillion
+5169  EU: unsexagintaoctingentilliard
+5172  EU: duosexagintaoctingentillion
+5175  EU: duosexagintaoctingentilliard
+5178  EU: tresexagintaoctingentillion
+5181  EU: tresexagintaoctingentilliard
+5184  EU: quattuorsexagintaoctingentillion
+5187  EU: quattuorsexagintaoctingentilliard
+5190  EU: quinquasexagintaoctingentillion
+5193  EU: quinquasexagintaoctingentilliard
+5196  EU: sesexagintaoctingentillion
+5199  EU: sesexagintaoctingentilliard
+5202  EU: septensexagintaoctingentillion
+5205  EU: septensexagintaoctingentilliard
+5208  EU: octosexagintaoctingentillion
+5211  EU: octosexagintaoctingentilliard
+5214  EU: novensexagintaoctingentillion
+5217  EU: novensexagintaoctingentilliard
+5220  EU: septuagintaoctingentillion
+5223  EU: septuagintaoctingentilliard
+5226  EU: unseptuagintaoctingentillion
+5229  EU: unseptuagintaoctingentilliard
+5232  EU: duoseptuagintaoctingentillion
+5235  EU: duoseptuagintaoctingentilliard
+5238  EU: treseptuagintaoctingentillion
+5241  EU: treseptuagintaoctingentilliard
+5244  EU: quattuorseptuagintaoctingentillion
+5247  EU: quattuorseptuagintaoctingentilliard
+5250  EU: quinquaseptuagintaoctingentillion
+5253  EU: quinquaseptuagintaoctingentilliard
+5256  EU: seseptuagintaoctingentillion
+5259  EU: seseptuagintaoctingentilliard
+5262  EU: septenseptuagintaoctingentillion
+5265  EU: septenseptuagintaoctingentilliard
+5268  EU: octoseptuagintaoctingentillion
+5271  EU: octoseptuagintaoctingentilliard
+5274  EU: novenseptuagintaoctingentillion
+5277  EU: novenseptuagintaoctingentilliard
+5280  EU: octogintaoctingentillion
+5283  EU: octogintaoctingentilliard
+5286  EU: unoctogintaoctingentillion
+5289  EU: unoctogintaoctingentilliard
+5292  EU: duooctogintaoctingentillion
+5295  EU: duooctogintaoctingentilliard
+5298  EU: tresoctogintaoctingentillion
+5301  EU: tresoctogintaoctingentilliard
+5304  EU: quattuoroctogintaoctingentillion
+5307  EU: quattuoroctogintaoctingentilliard
+5310  EU: quinquaoctogintaoctingentillion
+5313  EU: quinquaoctogintaoctingentilliard
+5316  EU: sexoctogintaoctingentillion
+5319  EU: sexoctogintaoctingentilliard
+5322  EU: septemoctogintaoctingentillion
+5325  EU: septemoctogintaoctingentilliard
+5328  EU: octooctogintaoctingentillion
+5331  EU: octooctogintaoctingentilliard
+5334  EU: novemoctogintaoctingentillion
+5337  EU: novemoctogintaoctingentilliard
+5340  EU: nonagintaoctingentillion
+5343  EU: nonagintaoctingentilliard
+5346  EU: unnonagintaoctingentillion
+5349  EU: unnonagintaoctingentilliard
+5352  EU: duononagintaoctingentillion
+5355  EU: duononagintaoctingentilliard
+5358  EU: trenonagintaoctingentillion
+5361  EU: trenonagintaoctingentilliard
+5364  EU: quattuornonagintaoctingentillion
+5367  EU: quattuornonagintaoctingentilliard
+5370  EU: quinquanonagintaoctingentillion
+5373  EU: quinquanonagintaoctingentilliard
+5376  EU: senonagintaoctingentillion
+5379  EU: senonagintaoctingentilliard
+5382  EU: septenonagintaoctingentillion
+5385  EU: septenonagintaoctingentilliard
+5388  EU: octononagintaoctingentillion
+5391  EU: octononagintaoctingentilliard
+5394  EU: novenonagintaoctingentillion
+5397  EU: novenonagintaoctingentilliard
+5400  EU: nongentillion
+5403  EU: nongentilliard
+5406  EU: unnongentillion
+5409  EU: unnongentilliard
+5412  EU: duonongentillion
+5415  EU: duonongentilliard
+5418  EU: trenongentillion
+5421  EU: trenongentilliard
+5424  EU: quattuornongentillion
+5427  EU: quattuornongentilliard
+5430  EU: quinquanongentillion
+5433  EU: quinquanongentilliard
+5436  EU: senongentillion
+5439  EU: senongentilliard
+5442  EU: septenongentillion
+5445  EU: septenongentilliard
+5448  EU: octonongentillion
+5451  EU: octonongentilliard
+5454  EU: novenongentillion
+5457  EU: novenongentilliard
+5460  EU: decinongentillion
+5463  EU: decinongentilliard
+5466  EU: undecinongentillion
+5469  EU: undecinongentilliard
+5472  EU: duodecinongentillion
+5475  EU: duodecinongentilliard
+5478  EU: tredecinongentillion
+5481  EU: tredecinongentilliard
+5484  EU: quattuordecinongentillion
+5487  EU: quattuordecinongentilliard
+5490  EU: quinquadecinongentillion
+5493  EU: quinquadecinongentilliard
+5496  EU: sedecinongentillion
+5499  EU: sedecinongentilliard
+Jump to n =
+6	100	250	500	1000	 
+ 	1500	2000	2500	3000	 
+3500	4000	4500	5000	5500	end
+
+   n  Naming of 10n
+==============================
+5502  EU: septendecinongentillion
+5505  EU: septendecinongentilliard
+5508  EU: octodecinongentillion
+5511  EU: octodecinongentilliard
+5514  EU: novendecinongentillion
+5517  EU: novendecinongentilliard
+5520  EU: vigintinongentillion
+5523  EU: vigintinongentilliard
+5526  EU: unvigintinongentillion
+5529  EU: unvigintinongentilliard
+5532  EU: duovigintinongentillion
+5535  EU: duovigintinongentilliard
+5538  EU: tresvigintinongentillion
+5541  EU: tresvigintinongentilliard
+5544  EU: quattuorvigintinongentillion
+5547  EU: quattuorvigintinongentilliard
+5550  EU: quinquavigintinongentillion
+5553  EU: quinquavigintinongentilliard
+5556  EU: sesvigintinongentillion
+5559  EU: sesvigintinongentilliard
+5562  EU: septemvigintinongentillion
+5565  EU: septemvigintinongentilliard
+5568  EU: octovigintinongentillion
+5571  EU: octovigintinongentilliard
+5574  EU: novemvigintinongentillion
+5577  EU: novemvigintinongentilliard
+5580  EU: trigintanongentillion
+5583  EU: trigintanongentilliard
+5586  EU: untrigintanongentillion
+5589  EU: untrigintanongentilliard
+5592  EU: duotrigintanongentillion
+5595  EU: duotrigintanongentilliard
+5598  EU: trestrigintanongentillion
+5601  EU: trestrigintanongentilliard
+5604  EU: quattuortrigintanongentillion
+5607  EU: quattuortrigintanongentilliard
+5610  EU: quinquatrigintanongentillion
+5613  EU: quinquatrigintanongentilliard
+5616  EU: sestrigintanongentillion
+5619  EU: sestrigintanongentilliard
+5622  EU: septentrigintanongentillion
+5625  EU: septentrigintanongentilliard
+5628  EU: octotrigintanongentillion
+5631  EU: octotrigintanongentilliard
+5634  EU: noventrigintanongentillion
+5637  EU: noventrigintanongentilliard
+5640  EU: quadragintanongentillion
+5643  EU: quadragintanongentilliard
+5646  EU: unquadragintanongentillion
+5649  EU: unquadragintanongentilliard
+5652  EU: duoquadragintanongentillion
+5655  EU: duoquadragintanongentilliard
+5658  EU: tresquadragintanongentillion
+5661  EU: tresquadragintanongentilliard
+5664  EU: quattuorquadragintanongentillion
+5667  EU: quattuorquadragintanongentilliard
+5670  EU: quinquaquadragintanongentillion
+5673  EU: quinquaquadragintanongentilliard
+5676  EU: sesquadragintanongentillion
+5679  EU: sesquadragintanongentilliard
+5682  EU: septenquadragintanongentillion
+5685  EU: septenquadragintanongentilliard
+5688  EU: octoquadragintanongentillion
+5691  EU: octoquadragintanongentilliard
+5694  EU: novenquadragintanongentillion
+5697  EU: novenquadragintanongentilliard
+5700  EU: quinquagintanongentillion
+5703  EU: quinquagintanongentilliard
+5706  EU: unquinquagintanongentillion
+5709  EU: unquinquagintanongentilliard
+5712  EU: duoquinquagintanongentillion
+5715  EU: duoquinquagintanongentilliard
+5718  EU: tresquinquagintanongentillion
+5721  EU: tresquinquagintanongentilliard
+5724  EU: quattuorquinquagintanongentillion
+5727  EU: quattuorquinquagintanongentilliard
+5730  EU: quinquaquinquagintanongentillion
+5733  EU: quinquaquinquagintanongentilliard
+5736  EU: sesquinquagintanongentillion
+5739  EU: sesquinquagintanongentilliard
+5742  EU: septenquinquagintanongentillion
+5745  EU: septenquinquagintanongentilliard
+5748  EU: octoquinquagintanongentillion
+5751  EU: octoquinquagintanongentilliard
+5754  EU: novenquinquagintanongentillion
+5757  EU: novenquinquagintanongentilliard
+5760  EU: sexagintanongentillion
+5763  EU: sexagintanongentilliard
+5766  EU: unsexagintanongentillion
+5769  EU: unsexagintanongentilliard
+5772  EU: duosexagintanongentillion
+5775  EU: duosexagintanongentilliard
+5778  EU: tresexagintanongentillion
+5781  EU: tresexagintanongentilliard
+5784  EU: quattuorsexagintanongentillion
+5787  EU: quattuorsexagintanongentilliard
+5790  EU: quinquasexagintanongentillion
+5793  EU: quinquasexagintanongentilliard
+5796  EU: sesexagintanongentillion
+5799  EU: sesexagintanongentilliard
+5802  EU: septensexagintanongentillion
+5805  EU: septensexagintanongentilliard
+5808  EU: octosexagintanongentillion
+5811  EU: octosexagintanongentilliard
+5814  EU: novensexagintanongentillion
+5817  EU: novensexagintanongentilliard
+5820  EU: septuagintanongentillion
+5823  EU: septuagintanongentilliard
+5826  EU: unseptuagintanongentillion
+5829  EU: unseptuagintanongentilliard
+5832  EU: duoseptuagintanongentillion
+5835  EU: duoseptuagintanongentilliard
+5838  EU: treseptuagintanongentillion
+5841  EU: treseptuagintanongentilliard
+5844  EU: quattuorseptuagintanongentillion
+5847  EU: quattuorseptuagintanongentilliard
+5850  EU: quinquaseptuagintanongentillion
+5853  EU: quinquaseptuagintanongentilliard
+5856  EU: seseptuagintanongentillion
+5859  EU: seseptuagintanongentilliard
+5862  EU: septenseptuagintanongentillion
+5865  EU: septenseptuagintanongentilliard
+5868  EU: octoseptuagintanongentillion
+5871  EU: octoseptuagintanongentilliard
+5874  EU: novenseptuagintanongentillion
+5877  EU: novenseptuagintanongentilliard
+5880  EU: octogintanongentillion
+5883  EU: octogintanongentilliard
+5886  EU: unoctogintanongentillion
+5889  EU: unoctogintanongentilliard
+5892  EU: duooctogintanongentillion
+5895  EU: duooctogintanongentilliard
+5898  EU: tresoctogintanongentillion
+5901  EU: tresoctogintanongentilliard
+5904  EU: quattuoroctogintanongentillion
+5907  EU: quattuoroctogintanongentilliard
+5910  EU: quinquaoctogintanongentillion
+5913  EU: quinquaoctogintanongentilliard
+5916  EU: sexoctogintanongentillion
+5919  EU: sexoctogintanongentilliard
+5922  EU: septemoctogintanongentillion
+5925  EU: septemoctogintanongentilliard
+5928  EU: octooctogintanongentillion
+5931  EU: octooctogintanongentilliard
+5934  EU: novemoctogintanongentillion
+5937  EU: novemoctogintanongentilliard
+5940  EU: nonagintanongentillion
+5943  EU: nonagintanongentilliard
+5946  EU: unnonagintanongentillion
+5949  EU: unnonagintanongentilliard
+5952  EU: duononagintanongentillion
+5955  EU: duononagintanongentilliard
+5958  EU: trenonagintanongentillion
+5961  EU: trenonagintanongentilliard
+5964  EU: quattuornonagintanongentillion
+5967  EU: quattuornonagintanongentilliard
+5970  EU: quinquanonagintanongentillion
+5973  EU: quinquanonagintanongentilliard
+5976  EU: senonagintanongentillion
+5979  EU: senonagintanongentilliard
+5982  EU: septenonagintanongentillion
+5985  EU: septenonagintanongentilliard
+5988  EU: octononagintanongentillion
+5991  EU: octononagintanongentilliard
+5994  EU: novenonagintanongentillion
+5997  EU: novenonagintanongentilliard
+
+Puzzle mania
+
+And now another rather peculiar list: the names of the large numbers sorted by their word lengths. For the sake of clarity the endings -illion and -illiard are removed. So, the shortest large number word is billion or million and the longest is quattuorquinquagintaquadringentilliard (102727 in the European system).
+Jump to length =	1	10	15	20	25	30
+1
+b-
+m-
+
+2
+tr-
+
+3
+dec-
+non-
+oct-
+
+4
+cent-
+sept-
+sext-
+
+5
+quadr-
+quint-
+sedec-
+undec-
+
+6
+ducent-
+duodec-
+tredec-
+uncent-
+vigint-
+
+7
+duocent-
+nongent-
+octodec-
+sescent-
+sexcent-
+trecent-
+trigint-
+
+8
+decicent-
+nonagint-
+novendec-
+octocent-
+octogint-
+quingent-
+seducent-
+sexagint-
+trescent-
+unducent-
+unvigint-
+
+9
+duoducent-
+duovigint-
+novencent-
+octingent-
+senongent-
+septendec-
+sesescent-
+sesvigint-
+treducent-
+unnongent-
+unsescent-
+untrecent-
+untrigint-
+
+Jump to length =	1	10	15	20	25	30
+
+10
+deciducent-
+duonongent-
+duosescent-
+duotrecent-
+duotrigint-
+octoducent-
+octovigint-
+quadragint-
+quinquadec-
+sedecicent-
+senonagint-
+septencent-
+septingent-
+septuagint-
+sesexagint-
+sestrecent-
+sestrigint-
+trenongent-
+tresescent-
+tresvigint-
+undecicent-
+unnonagint-
+unoctogint-
+unquingent-
+unsexagint-
+
+11
+decinongent-
+decisescent-
+decitrecent-
+duodecicent-
+duononagint-
+duooctogint-
+duoquingent-
+duosexagint-
+novemvigint-
+novenducent-
+novenongent-
+octonongent-
+octosescent-
+octotrecent-
+octotrigint-
+quadringent-
+quattuordec-
+quinquacent-
+quinquagint-
+sesquingent-
+sexoctogint-
+tredecicent-
+trenonagint-
+tresexagint-
+trestrecent-
+trestrigint-
+unoctingent-
+viginticent-
+
+12
+deciquingent-
+duooctingent-
+novenonagint-
+novensescent-
+noventrecent-
+noventrigint-
+octodecicent-
+octononagint-
+octooctogint-
+octoquingent-
+octosexagint-
+quattuorcent-
+sedeciducent-
+septemvigint-
+septenducent-
+septenongent-
+seseptingent-
+seseptuagint-
+sexoctingent-
+tresoctogint-
+tresquingent-
+trigintacent-
+undeciducent-
+unquadragint-
+unseptingent-
+unseptuagint-
+
+13
+decioctingent-
+duodeciducent-
+duoquadragint-
+duoseptingent-
+duoseptuagint-
+nonagintacent-
+novemoctogint-
+novendecicent-
+novenquingent-
+novensexagint-
+octogintacent-
+octooctingent-
+quinquaducent-
+quinquavigint-
+sedecinongent-
+sedecisescent-
+sedecitrecent-
+septenonagint-
+septensescent-
+septentrecent-
+septentrigint-
+sesquadragint-
+sexagintacent-
+tredeciducent-
+treseptingent-
+treseptuagint-
+tresoctingent-
+undecinongent-
+undecisescent-
+undecitrecent-
+unquadringent-
+unquinquagint-
+unviginticent-
+vigintiducent-
+
+14
+deciseptingent-
+duodecinongent-
+duodecisescent-
+duodecitrecent-
+duoquadringent-
+duoquinquagint-
+duoviginticent-
+novemoctingent-
+octodeciducent-
+octoquadragint-
+octoseptingent-
+octoseptuagint-
+quattuorducent-
+quattuorvigint-
+quinquanongent-
+quinquasescent-
+quinquatrecent-
+quinquatrigint-
+sedeciquingent-
+septemoctogint-
+septendecicent-
+septenquingent-
+septensexagint-
+sesquadringent-
+sesquinquagint-
+sesviginticent-
+tredecinongent-
+tredecisescent-
+tredecitrecent-
+tresquadragint-
+trigintaducent-
+undeciquingent-
+untrigintacent-
+vigintinongent-
+vigintisescent-
+vigintitrecent-
+
+Jump to length =	1	10	15	20	25	30
+
+15
+deciquadringent-
+duodeciquingent-
+duotrigintacent-
+nonagintaducent-
+novendeciducent-
+novenquadragint-
+novenseptingent-
+novenseptuagint-
+octodecinongent-
+octodecisescent-
+octodecitrecent-
+octogintaducent-
+octoquadringent-
+octoquinquagint-
+octoviginticent-
+quadragintacent-
+quattuornongent-
+quattuorsescent-
+quattuortrecent-
+quattuortrigint-
+quinquadecicent-
+quinquanonagint-
+quinquaoctogint-
+quinquaquingent-
+quinquasexagint-
+sedecioctingent-
+senonagintacent-
+septemoctingent-
+septuagintacent-
+sesexagintacent-
+sestrigintacent-
+sexagintaducent-
+tredeciquingent-
+tresquadringent-
+tresquinquagint-
+tresviginticent-
+trigintanongent-
+trigintasescent-
+trigintatrecent-
+undecioctingent-
+unnonagintacent-
+unoctogintacent-
+unsexagintacent-
+unvigintiducent-
+vigintiquingent-
+
+16
+duodecioctingent-
+duononagintacent-
+duooctogintacent-
+duosexagintacent-
+duovigintiducent-
+nonagintanongent-
+nonagintasescent-
+nonagintatrecent-
+novemviginticent-
+novendecinongent-
+novendecisescent-
+novendecitrecent-
+novenquadringent-
+novenquinquagint-
+octodeciquingent-
+octogintanongent-
+octogintasescent-
+octogintatrecent-
+octotrigintacent-
+quattuordecicent-
+quattuornonagint-
+quattuoroctogint-
+quattuorquingent-
+quattuorsexagint-
+quinquagintacent-
+quinquaoctingent-
+sedeciseptingent-
+septendeciducent-
+septenquadragint-
+septenseptingent-
+septenseptuagint-
+sesvigintiducent-
+sexagintanongent-
+sexagintasescent-
+sexagintatrecent-
+sexoctogintacent-
+tredecioctingent-
+trenonagintacent-
+tresexagintacent-
+trestrigintacent-
+trigintaquingent-
+undeciseptingent-
+untrigintaducent-
+unvigintinongent-
+unvigintisescent-
+unvigintitrecent-
+vigintioctingent-
+
+17
+duodeciseptingent-
+duotrigintaducent-
+duovigintinongent-
+duovigintisescent-
+duovigintitrecent-
+nonagintaquingent-
+novendeciquingent-
+novenonagintacent-
+noventrigintacent-
+octodecioctingent-
+octogintaquingent-
+octononagintacent-
+octooctogintacent-
+octosexagintacent-
+octovigintiducent-
+quadragintaducent-
+quattuoroctingent-
+quinquadeciducent-
+quinquaquadragint-
+quinquaseptingent-
+quinquaseptuagint-
+sedeciquadringent-
+senonagintaducent-
+septemviginticent-
+septendecinongent-
+septendecisescent-
+septendecitrecent-
+septenquadringent-
+septenquinquagint-
+septuagintaducent-
+seseptuagintacent-
+sesexagintaducent-
+sestrigintaducent-
+sesvigintinongent-
+sesvigintisescent-
+sesvigintitrecent-
+sexagintaquingent-
+tredeciseptingent-
+tresoctogintacent-
+tresvigintiducent-
+trigintaoctingent-
+undeciquadringent-
+unnonagintaducent-
+unoctogintaducent-
+unquadragintacent-
+unseptuagintacent-
+unsexagintaducent-
+untrigintanongent-
+untrigintasescent-
+untrigintatrecent-
+unvigintiquingent-
+vigintiseptingent-
+
+18
+duodeciquadringent-
+duononagintaducent-
+duooctogintaducent-
+duoquadragintacent-
+duoseptuagintacent-
+duosexagintaducent-
+duotrigintanongent-
+duotrigintasescent-
+duotrigintatrecent-
+duovigintiquingent-
+nonagintaoctingent-
+novemoctogintacent-
+novemvigintiducent-
+novendecioctingent-
+novensexagintacent-
+octodeciseptingent-
+octogintaoctingent-
+octotrigintaducent-
+octovigintinongent-
+octovigintisescent-
+octovigintitrecent-
+quadragintanongent-
+quadragintasescent-
+quadragintatrecent-
+quattuordeciducent-
+quattuorquadragint-
+quattuorseptingent-
+quattuorseptuagint-
+quinquadecinongent-
+quinquadecisescent-
+quinquadecitrecent-
+quinquagintaducent-
+quinquaquadringent-
+quinquaquinquagint-
+quinquaviginticent-
+senonagintanongent-
+senonagintasescent-
+senonagintatrecent-
+septendeciquingent-
+septenonagintacent-
+septentrigintacent-
+septuagintanongent-
+septuagintasescent-
+septuagintatrecent-
+sesexagintanongent-
+sesexagintasescent-
+sesexagintatrecent-
+sesquadragintacent-
+sestrigintanongent-
+sestrigintasescent-
+sestrigintatrecent-
+sesvigintiquingent-
+sexagintaoctingent-
+sexoctogintaducent-
+tredeciquadringent-
+trenonagintaducent-
+treseptuagintacent-
+tresexagintaducent-
+trestrigintaducent-
+tresvigintinongent-
+tresvigintisescent-
+tresvigintitrecent-
+trigintaseptingent-
+unnonagintanongent-
+unnonagintasescent-
+unnonagintatrecent-
+unoctogintanongent-
+unoctogintasescent-
+unoctogintatrecent-
+unquinquagintacent-
+unsexagintanongent-
+unsexagintasescent-
+unsexagintatrecent-
+untrigintaquingent-
+unvigintioctingent-
+vigintiquadringent-
+
+19
+duononagintanongent-
+duononagintasescent-
+duononagintatrecent-
+duooctogintanongent-
+duooctogintasescent-
+duooctogintatrecent-
+duoquinquagintacent-
+duosexagintanongent-
+duosexagintasescent-
+duosexagintatrecent-
+duotrigintaquingent-
+duovigintioctingent-
+nonagintaseptingent-
+novemvigintinongent-
+novemvigintisescent-
+novemvigintitrecent-
+novendeciseptingent-
+novenonagintaducent-
+noventrigintaducent-
+octodeciquadringent-
+octogintaseptingent-
+octononagintaducent-
+octooctogintaducent-
+octoquadragintacent-
+octoseptuagintacent-
+octosexagintaducent-
+octotrigintanongent-
+octotrigintasescent-
+octotrigintatrecent-
+octovigintiquingent-
+quadragintaquingent-
+quattuordecinongent-
+quattuordecisescent-
+quattuordecitrecent-
+quattuorquadringent-
+quattuorquinquagint-
+quattuorviginticent-
+quinquadeciquingent-
+quinquagintanongent-
+quinquagintasescent-
+quinquagintatrecent-
+quinquatrigintacent-
+senonagintaquingent-
+septemoctogintacent-
+septemvigintiducent-
+septendecioctingent-
+septensexagintacent-
+septuagintaquingent-
+seseptuagintaducent-
+sesexagintaquingent-
+sesquinquagintacent-
+sestrigintaquingent-
+sesvigintioctingent-
+sexagintaseptingent-
+sexoctogintanongent-
+sexoctogintasescent-
+sexoctogintatrecent-
+trenonagintanongent-
+trenonagintasescent-
+trenonagintatrecent-
+tresexagintanongent-
+tresexagintasescent-
+tresexagintatrecent-
+tresoctogintaducent-
+tresquadragintacent-
+trestrigintanongent-
+trestrigintasescent-
+trestrigintatrecent-
+tresvigintiquingent-
+trigintaquadringent-
+unnonagintaquingent-
+unoctogintaquingent-
+unquadragintaducent-
+unseptuagintaducent-
+unsexagintaquingent-
+untrigintaoctingent-
+unvigintiseptingent-
+
+Jump to length =	1	10	15	20	25	30
+
+20
+duononagintaquingent-
+duooctogintaquingent-
+duoquadragintaducent-
+duoseptuagintaducent-
+duosexagintaquingent-
+duotrigintaoctingent-
+duovigintiseptingent-
+nonagintaquadringent-
+novemoctogintaducent-
+novemvigintiquingent-
+novendeciquadringent-
+novenonagintanongent-
+novenonagintasescent-
+novenonagintatrecent-
+novenquadragintacent-
+novenseptuagintacent-
+novensexagintaducent-
+noventrigintanongent-
+noventrigintasescent-
+noventrigintatrecent-
+octogintaquadringent-
+octononagintanongent-
+octononagintasescent-
+octononagintatrecent-
+octooctogintanongent-
+octooctogintasescent-
+octooctogintatrecent-
+octoquinquagintacent-
+octosexagintanongent-
+octosexagintasescent-
+octosexagintatrecent-
+octotrigintaquingent-
+octovigintioctingent-
+quadragintaoctingent-
+quattuordeciquingent-
+quattuortrigintacent-
+quinquadecioctingent-
+quinquagintaquingent-
+quinquanonagintacent-
+quinquaoctogintacent-
+quinquasexagintacent-
+quinquavigintiducent-
+senonagintaoctingent-
+septemvigintinongent-
+septemvigintisescent-
+septemvigintitrecent-
+septendeciseptingent-
+septenonagintaducent-
+septentrigintaducent-
+septuagintaoctingent-
+seseptuagintanongent-
+seseptuagintasescent-
+seseptuagintatrecent-
+sesexagintaoctingent-
+sesquadragintaducent-
+sestrigintaoctingent-
+sesvigintiseptingent-
+sexagintaquadringent-
+sexoctogintaquingent-
+trenonagintaquingent-
+treseptuagintaducent-
+tresexagintaquingent-
+tresoctogintanongent-
+tresoctogintasescent-
+tresoctogintatrecent-
+tresquinquagintacent-
+trestrigintaquingent-
+tresvigintioctingent-
+unnonagintaoctingent-
+unoctogintaoctingent-
+unquadragintanongent-
+unquadragintasescent-
+unquadragintatrecent-
+unquinquagintaducent-
+unseptuagintanongent-
+unseptuagintasescent-
+unseptuagintatrecent-
+unsexagintaoctingent-
+untrigintaseptingent-
+unvigintiquadringent-
+
+21
+duononagintaoctingent-
+duooctogintaoctingent-
+duoquadragintanongent-
+duoquadragintasescent-
+duoquadragintatrecent-
+duoquinquagintaducent-
+duoseptuagintanongent-
+duoseptuagintasescent-
+duoseptuagintatrecent-
+duosexagintaoctingent-
+duotrigintaseptingent-
+duovigintiquadringent-
+novemoctogintanongent-
+novemoctogintasescent-
+novemoctogintatrecent-
+novemvigintioctingent-
+novenonagintaquingent-
+novenquinquagintacent-
+novensexagintanongent-
+novensexagintasescent-
+novensexagintatrecent-
+noventrigintaquingent-
+octononagintaquingent-
+octooctogintaquingent-
+octoquadragintaducent-
+octoseptuagintaducent-
+octosexagintaquingent-
+octotrigintaoctingent-
+octovigintiseptingent-
+quadragintaseptingent-
+quattuordecioctingent-
+quattuornonagintacent-
+quattuoroctogintacent-
+quattuorsexagintacent-
+quattuorvigintiducent-
+quinquadeciseptingent-
+quinquagintaoctingent-
+quinquatrigintaducent-
+quinquavigintinongent-
+quinquavigintisescent-
+quinquavigintitrecent-
+senonagintaseptingent-
+septemoctogintaducent-
+septemvigintiquingent-
+septendeciquadringent-
+septenonagintanongent-
+septenonagintasescent-
+septenonagintatrecent-
+septenquadragintacent-
+septenseptuagintacent-
+septensexagintaducent-
+septentrigintanongent-
+septentrigintasescent-
+septentrigintatrecent-
+septuagintaseptingent-
+seseptuagintaquingent-
+sesexagintaseptingent-
+sesquadragintanongent-
+sesquadragintasescent-
+sesquadragintatrecent-
+sesquinquagintaducent-
+sestrigintaseptingent-
+sesvigintiquadringent-
+sexoctogintaoctingent-
+trenonagintaoctingent-
+treseptuagintanongent-
+treseptuagintasescent-
+treseptuagintatrecent-
+tresexagintaoctingent-
+tresoctogintaquingent-
+tresquadragintaducent-
+trestrigintaoctingent-
+tresvigintiseptingent-
+unnonagintaseptingent-
+unoctogintaseptingent-
+unquadragintaquingent-
+unquinquagintanongent-
+unquinquagintasescent-
+unquinquagintatrecent-
+unseptuagintaquingent-
+unsexagintaseptingent-
+untrigintaquadringent-
+
+22
+duononagintaseptingent-
+duooctogintaseptingent-
+duoquadragintaquingent-
+duoquinquagintanongent-
+duoquinquagintasescent-
+duoquinquagintatrecent-
+duoseptuagintaquingent-
+duosexagintaseptingent-
+duotrigintaquadringent-
+novemoctogintaquingent-
+novemvigintiseptingent-
+novenonagintaoctingent-
+novenquadragintaducent-
+novenseptuagintaducent-
+novensexagintaquingent-
+noventrigintaoctingent-
+octononagintaoctingent-
+octooctogintaoctingent-
+octoquadragintanongent-
+octoquadragintasescent-
+octoquadragintatrecent-
+octoquinquagintaducent-
+octoseptuagintanongent-
+octoseptuagintasescent-
+octoseptuagintatrecent-
+octosexagintaoctingent-
+octotrigintaseptingent-
+octovigintiquadringent-
+quadragintaquadringent-
+quattuordeciseptingent-
+quattuortrigintaducent-
+quattuorvigintinongent-
+quattuorvigintisescent-
+quattuorvigintitrecent-
+quinquadeciquadringent-
+quinquagintaseptingent-
+quinquanonagintaducent-
+quinquaoctogintaducent-
+quinquaquadragintacent-
+quinquaseptuagintacent-
+quinquasexagintaducent-
+quinquatrigintanongent-
+quinquatrigintasescent-
+quinquatrigintatrecent-
+quinquavigintiquingent-
+senonagintaquadringent-
+septemoctogintanongent-
+septemoctogintasescent-
+septemoctogintatrecent-
+septemvigintioctingent-
+septenonagintaquingent-
+septenquinquagintacent-
+septensexagintanongent-
+septensexagintasescent-
+septensexagintatrecent-
+septentrigintaquingent-
+septuagintaquadringent-
+seseptuagintaoctingent-
+sesexagintaquadringent-
+sesquadragintaquingent-
+sesquinquagintanongent-
+sesquinquagintasescent-
+sesquinquagintatrecent-
+sestrigintaquadringent-
+sexoctogintaseptingent-
+trenonagintaseptingent-
+treseptuagintaquingent-
+tresexagintaseptingent-
+tresoctogintaoctingent-
+tresquadragintanongent-
+tresquadragintasescent-
+tresquadragintatrecent-
+tresquinquagintaducent-
+trestrigintaseptingent-
+tresvigintiquadringent-
+unnonagintaquadringent-
+unoctogintaquadringent-
+unquadragintaoctingent-
+unquinquagintaquingent-
+unseptuagintaoctingent-
+unsexagintaquadringent-
+
+23
+duononagintaquadringent-
+duooctogintaquadringent-
+duoquadragintaoctingent-
+duoquinquagintaquingent-
+duoseptuagintaoctingent-
+duosexagintaquadringent-
+novemoctogintaoctingent-
+novemvigintiquadringent-
+novenonagintaseptingent-
+novenquadragintanongent-
+novenquadragintasescent-
+novenquadragintatrecent-
+novenquinquagintaducent-
+novenseptuagintanongent-
+novenseptuagintasescent-
+novenseptuagintatrecent-
+novensexagintaoctingent-
+noventrigintaseptingent-
+octononagintaseptingent-
+octooctogintaseptingent-
+octoquadragintaquingent-
+octoquinquagintanongent-
+octoquinquagintasescent-
+octoquinquagintatrecent-
+octoseptuagintaquingent-
+octosexagintaseptingent-
+octotrigintaquadringent-
+quattuordeciquadringent-
+quattuornonagintaducent-
+quattuoroctogintaducent-
+quattuorquadragintacent-
+quattuorseptuagintacent-
+quattuorsexagintaducent-
+quattuortrigintanongent-
+quattuortrigintasescent-
+quattuortrigintatrecent-
+quattuorvigintiquingent-
+quinquagintaquadringent-
+quinquanonagintanongent-
+quinquanonagintasescent-
+quinquanonagintatrecent-
+quinquaoctogintanongent-
+quinquaoctogintasescent-
+quinquaoctogintatrecent-
+quinquaquinquagintacent-
+quinquasexagintanongent-
+quinquasexagintasescent-
+quinquasexagintatrecent-
+quinquatrigintaquingent-
+quinquavigintioctingent-
+septemoctogintaquingent-
+septemvigintiseptingent-
+septenonagintaoctingent-
+septenquadragintaducent-
+septenseptuagintaducent-
+septensexagintaquingent-
+septentrigintaoctingent-
+seseptuagintaseptingent-
+sesquadragintaoctingent-
+sesquinquagintaquingent-
+sexoctogintaquadringent-
+trenonagintaquadringent-
+treseptuagintaoctingent-
+tresexagintaquadringent-
+tresoctogintaseptingent-
+tresquadragintaquingent-
+tresquinquagintanongent-
+tresquinquagintasescent-
+tresquinquagintatrecent-
+trestrigintaquadringent-
+unquadragintaseptingent-
+unquinquagintaoctingent-
+unseptuagintaseptingent-
+
+24
+duoquadragintaseptingent-
+duoquinquagintaoctingent-
+duoseptuagintaseptingent-
+novemoctogintaseptingent-
+novenonagintaquadringent-
+novenquadragintaquingent-
+novenquinquagintanongent-
+novenquinquagintasescent-
+novenquinquagintatrecent-
+novenseptuagintaquingent-
+novensexagintaseptingent-
+noventrigintaquadringent-
+octononagintaquadringent-
+octooctogintaquadringent-
+octoquadragintaoctingent-
+octoquinquagintaquingent-
+octoseptuagintaoctingent-
+octosexagintaquadringent-
+quattuornonagintanongent-
+quattuornonagintasescent-
+quattuornonagintatrecent-
+quattuoroctogintanongent-
+quattuoroctogintasescent-
+quattuoroctogintatrecent-
+quattuorquinquagintacent-
+quattuorsexagintanongent-
+quattuorsexagintasescent-
+quattuorsexagintatrecent-
+quattuortrigintaquingent-
+quattuorvigintioctingent-
+quinquanonagintaquingent-
+quinquaoctogintaquingent-
+quinquaquadragintaducent-
+quinquaseptuagintaducent-
+quinquasexagintaquingent-
+quinquatrigintaoctingent-
+quinquavigintiseptingent-
+septemoctogintaoctingent-
+septemvigintiquadringent-
+septenonagintaseptingent-
+septenquadragintanongent-
+septenquadragintasescent-
+septenquadragintatrecent-
+septenquinquagintaducent-
+septenseptuagintanongent-
+septenseptuagintasescent-
+septenseptuagintatrecent-
+septensexagintaoctingent-
+septentrigintaseptingent-
+seseptuagintaquadringent-
+sesquadragintaseptingent-
+sesquinquagintaoctingent-
+treseptuagintaseptingent-
+tresoctogintaquadringent-
+tresquadragintaoctingent-
+tresquinquagintaquingent-
+unquadragintaquadringent-
+unquinquagintaseptingent-
+unseptuagintaquadringent-
+
+Jump to length =	1	10	15	20	25	30
+
+25
+duoquadragintaquadringent-
+duoquinquagintaseptingent-
+duoseptuagintaquadringent-
+novemoctogintaquadringent-
+novenquadragintaoctingent-
+novenquinquagintaquingent-
+novenseptuagintaoctingent-
+novensexagintaquadringent-
+octoquadragintaseptingent-
+octoquinquagintaoctingent-
+octoseptuagintaseptingent-
+quattuornonagintaquingent-
+quattuoroctogintaquingent-
+quattuorquadragintaducent-
+quattuorseptuagintaducent-
+quattuorsexagintaquingent-
+quattuortrigintaoctingent-
+quattuorvigintiseptingent-
+quinquanonagintaoctingent-
+quinquaoctogintaoctingent-
+quinquaquadragintanongent-
+quinquaquadragintasescent-
+quinquaquadragintatrecent-
+quinquaquinquagintaducent-
+quinquaseptuagintanongent-
+quinquaseptuagintasescent-
+quinquaseptuagintatrecent-
+quinquasexagintaoctingent-
+quinquatrigintaseptingent-
+quinquavigintiquadringent-
+septemoctogintaseptingent-
+septenonagintaquadringent-
+septenquadragintaquingent-
+septenquinquagintanongent-
+septenquinquagintasescent-
+septenquinquagintatrecent-
+septenseptuagintaquingent-
+septensexagintaseptingent-
+septentrigintaquadringent-
+sesquadragintaquadringent-
+sesquinquagintaseptingent-
+treseptuagintaquadringent-
+tresquadragintaseptingent-
+tresquinquagintaoctingent-
+unquinquagintaquadringent-
+
+26
+duoquinquagintaquadringent-
+novenquadragintaseptingent-
+novenquinquagintaoctingent-
+novenseptuagintaseptingent-
+octoquadragintaquadringent-
+octoquinquagintaseptingent-
+octoseptuagintaquadringent-
+quattuornonagintaoctingent-
+quattuoroctogintaoctingent-
+quattuorquadragintanongent-
+quattuorquadragintasescent-
+quattuorquadragintatrecent-
+quattuorquinquagintaducent-
+quattuorseptuagintanongent-
+quattuorseptuagintasescent-
+quattuorseptuagintatrecent-
+quattuorsexagintaoctingent-
+quattuortrigintaseptingent-
+quattuorvigintiquadringent-
+quinquanonagintaseptingent-
+quinquaoctogintaseptingent-
+quinquaquadragintaquingent-
+quinquaquinquagintanongent-
+quinquaquinquagintasescent-
+quinquaquinquagintatrecent-
+quinquaseptuagintaquingent-
+quinquasexagintaseptingent-
+quinquatrigintaquadringent-
+septemoctogintaquadringent-
+septenquadragintaoctingent-
+septenquinquagintaquingent-
+septenseptuagintaoctingent-
+septensexagintaquadringent-
+sesquinquagintaquadringent-
+tresquadragintaquadringent-
+tresquinquagintaseptingent-
+
+27
+novenquadragintaquadringent-
+novenquinquagintaseptingent-
+novenseptuagintaquadringent-
+octoquinquagintaquadringent-
+quattuornonagintaseptingent-
+quattuoroctogintaseptingent-
+quattuorquadragintaquingent-
+quattuorquinquagintanongent-
+quattuorquinquagintasescent-
+quattuorquinquagintatrecent-
+quattuorseptuagintaquingent-
+quattuorsexagintaseptingent-
+quattuortrigintaquadringent-
+quinquanonagintaquadringent-
+quinquaoctogintaquadringent-
+quinquaquadragintaoctingent-
+quinquaquinquagintaquingent-
+quinquaseptuagintaoctingent-
+quinquasexagintaquadringent-
+septenquadragintaseptingent-
+septenquinquagintaoctingent-
+septenseptuagintaseptingent-
+tresquinquagintaquadringent-
+
+28
+novenquinquagintaquadringent-
+quattuornonagintaquadringent-
+quattuoroctogintaquadringent-
+quattuorquadragintaoctingent-
+quattuorquinquagintaquingent-
+quattuorseptuagintaoctingent-
+quattuorsexagintaquadringent-
+quinquaquadragintaseptingent-
+quinquaquinquagintaoctingent-
+quinquaseptuagintaseptingent-
+septenquadragintaquadringent-
+septenquinquagintaseptingent-
+septenseptuagintaquadringent-
+
+29
+quattuorquadragintaseptingent-
+quattuorquinquagintaoctingent-
+quattuorseptuagintaseptingent-
+quinquaquadragintaquadringent-
+quinquaquinquagintaseptingent-
+quinquaseptuagintaquadringent-
+septenquinquagintaquadringent-
+
+Jump to length =	1	10	15	20	25	30
+
+30
+quattuorquadragintaquadringent-
+quattuorquinquagintaseptingent-
+quattuorseptuagintaquadringent-
+quinquaquinquagintaquadringent-
+
+31
+quattuorquinquagintaquadringent-
+ 
+
+© Oscar van Vlijmen, juni 2003/June 2000
+Modification date: 2003-07-02
+
+This page is part of the Dutch language site "Eenheden, constanten en conversies" (Units of measurement, constants and conversions).
+URL of this page: http://home.hetnet.nl/~vanadovv/BignumbyN.html
+
+Go to start/Home
