@@ -37,6 +37,12 @@ If you are dealing with numbers larger than 156, we accept patches. Word list is
 2. 0.360000   0.000000   0.360000 (  0.367845)
 3. 0.360000   0.000000   0.360000 (  0.370599)
 
+### Mid 2012 Macbook Pro - Ruby 2.1.1
+
+1. 0.130000   0.000000   0.130000 (  0.127581)
+2. 0.130000   0.000000   0.130000 (  0.127327)
+3. 0.130000   0.000000   0.130000 (  0.133094)
+
 ## Credits
 
 * *Original idea*: Brenton Fletcher
