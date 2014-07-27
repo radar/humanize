@@ -2,13 +2,13 @@
 
 Converts numbers to strings.
     
-    2  => "two"
-    4  => "four"
-    8  => "eight"
-    15 => "fifteen"
-    16 => "sixteen"
-    23 => "twenty three"
-    42 => "forty two"
+    2.humanize  => "two"
+    4.humanize  => "four"
+    8.humanize  => "eight"
+    15.humanize => "fifteen"
+    16.humanize => "sixteen"
+    23.humanize => "twenty three"
+    42.humanize => "forty two"
     
 All the way up to 156 digit numbers:
 
