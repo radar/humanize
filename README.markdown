@@ -43,6 +43,12 @@ If you are dealing with numbers larger than 156 digits, we accept patches. Word 
 2. 0.130000   0.000000   0.130000 (  0.127327)
 3. 0.130000   0.000000   0.130000 (  0.133094)
 
+### Mid 2014 Macbook Pro - Ruby 2.1.1
+
+1. 0.120000   0.000000   0.120000 (  0.117996)
+2. 0.120000   0.000000   0.120000 (  0.116230)
+3. 0.130000   0.000000   0.130000 (  0.122856)
+
 ## Credits
 
 * *Original idea*: Brenton Fletcher
