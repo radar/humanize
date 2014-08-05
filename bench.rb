@@ -1,6 +1,6 @@
 require 'benchmark'
 require_relative 'lib/humanize'
-require_relative 'tests'
+require_relative 'spec/tests'
 
 Benchmark.benchmark do |x|
   x.report do
