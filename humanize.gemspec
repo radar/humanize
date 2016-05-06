@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.date = "2016-03-30"
   s.email = "radarlistener@gmail.com"
   s.files = ["README.markdown", "Rakefile", "lib/cache.rb", "lib/humanize.rb", "lib/lots.rb", "spec/TODO", "spec/humanize_spec.rb", "spec/tests.rb"]
-  s.homepage = "http://github.com/mislav/humanize"
+  s.homepage = "https://github.com/radar/humanize"
   s.rubygems_version = "2.5.1"
   s.summary = "Extension to Numeric to humanize numbers"
 end
