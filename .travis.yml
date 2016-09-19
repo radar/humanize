@@ -2,7 +2,6 @@
 
 language: ruby
 rvm:
-  - "2.0.0"
   - "2.1" # latest 2.1.x
   - "2.2" # latest 2.2.x
   - "2.3.1" # TODO: switch to "2.3" once travis fixes it
