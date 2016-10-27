@@ -8,6 +8,7 @@ module Humanize
 
   def humanize(options = {})
     locale = options[:locale] || Humanize.config.default_locale
+    decimals_as = options[:decimals_as] || Humanize.config.decimals_as
     num = self.to_i
     o = ''
     if num < 0
@@ -31,7 +32,14 @@ module Humanize
       end
       o += sets.reverse.join(' ')
     end
-    o += ' ' + WORDS[locale][:point] + ' ' + self.to_s.split(/\./, 2).last.scan(/./).map { |n| SUB_ONE_THOUSAND[locale][n.to_i] }.join(' ') if self.class == Float
+    if self.class == Float
+      decimals = self.to_s.split(/\./, 2).last
+      decimals_as_words = case decimals_as
+                          when :digits then decimals.scan(/./).map { |n| SUB_ONE_THOUSAND[locale][n.to_i] }.join(' ')
+                          when :number then decimals.to_i.humanize(:locale => locale)
+                          end
+      o += ' ' + WORDS[locale][:point] + ' ' + decimals_as_words
+    end
     o
   end
 
@@ -54,10 +62,11 @@ module Humanize
 private
 
   class Configuration
-    attr_accessor :default_locale
+    attr_accessor :default_locale, :decimals_as
 
     def initialize
       @default_locale = :en
+      @decimals_as = :digits
     end
   end
 

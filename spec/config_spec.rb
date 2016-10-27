@@ -30,6 +30,14 @@ module Humanize
 
     end
 
+    describe "#decimals_as" do
+
+      it "default value is :digits" do
+        expect(Humanize.config.decimals_as).to eq(:digits)
+      end
+
+    end
+
   end
 
 end

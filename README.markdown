@@ -21,24 +21,26 @@ All the way up to 156 digit numbers:
 
 If you are dealing with numbers larger than 156 digits, we accept patches. Word list is sourced from: [ Wordlist.source ]
 
-## I18n
-
-You can set the `default_locale` by configuring it:
-
-```ruby
+## Configuration
+```ruby`
 Humanize.configure do |config|
-  config.default_locale = :fr
+  config.default_locale = :en  # Default is :en, other values: [:fr]
+  config.decimals_as = :digits # Default is :digits, other values: [:number]
 end
-# or
-Humanize.config.default_locale = :fr
 ```
 
-Then it will be always used unless you override it:
+## Decimals
+
+You can choose how you want to display decimals:
 
 ```ruby
-42.humanize # => "forty-two"
-42.humanize(locale: :fr) # => "quarante-deux"
+0.42.humanize(decimals_as: :digits) # => "zero point four two"
+0.42.humanize(decimals_as: :number) # => "zero point fourty-two"
 ```
+
+
+
+## I18n
 
 Currently supported locales: `:en` and `:fr`
 
