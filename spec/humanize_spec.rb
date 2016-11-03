@@ -17,12 +17,12 @@ describe "Humanize" do
 
     it 'uses default locale' do
       Humanize.config.default_locale = :fr
-      expect(42.humanize).to eql("quarante-deux".gsub(/ +/, ' '))
+      expect(42.humanize).to eql('quarante-deux')
     end
 
     it 'uses locale passed as argument if given' do
       Humanize.config.default_locale = :en
-      expect(42.humanize(:locale => :fr)).to eql("quarante-deux".gsub(/ +/, ' '))
+      expect(42.humanize(:locale => :fr)).to eql('quarante-deux')
     end
 
   end
