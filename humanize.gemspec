@@ -14,4 +14,6 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/radar/humanize"
   s.rubygems_version = "2.5.1"
   s.summary = "Extension to Numeric to humanize numbers"
+
+  s.add_development_dependency 'rspec'
 end
