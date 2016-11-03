@@ -27,4 +27,28 @@ describe "Humanize" do
 
   end
 
+  describe 'decimals_as option' do
+
+    it 'uses value from configuration' do
+      Humanize.config.decimals_as = :number
+      expect(0.42.humanize).to eql('zero point forty-two')
+    end
+
+    it 'uses value passed as argument if given' do
+      Humanize.config.decimals_as = :number
+      expect(0.42.humanize(:decimals_as => :digits)).to eql('zero point four two')
+    end
+
+  end
+
+  describe 'both options work together' do
+
+    it 'work together' do
+      expect(
+        0.42.humanize(:locale => :fr, :decimals_as => :number)
+      ).to eql('zéro virgule quarante-deux')
+    end
+
+  end
+
 end
