@@ -26,7 +26,7 @@ module Humanize
         sets << LOTS[locale][i] + (!sets.empty? ? (f ? ' ' + WORDS[locale][:and] : WORDS[locale][:comma]) : '') if !(r.zero? || i.zero?)
         f = true if i.zero? && r < 100
 
-        sets << SUB_ONE_THOUSAND[locale][r] if !r.zero?
+        sets << SUB_ONE_THOUSAND[locale][r] if !r.zero? && !exactly_one_thousand_in_french?(locale, r, sets)
         i = i.succ
 
       end
@@ -40,7 +40,7 @@ module Humanize
                           end
       o += ' ' + WORDS[locale][:point] + ' ' + decimals_as_words
     end
-    o
+    o.gsub(/ +/, ' ')
   end
 
   class << self
@@ -60,6 +60,10 @@ module Humanize
   end
 
 private
+
+  def exactly_one_thousand_in_french?(locale, r, sets)
+    locale == :fr && r == 1 && sets.last.to_s.strip == 'mille'
+  end
 
   class Configuration
     attr_accessor :default_locale, :decimals_as

@@ -10,7 +10,7 @@ WORDS = {
     :negative => 'négatif',
     :zero => 'zéro',
     :point => 'virgule',
-    :and => 'et',
+    :and => '',
     :comma => ''
   }
 }

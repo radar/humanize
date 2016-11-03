@@ -25,6 +25,18 @@ describe "Humanize" do
       expect(42.humanize(:locale => :fr)).to eql('quarante-deux')
     end
 
+    describe 'french specific rules' do
+
+      it 'one thousand and one equals "mille un"' do
+        expect(1002.humanize(:locale => :fr)).to eql('mille deux')
+      end
+
+      it 'two thousand and one equals "deux mille un"' do
+        expect(2001.humanize(:locale => :fr)).to eql('deux mille un')
+      end
+
+    end
+
   end
 
   describe 'decimals_as option' do
