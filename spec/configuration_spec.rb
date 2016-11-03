@@ -3,8 +3,7 @@ require 'humanize'
 require 'rspec'
 
 module Humanize
-
-  describe Config do
+  describe Configuration do
 
     after(:each) do
       Humanize.reset_config
