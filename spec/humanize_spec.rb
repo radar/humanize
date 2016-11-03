@@ -1,6 +1,4 @@
-require 'rubygems'
-require 'humanize'
-require 'rspec'
+require 'spec_helper'
 
 describe "Humanize" do
   require_relative 'tests'

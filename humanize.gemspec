@@ -17,4 +17,7 @@ Gem::Specification.new do |s|
   s.summary = "Extension to Numeric to humanize numbers"
 
   s.add_development_dependency 'rspec'
+  s.add_development_dependency 'mutant'
+  s.add_development_dependency 'mutant-rspec'
+  s.add_development_dependency 'pry-byebug'
 end

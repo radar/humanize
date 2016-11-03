@@ -78,6 +78,12 @@ Currently supported locales: `:en` and `:fr`
 2. 0.120000   0.000000   0.120000 (  0.116230)
 3. 0.130000   0.000000   0.130000 (  0.122856)
 
+## Testing
+
+Install development dependencies by running `bundle install`.
+
+You can run mutation testing by calling `bin/run_mutant`.
+
 ## Credits
 
 * *Original idea*: Brenton Fletcher
