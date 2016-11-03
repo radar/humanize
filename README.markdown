@@ -1,5 +1,7 @@
 # Humanize
 
+[![Build Status](https://travis-ci.org/radar/humanize.svg?branch=master)](https://travis-ci.org/radar/humanize)
+
 Converts numbers to strings.
 
 ```ruby
