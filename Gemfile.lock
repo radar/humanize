@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    humanize (1.2.0)
+    humanize (1.2.1)
 
 GEM
   remote: https://rubygems.org/
