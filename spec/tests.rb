@@ -5,6 +5,7 @@ TESTS = [
  [8, "eight"],
  [11, "eleven"],
  [21, "twenty-one"],
+ [99, "ninety-nine"],
  [100, "one hundred"],
  [101, "one hundred and one"],
  [111, "one hundred and eleven"],
