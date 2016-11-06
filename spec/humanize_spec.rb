@@ -35,6 +35,10 @@ describe "Humanize" do
         expect(2001.humanize(:locale => :fr)).to eql('deux mille un')
       end
 
+      it 'ten thousand equals "dix mille"' do
+        expect(2001.humanize(:locale => :fr)).to eql('deux mille un')
+      end
+
     end
 
   end
