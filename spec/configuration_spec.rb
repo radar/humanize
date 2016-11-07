@@ -1,8 +1,7 @@
-require 'rubygems'
-require 'humanize'
-require 'rspec'
+require 'spec_helper'
 
 module Humanize
+
   describe Configuration do
 
     after(:each) do
