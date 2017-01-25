@@ -29,7 +29,7 @@ describe "Humanize" do
 
     describe 'french specific rules' do
 
-      it 'one thousand and one equals "mille un"' do
+      it 'one thousand and two equals "mille deux"' do
         expect(1002.humanize(:locale => :fr)).to eql('mille deux')
       end
 
@@ -38,7 +38,23 @@ describe "Humanize" do
       end
 
       it 'ten thousand equals "dix mille"' do
-        expect(2001.humanize(:locale => :fr)).to eql('deux mille un')
+        expect(10000.humanize(:locale => :fr)).to eql('dix mille')
+      end
+
+    end
+
+    describe 'turkish specific rules' do
+
+      it 'one thousand and two equals "bin iki"' do
+        expect(1002.humanize(:locale => :tr)).to eql('bin iki')
+      end
+
+      it 'two thousand and one equals "iki bin bir' do
+        expect(2001.humanize(:locale => :tr)).to eql('iki bin bir')
+      end
+
+      it 'ten thousand equals "on bin"' do
+        expect(10000.humanize(:locale => :tr)).to eql('on bin')
       end
 
     end

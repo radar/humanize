@@ -26,7 +26,7 @@ module Humanize
         sets << LOTS[locale][i] + (!sets.empty? ? (f ? ' ' + WORDS[locale][:and] : WORDS[locale][:comma]) : '') if !(r.zero? || i.zero?)
         f = true if i.zero? && r < 100
 
-        sets << SUB_ONE_THOUSAND[locale][r] if !r.zero? && !exactly_one_thousand_in_french?(locale, r, sets)
+        sets << SUB_ONE_THOUSAND[locale][r] if !r.zero? && !exactly_one_thousand_in_french_or_turkish?(locale, r, sets)
         i = i.succ
 
       end
@@ -61,9 +61,10 @@ module Humanize
 
 private
 
-  def exactly_one_thousand_in_french?(locale, r, sets)
-    locale == :fr && r == 1 && sets.last.to_s.strip == 'mille'
+  def exactly_one_thousand_in_french_or_turkish?(locale, r, sets)
+    (locale == :fr || locale == :tr) && r == 1 && (sets.last.to_s.strip == 'mille' || sets.last.to_s.strip == 'bin')
   end
+
 
   class Configuration
     attr_accessor :default_locale, :decimals_as

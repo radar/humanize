@@ -27,7 +27,7 @@ If you are dealing with numbers larger than 156 digits, we accept patches. Word 
 
 ```ruby
 Humanize.configure do |config|
-  config.default_locale = :en  # [:en, :fr], default: :en
+  config.default_locale = :en  # [:en, :fr, :tr], default: :en
   config.decimals_as = :digits # [:digits, :number], default: :digits
 end
 ```
@@ -36,6 +36,7 @@ Default values can be overriden:
 
 ```ruby
 42.humanize(locale: :fr) # => "quarante-deux"
+1666.humanize(locale: :tr) # => "bin altı yüz altmış altı"
 ```
 
 ## Decimals
@@ -49,7 +50,7 @@ You can choose how you want to display decimals:
 
 ## I18n
 
-Currently supported locales: `:en` and `:fr`
+Currently supported locales: `:en`,`:fr` and `:tr`
 
 ## Benchmarks
 

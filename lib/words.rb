@@ -14,5 +14,12 @@ WORDS = {
     :point => 'virgule',
     :and => '',
     :comma => ''
+  },
+  :tr => {
+    :negative => 'eksi',
+    :zero => 'sıfır',
+    :point => 'virgül',
+    :and => '',
+    :comma => ''
   }
 }
