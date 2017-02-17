@@ -1,10 +1,12 @@
+require_relative './humanize/cache'
+require_relative './humanize/lots'
+require_relative './humanize/words'
+
 module Humanize
 
   # Accommodate for large numbers
   # Big numbers are big: http://wiki.answers.com/Q/What_number_is_after_vigintillion&src=ansTT
-  require File.join(File.dirname(__FILE__), 'lots')
-  require File.join(File.dirname(__FILE__), 'words')
-  require File.join(File.dirname(__FILE__), 'cache')
+
 
   def humanize(options = {})
     locale = options[:locale] || Humanize.config.default_locale
