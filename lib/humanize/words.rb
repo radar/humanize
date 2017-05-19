@@ -1,6 +1,13 @@
 # -*- encoding: utf-8 -*-
 module Humanize
   WORDS = {
+    :de => {
+      :negative => 'negativ',
+      :zero => 'null',
+      :point => 'Punkt',
+      :and => 'und',
+      :comma => ''
+    },
     :en => {
       :negative => 'negative',
       :zero => 'zero',
