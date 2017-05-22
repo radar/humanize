@@ -27,7 +27,7 @@ If you are dealing with numbers larger than 156 digits, we accept patches. Word 
 
 ```ruby
 Humanize.configure do |config|
-  config.default_locale = :en  # [:en, :fr, :tr], default: :en
+  config.default_locale = :en  # [:en, :fr, :tr, :de], default: :en
   config.decimals_as = :digits # [:digits, :number], default: :digits
 end
 ```
