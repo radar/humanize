@@ -50,7 +50,13 @@ You can choose how you want to display decimals:
 
 ## I18n
 
-Currently supported locales: `:en`,`:fr`, `:tr`, `:de` and `:id`
+Currently supported locales:
+
+* English: `:en`
+* French: `:fr`,
+* Turkish: `:tr`
+* German: `:de`
+* Indonesian: `:id`
 
 ## Benchmarks
 
