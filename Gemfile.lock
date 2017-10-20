@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    humanize (1.4.0)
+    humanize (1.5.0)
 
 GEM
   remote: https://rubygems.org/
@@ -101,4 +101,4 @@ DEPENDENCIES
   rspec
 
 BUNDLED WITH
-   1.15.3
+   1.16.0.pre.2
