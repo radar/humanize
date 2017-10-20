@@ -28,6 +28,13 @@ module Humanize
       :point => 'virgül',
       :and => '',
       :comma => ''
+    },
+    :id => {
+      :negative => 'minus',
+      :zero => 'nol',
+      :point => 'koma',
+      :and => '',
+      :comma => ''
     }
   }
 end
