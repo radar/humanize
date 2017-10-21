@@ -36,9 +36,10 @@ module Humanize
     end
     if self.class == Float
       decimals = self.to_s.split(/\./, 2).last
+      leading_zeros = (zeros = Array(decimals.match(/^0+/))[0]) ? "#{WORDS[locale][:zero]} " * zeros.length : ""
       decimals_as_words = case decimals_as
                           when :digits then decimals.scan(/./).map { |n| SUB_ONE_THOUSAND[locale][n.to_i] }.join(' ')
-                          when :number then decimals.to_i.humanize(:locale => locale)
+                          when :number then leading_zeros + decimals.to_i.humanize(:locale => locale)
                           end
       o += ' ' + WORDS[locale][:point] + ' ' + decimals_as_words
     end
