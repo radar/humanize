@@ -42,6 +42,11 @@ module Humanize
                           end
       o += ' ' + WORDS[locale][:point] + ' ' + decimals_as_words
     end
+    if locale == :id
+      lots = LOTS[:id].drop(2).map{|n| n + ' '}
+      wrong_1000_re = /(?<=#{lots.join("|")})\s*satu ribu|^satu ribu/
+      o.sub!(wrong_1000_re, 'seribu')
+    end
     o.gsub(/ +/, ' ')
   end
 
