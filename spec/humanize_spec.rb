@@ -93,6 +93,19 @@ describe "Humanize" do
       expect(0.42.humanize(:decimals_as => :digits)).to eql('zero point four two')
     end
 
+    describe 'when set as number' do
+
+      before do
+        Humanize.config.decimals_as = :number
+      end
+
+      it 'reads the decimals as digits if led by zero(s)' do
+        expect(0.042.humanize).to eql('zero point zero four two')
+        expect(0.0042.humanize).to eql('zero point zero zero four two')
+      end
+
+    end
+
   end
 
   describe 'both options work together' do

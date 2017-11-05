@@ -36,6 +36,8 @@ module Humanize
     end
     if self.class == Float
       decimals = self.to_s.split(/\./, 2).last
+      has_leading_zeroes = decimals[/^0+/].to_s.length > 0
+      decimals_as = :digits if has_leading_zeroes
       decimals_as_words = case decimals_as
                           when :digits then decimals.scan(/./).map { |n| SUB_ONE_THOUSAND[locale][n.to_i] }.join(' ')
                           when :number then decimals.to_i.humanize(:locale => locale)
