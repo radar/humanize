@@ -49,7 +49,7 @@ module Humanize
       wrong_1000_re = /(?<=#{lots.join("|")})\s*satu ribu|^satu ribu/
       o.sub!(wrong_1000_re, 'seribu')
     end
-    o.gsub(/ +/, ' ')
+    o.squeeze(' ')
   end
 
   class << self
