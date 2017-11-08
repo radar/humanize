@@ -1,8 +1,12 @@
 TESTS = [
  [-1, "negative one"],
  [-0.042, "negative zero point zero four two"],
+ [-0.00003345, "negative zero point zero zero zero zero three three four five"],
+ [-0.0000017854, "negative zero point zero zero zero zero zero one seven eight five four"],
+ [0.000000123, "zero point zero zero zero zero zero zero one two three"],
  [0, "zero"],
  [8.15, "eight point one five"],
+ [8.000015, "eight point zero zero zero zero one five"],
  [8, "eight"],
  [11, "eleven"],
  [21, "twenty-one"],

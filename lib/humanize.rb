@@ -35,7 +35,8 @@ module Humanize
       o += sets.reverse.join(' ')
     end
     if self.class == Float
-      decimals = self.to_s.split(/\./, 2).last
+      digits, exp = to_s.split("e-")
+      decimals = ("%.#{digits[/\d+$/].length + exp.to_i}f" % self).split(/\./, 2).last
       has_leading_zeroes = decimals[/^0+/].to_s.length > 0
       decimals_as = :digits if has_leading_zeroes
       decimals_as_words = case decimals_as
