@@ -11,7 +11,7 @@ module Humanize
   def humanize(options = {})
     locale = options[:locale] || Humanize.config.default_locale
     decimals_as = options[:decimals_as] || Humanize.config.decimals_as
-    num = self.to_i
+    num = self
     o = ''
     if num < 0
       o += WORDS[locale][:negative] + ' '
