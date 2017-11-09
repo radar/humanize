@@ -23,6 +23,24 @@ All the way up to 156 digit numbers:
 
 If you are dealing with numbers larger than 156 digits, we accept patches. Word list is sourced from: [ Wordlist.source ]
 
+## Usage
+
+### Install the gem using RubyGems
+
+		gem install humanize
+
+### Include it in your program or add to your Gemfile
+
+		require 'humanize'
+    # or
+    gem 'humanize'
+
+### Call the method on the numbers
+
+		100.humanize => "one hundred"
+		1001.humanize => "one thousand one"
+    0.001.humanize => "zero point zero zero one"
+
 ## Configuration
 
 ```ruby
