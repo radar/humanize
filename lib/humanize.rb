@@ -87,6 +87,10 @@ private
 
 end
 
-class Numeric
+class Integer
+  include Humanize
+end
+
+class Float
   include Humanize
 end

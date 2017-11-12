@@ -118,4 +118,16 @@ describe "Humanize" do
 
   end
 
+  describe 'when called on instances of Rational, Complex, and Date::Infinity' do
+
+    it 'will raise NoMethodError' do
+      expect{ Rational(1,3).humanize }.to raise_error(NoMethodError, /humanize/)
+      expect{ Complex(1+2i).humanize }.to raise_error(NoMethodError, /humanize/)
+      expect{
+        Date::Infinity.new.humanize
+      }.to raise_error(NoMethodError, /humanize/) if defined? Date::Infinity
+    end
+    
+  end
+
 end
