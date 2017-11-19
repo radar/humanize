@@ -13,41 +13,40 @@ module Humanize
     decimals_as = options[:decimals_as] || Humanize.config.decimals_as
     num = self
     o = ''
-    if num < 0
+    if num.zero?
+      return WORDS[locale][:zero]
+    elsif num < 0
       o += WORDS[locale][:negative] + ' '
       num = num.abs
     end
-    if num.zero?
-      o += WORDS[locale][:zero]
-    else
-      sets = []
-      i = 0
-      f = false
-      while !num.zero?
-        num, r = num.divmod(1000)
-        sets << LOTS[locale][i] + (!sets.empty? ? (f ? ' ' + WORDS[locale][:and] : WORDS[locale][:comma]) : '') if !(r.zero? || i.zero?)
-        f = true if i.zero? && r < 100
 
-        sets << SUB_ONE_THOUSAND[locale][r] if !r.zero? && !exactly_one_thousand_in_french_or_turkish?(locale, r, sets)
-        i = i.succ
+    sets = []
+    i = 0
+    f = false
+    until num.zero?
+      num, r = num.divmod(1000)
+      sets << LOTS[locale][i] + (!sets.empty? ? (f ? ' ' + WORDS[locale][:and] : WORDS[locale][:comma]) : '') unless r.zero? || i.zero?
+      f = true if i.zero? && r < 100
 
-      end
-      o += sets.reverse.join(' ')
+      sets << SUB_ONE_THOUSAND[locale][r] unless r.zero? || exactly_one_thousand_in_french_or_turkish?(locale, r, sets)
+      i = i.succ
     end
+    o += sets.reverse.join(' ')
+
     if self.class == Float
       digits, exp = to_s.split("e-")
-      decimals = ("%.#{digits[/\d+$/].length + exp.to_i}f" % self).split(/\./, 2).last
+      decimals = ("%.#{digits[/\d+$/].length + exp.to_i}f" % self).split(".").last
       has_leading_zeroes = decimals[/^0+/].to_s.length > 0
       decimals_as = :digits if has_leading_zeroes
       decimals_as_words = case decimals_as
-                          when :digits then decimals.scan(/./).map { |n| SUB_ONE_THOUSAND[locale][n.to_i] }.join(' ')
+                          when :digits then decimals.chars.map{|n| SUB_ONE_THOUSAND[locale][n.to_i] }.join(' ')
                           when :number then decimals.to_i.humanize(:locale => locale)
                           end
       o += ' ' + WORDS[locale][:point] + ' ' + decimals_as_words
     end
     if locale == :id
-      lots = LOTS[:id].drop(2).map{|n| n + ' '}
-      wrong_1000_re = /(?<=#{lots.join("|")})\s*satu ribu|^satu ribu/
+      lots = LOTS[:id].drop(2)
+      wrong_1000_re = /(?<=#{lots.join(" |")} )\s*satu ribu|^satu ribu/
       o.sub!(wrong_1000_re, 'seribu')
     end
     o.squeeze(' ')
