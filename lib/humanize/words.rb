@@ -2,6 +2,7 @@
 module Humanize
   WORDS = {
     :de => {
+      :group_by => 1_000,
       :negative => 'negativ',
       :zero => 'null',
       :point => 'Punkt',
@@ -9,6 +10,7 @@ module Humanize
       :comma => ''
     },
     :en => {
+      :group_by => 1_000,
       :negative => 'negative',
       :zero => 'zero',
       :point => 'point',
@@ -16,6 +18,7 @@ module Humanize
       :comma => ','
     },
     :fr => {
+      :group_by => 1_000,
       :negative => 'négatif',
       :zero => 'zéro',
       :point => 'virgule',
@@ -23,6 +26,7 @@ module Humanize
       :comma => ''
     },
     :tr => {
+      :group_by => 1_000,
       :negative => 'eksi',
       :zero => 'sıfır',
       :point => 'virgül',
@@ -30,6 +34,7 @@ module Humanize
       :comma => ''
     },
     :id => {
+      :group_by => 1_000,
       :negative => 'minus',
       :zero => 'nol',
       :point => 'koma',
