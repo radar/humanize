@@ -25,10 +25,22 @@ module Humanize
     f = false
     until num.zero?
       num, r = num.divmod(1000)
-      sets << LOTS[locale][i] + (!sets.empty? ? (f ? ' ' + WORDS[locale][:and] : WORDS[locale][:comma]) : '') unless r.zero? || i.zero?
-      f = true if i.zero? && r < 100
-
-      sets << SUB_ONE_THOUSAND[locale][r] unless r.zero? || exactly_one_thousand_in_french_or_turkish?(locale, r, sets)
+      unless r.zero?
+        unless i.zero?
+          conjunction = unless sets.empty?
+                          (f ? ' ' + WORDS[locale][:and] : WORDS[locale][:comma])
+                        else
+                          ''
+                        end
+          sets << LOTS[locale][i] + conjunction
+        else
+          f = true if r < 100
+        end
+        
+        unless exactly_one_thousand_in_french_or_turkish?(locale, r, sets)
+          sets << SUB_ONE_THOUSAND[locale][r]
+        end
+      end
       i = i.succ
     end
     o += sets.reverse.join(' ')
@@ -39,16 +51,16 @@ module Humanize
       has_leading_zeroes = decimals[/^0+/].to_s.length > 0
       decimals_as = :digits if has_leading_zeroes
       decimals_as_words = case decimals_as
-                          when :digits then decimals.chars.map{|n| SUB_ONE_THOUSAND[locale][n.to_i] }.join(' ')
-                          when :number then decimals.to_i.humanize(:locale => locale)
+                          when :digits
+                            decimals.chars.map do |n|
+                              SUB_ONE_THOUSAND[locale][n.to_i]
+                            end.join(' ')
+                          when :number
+                            decimals.to_i.humanize(:locale => locale)
                           end
       o += ' ' + WORDS[locale][:point] + ' ' + decimals_as_words
     end
-    if locale == :id
-      lots = LOTS[:id].drop(2)
-      wrong_1000_re = /(?<=#{lots.join(" |")} )\s*satu ribu|^satu ribu/
-      o.sub!(wrong_1000_re, 'seribu')
-    end
+    o = correct_one_thousand_in_indonesian(locale, o)
     o.squeeze(' ')
   end
 
@@ -71,7 +83,24 @@ module Humanize
 private
 
   def exactly_one_thousand_in_french_or_turkish?(locale, r, sets)
-    (locale == :fr || locale == :tr) && r == 1 && (sets.last.to_s.strip == 'mille' || sets.last.to_s.strip == 'bin')
+    if r == 1
+      if (thousand = sets.last.to_s.strip) == 'mille' && locale == :fr
+        return true
+      elsif thousand == 'bin' && locale == :tr
+        return true
+      end
+    end
+    return false
+  end
+
+  def correct_one_thousand_in_indonesian(locale, o)
+    if locale == :id
+      lots = LOTS[:id].drop(2)
+      wrong_1000_re = /(?<=#{lots.join(" |")} )\s*satu ribu|^satu ribu/
+      o.sub(wrong_1000_re, 'seribu')
+    else
+      o
+    end
   end
 
 
