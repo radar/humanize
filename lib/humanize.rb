@@ -11,6 +11,7 @@ module Humanize
   def humanize(options = {})
     locale = options[:locale] || Humanize.config.default_locale
     decimals_as = options[:decimals_as] || Humanize.config.decimals_as
+    number_grouping = WORDS[locale][:group_by]
     num = self
     o = ''
     if num.zero?
@@ -24,7 +25,7 @@ module Humanize
     i = 0
     f = false
     until num.zero?
-      num, r = num.divmod(1000)
+      num, r = num.divmod(number_grouping)
       unless r.zero?
         unless i.zero?
           conjunction = unless sets.empty?
@@ -34,11 +35,11 @@ module Humanize
                         end
           sets << LOTS[locale][i] + conjunction
         else
-          f = true if r < 100
+          f = true if r < (number_grouping/10)
         end
-        
+
         unless exactly_one_thousand_in_french_or_turkish?(locale, r, sets)
-          sets << SUB_ONE_THOUSAND[locale][r]
+          sets << SUB_ONE_GROUPING[locale][r]
         end
       end
       i = i.succ
@@ -53,7 +54,7 @@ module Humanize
       decimals_as_words = case decimals_as
                           when :digits
                             decimals.chars.map do |n|
-                              SUB_ONE_THOUSAND[locale][n.to_i]
+                              SUB_ONE_GROUPING[locale][n.to_i]
                             end.join(' ')
                           when :number
                             decimals.to_i.humanize(:locale => locale)
