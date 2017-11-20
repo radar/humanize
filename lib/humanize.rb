@@ -27,8 +27,8 @@ module Humanize
     until num.zero?
       num, r = num.divmod(number_grouping)
       unless r.zero?
-        unless i.zero?
-          conjunction = unless sets.empty?
+        if !i.zero?
+          conjunction = if !sets.empty?
                           (f ? ' ' + WORDS[locale][:and] : WORDS[locale][:comma])
                         else
                           ''
