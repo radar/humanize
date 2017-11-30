@@ -3,8 +3,8 @@ module Humanize
   WORDS = {
     :de => {
       :group_by => 1_000,
-      :infinity => 'Unendlichkeit', # needs verification
-      :undefined => 'undefiniert', # needs verification
+      :infinity => 'Unendlich',
+      :undefined => 'undefiniert',
       :negative => 'negativ',
       :zero => 'null',
       :point => 'Punkt',
