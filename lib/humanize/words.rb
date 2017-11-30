@@ -33,8 +33,8 @@ module Humanize
     },
     :tr => {
       :group_by => 1_000,
-      :infinity => 'sonsuzluk', # needs verification
-      :undefined => 'tanımsız', # needs verification
+      :infinity => 'sonsuz',
+      :undefined => 'tanımsız',
       :negative => 'eksi',
       :zero => 'sıfır',
       :point => 'virgül',
