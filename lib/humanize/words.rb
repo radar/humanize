@@ -23,8 +23,8 @@ module Humanize
     },
     :fr => {
       :group_by => 1_000,
-      :infinity => 'infini', # needs verification
-      :undefined => 'indéfini', # needs verification
+      :infinity => 'infini',    # Needs verification from native french speaker. Send
+      :undefined => 'indéfini', # PR to correct (if wrong) and remove these 2 line comments.
       :negative => 'négatif',
       :zero => 'zéro',
       :point => 'virgule',
