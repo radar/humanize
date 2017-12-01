@@ -14,6 +14,19 @@ module Humanize
     number_grouping = WORDS[locale][:group_by]
     num = self
     o = ''
+
+    if num.class == Float
+      if (inf = num.infinite?)
+        if inf == 1
+          return WORDS[locale][:infinity]
+        else
+          return "#{WORDS[locale][:negative]} #{WORDS[locale][:infinity]}"
+        end
+      elsif num.nan?
+        return WORDS[locale][:undefined]
+      end
+    end
+
     if num.zero?
       return WORDS[locale][:zero]
     elsif num < 0

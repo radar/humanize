@@ -127,7 +127,21 @@ describe "Humanize" do
         Date::Infinity.new.humanize
       }.to raise_error(NoMethodError, /humanize/) if defined? Date::Infinity
     end
-    
+
+  end
+
+  describe 'when called on conceptual number' do
+
+    it 'reads correctly' do
+      inf = Float::INFINITY
+      neg_inf = -inf
+      nan = inf + neg_inf
+
+      expect(inf.humanize).to eql('infinity')
+      expect(neg_inf.humanize).to eql('negative infinity')
+      expect(nan.humanize).to eql('undefined')
+    end
+
   end
 
 end

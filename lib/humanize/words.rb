@@ -3,6 +3,8 @@ module Humanize
   WORDS = {
     :de => {
       :group_by => 1_000,
+      :infinity => 'Unendlich',
+      :undefined => 'undefiniert',
       :negative => 'negativ',
       :zero => 'null',
       :point => 'Punkt',
@@ -11,6 +13,8 @@ module Humanize
     },
     :en => {
       :group_by => 1_000,
+      :infinity => 'infinity',
+      :undefined => 'undefined',
       :negative => 'negative',
       :zero => 'zero',
       :point => 'point',
@@ -19,6 +23,8 @@ module Humanize
     },
     :fr => {
       :group_by => 1_000,
+      :infinity => 'infini',    # Needs verification from native french speaker. Send
+      :undefined => 'indéfini', # PR to correct (if wrong) and remove these 2 line comments.
       :negative => 'négatif',
       :zero => 'zéro',
       :point => 'virgule',
@@ -27,6 +33,8 @@ module Humanize
     },
     :tr => {
       :group_by => 1_000,
+      :infinity => 'sonsuz',
+      :undefined => 'tanımsız',
       :negative => 'eksi',
       :zero => 'sıfır',
       :point => 'virgül',
@@ -35,6 +43,8 @@ module Humanize
     },
     :id => {
       :group_by => 1_000,
+      :infinity => 'tak terhingga',
+      :undefined => 'tak terdefinisi',
       :negative => 'minus',
       :zero => 'nol',
       :point => 'koma',
