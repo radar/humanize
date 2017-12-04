@@ -8,9 +8,9 @@ module Humanize
   # Big numbers are big: http://wiki.answers.com/Q/What_number_is_after_vigintillion&src=ansTT
 
 
-  def humanize(options = {})
-    locale = options[:locale] || Humanize.config.default_locale
-    decimals_as = options[:decimals_as] || Humanize.config.decimals_as
+  def humanize(locale: Humanize.config.default_locale,
+               decimals_as: Humanize.config.decimals_as)
+
     number_grouping = WORDS[locale][:group_by]
     num = self
     o = ''
