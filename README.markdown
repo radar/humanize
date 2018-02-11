@@ -49,7 +49,7 @@ require 'humanize'
 
 ```ruby
 100.humanize => "one hundred"
-1001.humanize => "one thousand one"
+1001.humanize => "one thousand and one"
 0.001.humanize => "zero point zero zero one"
 ```
 
