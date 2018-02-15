@@ -11,71 +11,72 @@ module Humanize
   def humanize(locale: Humanize.config.default_locale,
                decimals_as: Humanize.config.decimals_as)
 
-    number_grouping = WORDS[locale][:group_by]
-    num = self
-    o = ''
-
-    if num.class == Float
-      if (inf = num.infinite?)
-        if inf == 1
+    if self.class == Float
+      if infinity = self.infinite?
+        if infinity == 1
           return WORDS[locale][:infinity]
         else
           return "#{WORDS[locale][:negative]} #{WORDS[locale][:infinity]}"
         end
-      elsif num.nan?
+      elsif self.nan?
         return WORDS[locale][:undefined]
       end
     end
 
-    if num.zero?
+    number = self
+    sign = []
+    if number.zero?
       return WORDS[locale][:zero]
-    elsif num < 0
-      o += WORDS[locale][:negative] + ' '
-      num = num.abs
+    elsif number < 0
+      sign << WORDS[locale][:negative]
+      number = number.abs
     end
 
-    sets = []
-    i = 0
-    f = false
-    until num.zero?
-      num, r = num.divmod(number_grouping)
-      unless r.zero?
-        if !i.zero?
-          conjunction = if !sets.empty?
-                          (f ? ' ' + WORDS[locale][:and] : WORDS[locale][:comma])
-                        else
-                          ''
-                        end
-          sets << LOTS[locale][i] + conjunction
+    number_grouping = WORDS[locale][:group_by]
+    human_ary = []
+    iteration = 0
+    use_and = false
+    until number.zero?
+      number, remainder = number.divmod(number_grouping)
+      unless remainder.zero?
+        if iteration.zero?
+          use_and = true if remainder < (number_grouping/10)
         else
-          f = true if r < (number_grouping/10)
+          conjunction = if human_ary.empty?
+                          ''
+                        else
+                          (use_and ? ' ' + WORDS[locale][:and] : WORDS[locale][:comma])
+                        end
+          human_ary << LOTS[locale][iteration] + conjunction
         end
 
-        unless exactly_one_thousand_in_french_or_turkish?(locale, r, sets)
-          sets << SUB_ONE_GROUPING[locale][r]
+        unless exactly_one_thousand_in_french_or_turkish?(locale, remainder, human_ary)
+          human_ary << SUB_ONE_GROUPING[locale][remainder]
         end
       end
-      i = i.succ
+      iteration = iteration.next
     end
-    o += sets.reverse.join(' ')
 
     if self.class == Float
       digits, exp = to_s.split("e-")
-      decimals = ("%.#{digits[/\d+$/].length + exp.to_i}f" % self).split(".").last
+      decimals = format("%.#{digits[/\d+$/].length + exp.to_i}f", self).split(".").last
       has_leading_zeroes = decimals[/^0+/].to_s.length > 0
       decimals_as = :digits if has_leading_zeroes
       decimals_as_words = case decimals_as
                           when :digits
-                            decimals.chars.map do |n|
-                              SUB_ONE_GROUPING[locale][n.to_i]
+                            decimals.chars.map do |num|
+                              SUB_ONE_GROUPING[locale][num.to_i]
                             end.join(' ')
                           when :number
                             decimals.to_i.humanize(:locale => locale)
                           end
-      o += ' ' + WORDS[locale][:point] + ' ' + decimals_as_words
+      human_ary.insert(0, decimals_as_words, WORDS[locale][:point])
     end
-    o = correct_one_thousand_in_indonesian(locale, o)
-    o.squeeze(' ')
+
+    human_ary += sign
+    humanized = human_ary.reverse.join(' ')
+    correct_one_thousand_in_indonesian(locale, humanized)
+    humanized.squeeze(' ')
   end
 
   class << self
@@ -96,9 +97,9 @@ module Humanize
 
 private
 
-  def exactly_one_thousand_in_french_or_turkish?(locale, r, sets)
-    if r == 1
-      if (thousand = sets.last.to_s.strip) == 'mille' && locale == :fr
+  def exactly_one_thousand_in_french_or_turkish?(locale, remainder, human_ary)
+    if remainder == 1
+      if (thousand = human_ary.last.to_s.strip) == 'mille' && locale == :fr
         return true
       elsif thousand == 'bin' && locale == :tr
         return true
@@ -107,13 +108,11 @@ private
     return false
   end
 
-  def correct_one_thousand_in_indonesian(locale, o)
+  def correct_one_thousand_in_indonesian(locale, humanized)
     if locale == :id
       lots = LOTS[:id].drop(2)
       wrong_1000_re = /(?<=#{lots.join(" |")} )\s*satu ribu|^satu ribu/
-      o.sub(wrong_1000_re, 'seribu')
-    else
-      o
+      humanized.sub!(wrong_1000_re, 'seribu')
     end
   end
 
