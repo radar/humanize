@@ -1,3 +1,4 @@
+require 'bigdecimal'
 require_relative './humanize/cache'
 require_relative './humanize/lots'
 require_relative './humanize/words'
@@ -133,5 +134,9 @@ class Integer
 end
 
 class Float
+  include Humanize
+end
+
+class BigDecimal
   include Humanize
 end

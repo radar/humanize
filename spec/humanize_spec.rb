@@ -144,4 +144,12 @@ describe "Humanize" do
 
   end
 
+  describe 'when called on bigdecimal' do
+
+    it 'reads correctly' do
+      expect(BigDecimal.new(TESTS.last.first).humanize).to eql(TESTS.last.last)
+    end
+
+  end
+
 end
