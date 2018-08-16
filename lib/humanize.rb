@@ -104,6 +104,8 @@ private
         return true
       elsif thousand == 'bin' && locale == :tr
         return true
+      elsif thousand == 'min' && locale == :az
+        return true
       end
     end
     return false
