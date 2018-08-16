@@ -31,6 +31,16 @@ module Humanize
       :and => '',
       :comma => ''
     },
+    :az => {
+      :group_by => 1_000,
+      :infinity => 'sonsuz',
+      :undefined => 'undefined',
+      :negative => 'mənfi',
+      :zero => 'sıfır',
+      :point => 'vergül',
+      :and => '',
+      :comma => ''
+    },
     :tr => {
       :group_by => 1_000,
       :infinity => 'sonsuz',

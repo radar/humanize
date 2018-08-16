@@ -59,6 +59,22 @@ describe "Humanize" do
 
     end
 
+    describe 'azerbaijani specific rules' do
+
+      it 'one thousand and two equals "min iki"' do
+        expect(1002.humanize(:locale => :az)).to eql('min iki')
+      end
+
+      it 'two thousand and one equals "iki min bir' do
+        expect(2001.humanize(:locale => :az)).to eql('iki min bir')
+      end
+
+      it 'ten thousand equals "on min"' do
+        expect(10000.humanize(:locale => :az)).to eql('on min')
+      end
+
+    end
+
     describe 'indonesian specific rules' do
       before do
         Humanize.config.default_locale = :id
