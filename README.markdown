@@ -88,6 +88,7 @@ Currently supported locales:
 * Azerbaijani `:az`
 * German: `:de`
 * Indonesian: `:id`
+* Thai: `:th` (up to single-digit millions)
 
 ## Benchmarks
 

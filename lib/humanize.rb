@@ -60,6 +60,7 @@ module Humanize
       iteration = iteration.next
     end
 
+    joiner = WORDS[locale][:nowordspacing] ? '' : ' '
     if self.class == Float
       digits, exp = to_s.split("e-")
       decimals = format("%.#{digits[/\d+$/].length + exp.to_i}f", self).split(".").last
@@ -69,7 +70,7 @@ module Humanize
                           when :digits
                             decimals.chars.map do |num|
                               SUB_ONE_GROUPING[locale][num.to_i]
-                            end.join(' ')
+                            end.join(joiner)
                           when :number
                             decimals.to_i.humanize(:locale => locale)
                           end
@@ -77,7 +78,6 @@ module Humanize
     end
 
     human_ary += sign
-    joiner = WORDS[locale][:nowordspacing] ? '' : ' '
     humanized = human_ary.reverse.join(joiner)
 
     correct_one_thousand_in_indonesian(locale, humanized)
