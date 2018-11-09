@@ -33,7 +33,8 @@ module Humanize
       number = number.abs
     end
 
-    number_grouping = WORDS[locale][:group_by]
+    number_groups = [*WORDS[locale][:group_by]]
+    number_grouping = number_groups.shift
     human_ary = []
     iteration = 0
     use_and = false
@@ -55,6 +56,7 @@ module Humanize
           human_ary << SUB_ONE_GROUPING[locale][remainder]
         end
       end
+      number_grouping = number_groups.shift unless number_groups.empty?
       iteration = iteration.next
     end
 
@@ -75,7 +77,9 @@ module Humanize
     end
 
     human_ary += sign
-    humanized = human_ary.reverse.join(' ')
+    joiner = WORDS[locale][:nowordspacing] ? '' : ' '
+    humanized = human_ary.reverse.join(joiner)
+
     correct_one_thousand_in_indonesian(locale, humanized)
     humanized.squeeze(' ')
   end
