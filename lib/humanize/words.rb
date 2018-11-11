@@ -60,6 +60,17 @@ module Humanize
       :point => 'koma',
       :and => '',
       :comma => ''
-    }
+    },
+    :th => {
+      :group_by => [100, 10],
+      :infinity => 'infinity',
+      :undefined => 'undefined',
+      :negative => 'ลบ',
+      :zero => 'ศูนย์',
+      :point => 'จุด',
+      :and => 'และ',
+      :comma => '',
+      :nowordspacing => true
+    },
   }
 end

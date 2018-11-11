@@ -33,7 +33,8 @@ module Humanize
       number = number.abs
     end
 
-    number_grouping = WORDS[locale][:group_by]
+    number_groups = [*WORDS[locale][:group_by]]
+    number_grouping = number_groups.shift
     human_ary = []
     iteration = 0
     use_and = false
@@ -55,9 +56,11 @@ module Humanize
           human_ary << SUB_ONE_GROUPING[locale][remainder]
         end
       end
+      number_grouping = number_groups.shift unless number_groups.empty?
       iteration = iteration.next
     end
 
+    joiner = WORDS[locale][:nowordspacing] ? '' : ' '
     if self.class == Float
       digits, exp = to_s.split("e-")
       decimals = format("%.#{digits[/\d+$/].length + exp.to_i}f", self).split(".").last
@@ -67,7 +70,7 @@ module Humanize
                           when :digits
                             decimals.chars.map do |num|
                               SUB_ONE_GROUPING[locale][num.to_i]
-                            end.join(' ')
+                            end.join(joiner)
                           when :number
                             decimals.to_i.humanize(:locale => locale)
                           end
@@ -75,7 +78,8 @@ module Humanize
     end
 
     human_ary += sign
-    humanized = human_ary.reverse.join(' ')
+    humanized = human_ary.reverse.join(joiner)
+
     correct_one_thousand_in_indonesian(locale, humanized)
     humanized.squeeze(' ')
   end

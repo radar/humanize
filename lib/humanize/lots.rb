@@ -6,6 +6,7 @@ module Humanize
     :fr => ['', 'mille', 'million', 'milliard', 'billion', 'billiard', 'trillion', 'trilliard', 'quadrillion', 'quadrilliard', 'quintillion', 'quintilliard', 'sextillion', 'sextilliard', 'septillion', 'septilliard', 'octillion', 'octilliard', 'nonillion', 'nonilliard', 'décillion', 'décilliard', 'undécillion', 'undécilliard', 'duodécillion', 'duodécilliard', 'tredécillion', 'tredécilliard', 'quattuordécillion', 'quattuordécilliard', 'quindécillion', 'quindécilliard', 'sexdécillion', 'sexdécilliard', 'septendécillion', 'septendécilliard', 'octodécillion', 'octodécilliard', 'novemdécillion', 'novemdécilliard', 'vigintillion', 'vigintilliard', 'unvigintilliard', 'duovigintilliard', 'trevigintilliard', 'quattuorvigintilliard', 'quinvigintilliard', 'sexvigintilliard', 'septenvigintilliard', 'octovigintilliard', 'novemvigintilliard', 'quinquavigintilliard'],
     :tr => ['', 'bin', 'milyon', 'milyar', 'trilyon', 'katrilyon', 'kentilyon', 'seksilyon', 'septilyon', 'oktilyon', 'nonilyon', 'desilyon', 'undesilyon', 'dodesilyon', 'tredesilyon', 'katordesilyon', 'kendesilyon', 'seksdesilyon', 'septendesilyon', 'oktodesilyon', 'novemdesilyon', 'vigintilyon'],
     :az => ['', 'min', 'milyon', 'milyard', 'trilyon', 'katrilyon', 'kentilyon', 'seksilyon', 'septilyon', 'oktilyon', 'nonilyon', 'desilyon', 'undesilyon', 'dodesilyon', 'tredesilyon', 'katordesilyon', 'kendesilyon', 'seksdesilyon', 'septendesilyon', 'oktodesilyon', 'novemdesilyon', 'vigintilyon'],
-    :id => ['', 'ribu', 'juta', 'miliar', 'triliun', 'kuadriliun']
+    :id => ['', 'ribu', 'juta', 'miliar', 'triliun', 'kuadriliun'],
+    :th => ['', 'ร้อย', 'พัน', 'หมื่น', 'แสน', 'ล้าน']
   }
 end
