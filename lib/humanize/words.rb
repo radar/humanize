@@ -21,6 +21,16 @@ module Humanize
       :and => 'and',
       :comma => ','
     },
+    :es => {
+      :group_by => 1_000,
+      :infinity => 'infinito',
+      :undefined => 'indefinido',
+      :negative => 'menos',
+      :zero => 'cero',
+      :point => 'punto',
+      :and => 'y',
+      :comma => ','
+    },
     :fr => {
       :group_by => 1_000,
       :infinity => 'infini',    # Needs verification from native french speaker. Send

@@ -67,6 +67,7 @@ Default values can be overriden:
 ```ruby
 42.humanize(locale: :fr) # => "quarante-deux"
 1666.humanize(locale: :tr) # => "bin altı yüz altmış altı"
+1588.humanize(locale: :es) # => "mil quinientos ochenta y ocho"
 ```
 
 ## Decimals
@@ -88,6 +89,7 @@ Currently supported locales:
 * Azerbaijani `:az`
 * German: `:de`
 * Indonesian: `:id`
+* Spanishi: `:es`
 * Thai: `:th` (up to single-digit millions)
 
 ## Benchmarks
@@ -128,3 +130,4 @@ You can run mutation testing by calling `bin/run_mutant`.
 * *Original idea*: Brenton Fletcher
 * *Unbastardisation of original idea*: Ryan Bigg
 * *Awesome speed up*: Jack "Chendo" Chen
+* *Spanish translate by @matiasmasca

@@ -26,6 +26,18 @@ module Humanize
         expect(Humanize.config.default_locale).to eq(:fr)
       end
 
+      it "value can be changed using a block" do
+        Humanize.configure do |config|
+          config.default_locale = :es
+        end
+        expect(Humanize.config.default_locale).to eq(:es)
+      end
+
+      it "value can be changed directly" do
+        Humanize.config.default_locale = :es
+        expect(Humanize.config.default_locale).to eq(:es)
+      end
+
     end
 
   end
