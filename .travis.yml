@@ -2,13 +2,13 @@
 
 language: ruby
 rvm:
-  - "2.1" # latest 2.1.x
-  - "2.2" # latest 2.2.x
   - "2.3" # latest 2.3.x
   - "2.4" # latest 2.4.x
   - "ruby-head"
 script:
-  rspec
+  - bundle exec rspec
+  - bundle exec rubocop
+
 
 sudo: false
 

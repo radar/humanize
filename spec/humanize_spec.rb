@@ -1,22 +1,11 @@
-# -*- encoding: utf-8 -*-
-
 require 'spec_helper'
 
-describe "Humanize" do
-  require_relative 'tests'
-
-  after(:each) do
+RSpec.describe "Humanize" do
+  after do
     Humanize.reset_config
   end
 
-  TESTS.each do |num, human|
-    it "#{num} is #{human}" do
-      expect(num.humanize).to eql(human)
-    end
-  end
-
   describe 'locale option' do
-
     it 'uses default locale' do
       Humanize.config.default_locale = :fr
       expect(42.humanize).to eql('quarante-deux')
@@ -24,55 +13,35 @@ describe "Humanize" do
 
     it 'uses locale passed as argument if given' do
       Humanize.config.default_locale = :en
-      expect(42.humanize(:locale => :fr)).to eql('quarante-deux')
-    end
-
-    describe 'french specific rules' do
-
-      it 'one thousand and two equals "mille deux"' do
-        expect(1002.humanize(:locale => :fr)).to eql('mille deux')
-      end
-
-      it 'two thousand and one equals "deux mille un"' do
-        expect(2001.humanize(:locale => :fr)).to eql('deux mille un')
-      end
-
-      it 'ten thousand equals "dix mille"' do
-        expect(10000.humanize(:locale => :fr)).to eql('dix mille')
-      end
-
+      expect(42.humanize(locale: :fr)).to eql('quarante-deux')
     end
 
     describe 'turkish specific rules' do
-
       it 'one thousand and two equals "bin iki"' do
-        expect(1002.humanize(:locale => :tr)).to eql('bin iki')
+        expect(1002.humanize(locale: :tr)).to eql('bin iki')
       end
 
       it 'two thousand and one equals "iki bin bir' do
-        expect(2001.humanize(:locale => :tr)).to eql('iki bin bir')
+        expect(2001.humanize(locale: :tr)).to eql('iki bin bir')
       end
 
       it 'ten thousand equals "on bin"' do
-        expect(10000.humanize(:locale => :tr)).to eql('on bin')
+        expect(10_000.humanize(locale: :tr)).to eql('on bin')
       end
-
     end
 
     describe 'azerbaijani specific rules' do
-
       it 'one thousand and two equals "min iki"' do
-        expect(1002.humanize(:locale => :az)).to eql('min iki')
+        expect(1002.humanize(locale: :az)).to eql('min iki')
       end
 
       it 'two thousand and one equals "iki min bir' do
-        expect(2001.humanize(:locale => :az)).to eql('iki min bir')
+        expect(2001.humanize(locale: :az)).to eql('iki min bir')
       end
 
       it 'ten thousand equals "on min"' do
-        expect(10000.humanize(:locale => :az)).to eql('on min')
+        expect(10_000.humanize(locale: :az)).to eql('on min')
       end
-
     end
 
     describe 'indonesian specific rules' do
@@ -94,11 +63,9 @@ describe "Humanize" do
         end
       end
     end
-
   end
 
   describe 'decimals_as option' do
-
     it 'uses value from configuration' do
       Humanize.config.decimals_as = :number
       expect(0.42.humanize).to eql('zero point forty-two')
@@ -106,11 +73,10 @@ describe "Humanize" do
 
     it 'uses value passed as argument if given' do
       Humanize.config.decimals_as = :number
-      expect(0.42.humanize(:decimals_as => :digits)).to eql('zero point four two')
+      expect(0.42.humanize(decimals_as: :digits)).to eql('zero point four two')
     end
 
     describe 'when set as number' do
-
       before do
         Humanize.config.decimals_as = :number
       end
@@ -119,35 +85,30 @@ describe "Humanize" do
         expect(0.042.humanize).to eql('zero point zero four two')
         expect(0.0042.humanize).to eql('zero point zero zero four two')
       end
-
     end
-
   end
 
   describe 'both options work together' do
-
     it 'work together' do
       expect(
-        0.42.humanize(:locale => :fr, :decimals_as => :number)
+        0.42.humanize(locale: :fr, decimals_as: :number)
       ).to eql('zéro virgule quarante-deux')
     end
-
   end
 
   describe 'when called on instances of Rational, Complex, and Date::Infinity' do
-
     it 'will raise NoMethodError' do
-      expect{ Rational(1,3).humanize }.to raise_error(NoMethodError, /humanize/)
-      expect{ Complex(1+2i).humanize }.to raise_error(NoMethodError, /humanize/)
-      expect{
-        Date::Infinity.new.humanize
-      }.to raise_error(NoMethodError, /humanize/) if defined? Date::Infinity
+      expect { Rational(1, 3).humanize }.to raise_error(NoMethodError, /humanize/)
+      expect { Complex(1 + 2i).humanize }.to raise_error(NoMethodError, /humanize/)
+      if defined? Date::Infinity
+        expect do
+          Date::Infinity.new.humanize
+        end.to raise_error(NoMethodError, /humanize/)
+      end
     end
-
   end
 
   describe 'when called on conceptual number' do
-
     it 'reads correctly' do
       inf = Float::INFINITY
       neg_inf = -inf
@@ -157,15 +118,5 @@ describe "Humanize" do
       expect(neg_inf.humanize).to eql('negative infinity')
       expect(nan.humanize).to eql('undefined')
     end
-
   end
-
-  describe 'when called on bigdecimal' do
-
-    it 'reads correctly' do
-      expect(BigDecimal.new(TESTS.last.first).humanize).to eql(TESTS.last.last)
-    end
-
-  end
-
 end

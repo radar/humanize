@@ -3,7 +3,7 @@
 
 Gem::Specification.new do |s|
   s.name = "humanize"
-  s.version = "1.9.0"
+  s.version = "2.0.0"
 
   s.required_ruby_version = '>= 2.0'
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
@@ -20,4 +20,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'mutant'
   s.add_development_dependency 'mutant-rspec'
   s.add_development_dependency 'pry-byebug'
+  s.add_development_dependency 'rubocop'
 end
