@@ -1,3 +1,6 @@
+AllCops:
+  TargetRubyVersion: 2.3
+
 Style/StringLiterals:
   Enabled: false
 
@@ -27,3 +30,10 @@ Metrics/PerceivedComplexity:
 Metrics/BlockLength:
   Exclude:
     - spec/**/*.rb
+
+Style/WordArray:
+  Exclude:
+    - lib/humanize/locales/constants/*.rb
+
+Style/SpecialGlobalVars:
+  Enabled: false

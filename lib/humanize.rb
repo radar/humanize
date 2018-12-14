@@ -105,21 +105,6 @@ module Humanize
     yield(config)
   end
 
-  private
-
-  def exactly_one_thousand_in_french_or_turkish?(locale, remainder, human_ary)
-    if remainder == 1
-      if (thousand = human_ary.last.to_s.strip) == 'mille' && locale == :fr
-        return true
-      elsif thousand == 'bin' && locale == :tr
-        return true
-      elsif thousand == 'min' && locale == :az
-        return true
-      end
-    end
-    false
-  end
-
   class Configuration
     attr_accessor :default_locale, :decimals_as
 
