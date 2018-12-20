@@ -12,4 +12,3 @@ require 'humanize'
 
 require 'irb'
 IRB.start
-
