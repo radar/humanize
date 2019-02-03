@@ -29,7 +29,7 @@ module Humanize
     def conjunction(parts, use_and)
       return '' if parts.empty? || !use_and
 
-      ' и'
+      ', '
     end
 
     def add_grouping(parts, use_and, iteration)
