@@ -12,9 +12,9 @@ Gem::Specification.new do |s|
   s.rubygems_version = "2.5.1"
   s.summary = "Extension to Numeric to humanize numbers"
 
+  s.add_development_dependency 'mutant'
+  s.add_development_dependency 'mutant-rspec'
   s.add_development_dependency 'pry-byebug'
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'rubocop'
-  s.add_development_dependency 'mutant'
-  s.add_development_dependency 'mutant-rspec'
 end

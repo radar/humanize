@@ -21,7 +21,7 @@ module Humanize
         iteration += 1
       end
 
-      parts
+      correct_lots(parts)
     end
 
     private
@@ -37,6 +37,15 @@ module Humanize
       return unless grouping
 
       parts << "#{grouping}#{conjunction(parts, use_and)}"
+    end
+
+    def correct_lots(parts)
+      parts = parts.reverse.join(' ').squeeze(' ')
+      SPECIFIC_LOTS.each do |wrong, right|
+        parts = parts.sub(wrong, right) if parts.include?(wrong)
+      end
+
+      parts.split(' ').reverse
     end
   end
 end

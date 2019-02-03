@@ -13,23 +13,15 @@ RSpec.describe Humanize, 'ru locale' do
     [1000, 'одна тысяча'],
     [2000, 'две тысячи'],
     [5000, 'пять тысяч'],
-    [1000000, 'один миллион'],
-    [2000000, 'два миллиона'],
-    [3000000, 'три миллиона'],
-    [5000000, 'пять миллионов'],
-    [1.25, 'одна целая двадцать пять сотых']
+    [1_000_000, 'один миллион'],
+    [2_000_000, 'два миллиона'],
+    [3_000_000, 'три миллиона'],
+    [5_000_000, 'пять миллионов']
   ]
 
   tests.each do |num, output|
     it "#{num} equals #{output}" do
       expect(num.humanize).to eql(output)
-    end
-  end
-
-  context 'decimals: number' do
-    it 'returns the decimals as whole numbers' do
-      num = 1.25
-      expect(num.humanize(decimals_as: :number)).to eq('одна целая двадцать пять сотых')
     end
   end
 
