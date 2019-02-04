@@ -59,7 +59,7 @@ module Humanize
   end
 
   def process_decimals(locale_class, locale, parts, decimals_as)
-    return unless is_a?(Float)
+    return unless is_a?(Float) || is_a?(BigDecimal)
 
     # Why 15?
     # (byebug) BigDecimal.new(number, 15)
@@ -69,6 +69,8 @@ module Humanize
     decimal = BigDecimal(self, 15) - BigDecimal(to_i)
 
     _sign, significant_digits, _base, exponent = decimal.split
+    return if significant_digits == "0"
+
     grouping = locale_class::SUB_ONE_GROUPING
     leading_zeroes = [grouping[0]] * exponent.abs
     decimals_as = :digits if leading_zeroes.any?
