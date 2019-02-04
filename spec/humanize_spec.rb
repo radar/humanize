@@ -119,4 +119,11 @@ RSpec.describe "Humanize" do
       expect(nan.humanize).to eql('undefined')
     end
   end
+
+  describe 'when called on bigdecimal with decimal fractions' do
+    it 'reads the decimal digits' do
+      expect(BigDecimal('123').humanize).to eql('one hundred and twenty-three')
+      expect(BigDecimal('123.45').humanize).to eql('one hundred and twenty-three point four five')
+    end
+  end
 end
