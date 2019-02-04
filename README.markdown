@@ -89,6 +89,7 @@ Currently supported locales:
 * German: `:de`
 * Indonesian: `:id`
 * Thai: `:th` (up to single-digit millions)
+* Russian: `:ru` (except for decimals)
 
 ## Testing
 

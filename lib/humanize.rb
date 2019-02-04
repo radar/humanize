@@ -38,6 +38,8 @@ module Humanize
       Humanize::Fr
     when :id
       Humanize::Id
+    when :ru
+      Humanize::Ru
     when :th
       Humanize::Th
     when :tr
