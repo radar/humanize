@@ -23,7 +23,7 @@ RSpec.describe Humanize, "de locale" do
   context 'decimals: number' do
     it 'returns the decimals as whole numbers' do
       num = 8.15
-      expect(num.humanize(decimals_as: :number)).to eq('Acht Punkt Fünfzehn')
+      expect(num.humanize(decimals_as: :number)).to eq('Acht Komma Fünfzehn')
     end
   end
 
