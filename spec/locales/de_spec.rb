@@ -8,7 +8,7 @@ RSpec.describe Humanize, "de locale" do
   end
 
   tests = [
-    [8.15, 'Acht Punkt Eins Fünf'],
+    [8.15, 'Acht Komma Eins Fünf'],
     [1002, 'Eins Tausend und Zwei'],
     [2001, 'Zwei Tausend und Eins'],
     [10_000, 'Zehn Tausend']
