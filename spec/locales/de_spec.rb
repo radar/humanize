@@ -8,7 +8,7 @@ RSpec.describe Humanize, "de locale" do
   end
 
   tests = [
-    [8.15, 'Acht Punkt Eins Fünf'],
+    [8.15, 'Acht Komma Eins Fünf'],
     [1002, 'Eins Tausend und Zwei'],
     [2001, 'Zwei Tausend und Eins'],
     [10_000, 'Zehn Tausend']
@@ -23,7 +23,7 @@ RSpec.describe Humanize, "de locale" do
   context 'decimals: number' do
     it 'returns the decimals as whole numbers' do
       num = 8.15
-      expect(num.humanize(decimals_as: :number)).to eq('Acht Punkt Fünfzehn')
+      expect(num.humanize(decimals_as: :number)).to eq('Acht Komma Fünfzehn')
     end
   end
 
