@@ -2,16 +2,13 @@
 
 language: ruby
 rvm:
-  - "2.3" # latest 2.3.x
   - "2.4" # latest 2.4.x
   - "2.5" # latest 2.5.x
+  - "2.6" # latest 2.6.x
   - "ruby-head"
 script:
   - bundle exec rspec
   - bundle exec rubocop
-
-
-sudo: false
 
 before_install:
   - gem install bundler
