@@ -89,10 +89,6 @@ module Humanize
     parts.insert(0, decimals_as_words, locale_class::POINT)
   end
 
-  def self.decimals_as_number(decimal, locale:)
-    decimal.significant_digits.join('').to_i.humanize(locale: locale)
-  end
-
   class << self
     attr_writer :config
   end
