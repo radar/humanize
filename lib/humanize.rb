@@ -34,6 +34,8 @@ module Humanize
       Humanize::De
     when :en
       Humanize::En
+    when :es
+      Humanize::Es
     when :fr
       Humanize::Fr
     when :id
@@ -51,7 +53,9 @@ module Humanize
 
   def self.stringify(parts, sign)
     output = parts.reverse.join(' ').squeeze(' ')
-    if sign
+    if Humanize.config.default_locale == :es && sign
+      "#{output} #{sign}"
+    elsif sign
       "#{sign} #{output}"
     else
       output
