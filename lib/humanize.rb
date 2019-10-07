@@ -40,6 +40,8 @@ module Humanize
       [Humanize::Fr, SPACE]
     when :id
       [Humanize::Id, SPACE]
+    when :pt
+      [Humanize::Pt, SPACE]
     when :ru
       [Humanize::Ru, SPACE]
     when :th

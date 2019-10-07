@@ -90,6 +90,7 @@ Currently supported locales:
 * Indonesian: `:id`
 * Thai: `:th`
 * Russian: `:ru` (except for decimals)
+* Portuguese: `:pt`
 
 ## Testing
 
