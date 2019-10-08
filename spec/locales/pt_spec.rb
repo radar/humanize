@@ -12,7 +12,7 @@ RSpec.describe Humanize, "pt locale" do
     [1000, 'mil'],
     [1002, 'mil e dois'],
     [2000, 'dois mil'],
-    [2002, 'dois mil e um'],
+    [2002, 'dois mil e dois'],
     [10_000, 'dez mil']
   ]
 
@@ -36,7 +36,7 @@ RSpec.describe Humanize, "pt locale" do
       nan = inf + neg_inf
 
       expect(inf.humanize).to eql('infinito')
-      expect(neg_inf.humanize).to eql('infinito negativo')
+      expect(neg_inf.humanize).to eql('negativo infinito')
       expect(nan.humanize).to eql('indefinido')
     end
   end

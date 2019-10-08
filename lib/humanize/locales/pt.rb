@@ -41,9 +41,7 @@ module Humanize
       grouping = LOTS[iteration]
       return unless grouping
 
-      if plural
-        grouping.sub! 'lhão', 'lhões'
-      end
+      grouping.sub! 'lhão', 'lhões' if plural
 
       parts << "#{grouping}#{conjunction(parts, use_and)}"
     end
