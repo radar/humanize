@@ -89,8 +89,9 @@ Currently supported locales:
 * Azerbaijani `:az`
 * German: `:de`
 * Indonesian: `:id`
-* Thai: `:th` (up to single-digit millions)
+* Thai: `:th`
 * Russian: `:ru` (except for decimals)
+* Portuguese: `:pt`
 
 ## Testing
 

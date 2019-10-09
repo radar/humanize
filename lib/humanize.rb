@@ -2,18 +2,20 @@ require 'bigdecimal'
 require_relative './humanize/locales'
 
 module Humanize
+  SPACE = ' '.freeze
+  EMPTY = ''.freeze
   # Big numbers are big: http://wiki.answers.com/Q/What_number_is_after_vigintillion&src=ansTT
 
   def humanize(locale: Humanize.config.default_locale,
                decimals_as: Humanize.config.decimals_as)
-    locale_class = Humanize.for_locale(locale)
+    locale_class, spacer = Humanize.for_locale(locale)
 
     return locale_class::SUB_ONE_GROUPING[0] if zero?
 
     infinity = to_f.infinite?
     if infinity
       infinity_word = locale_class::INFINITY
-      return infinity == 1 ? infinity_word : "#{locale_class::NEGATIVE} #{infinity_word}"
+      return infinity == 1 ? infinity_word : "#{locale_class::NEGATIVE}#{spacer}#{infinity_word}"
     elsif is_a?(Float) && nan?
       return locale_class::UNDEFINED
     end
@@ -21,39 +23,41 @@ module Humanize
     sign = locale_class::NEGATIVE if negative?
 
     parts = locale_class.new.humanize(abs)
-    process_decimals(locale_class, locale, parts, decimals_as)
-    Humanize.stringify(parts, sign)
+    process_decimals(locale_class, locale, parts, decimals_as, spacer)
+    Humanize.stringify(parts, sign, spacer)
   end
 
   def self.for_locale(locale)
     case locale.to_sym
     # NOTE: add locales here in ealphabetical order
     when :az
-      Humanize::Az
+      [Humanize::Az, SPACE]
     when :de
-      Humanize::De
+      [Humanize::De, SPACE]
     when :en
-      Humanize::En
+      [Humanize::En, SPACE]
     when :es
-      Humanize::Es
+      [Humanize::Es, SPACE]
     when :fr
-      Humanize::Fr
+      [Humanize::Fr, SPACE]
     when :id
-      Humanize::Id
+      [Humanize::Id, SPACE]
+    when :pt
+      [Humanize::Pt, SPACE]
     when :ru
-      Humanize::Ru
+      [Humanize::Ru, SPACE]
     when :th
-      Humanize::Th
+      [Humanize::Th, EMPTY]
     when :tr
-      Humanize::Tr
+      [Humanize::Tr, SPACE]
     else
       raise "Unsupported humanize locale: #{locale}"
     end
   end
 
-  def self.stringify(parts, sign)
-    output = parts.reverse.join(' ').squeeze(' ')
-    if Humanize.config.default_locale == :es && sign
+  def self.stringify(parts, sign, spacer)
+    output = parts.reverse.join(spacer).squeeze(spacer)
+    if locale_is?(:es) && sign
       "#{output} #{sign}"
     elsif sign
       "#{sign} #{output}"
@@ -62,7 +66,11 @@ module Humanize
     end
   end
 
-  def process_decimals(locale_class, locale, parts, decimals_as)
+  def self.locale_is?(locale)
+    Humanize.config.default_locale == locale
+  end
+
+  def process_decimals(locale_class, locale, parts, decimals_as, spacer)
     return unless is_a?(Float) || is_a?(BigDecimal)
 
     # Why 15?
@@ -85,7 +93,7 @@ module Humanize
                             grouping[num.to_i]
                           end
 
-                          (leading_zeroes + digits).join(' ')
+                          (leading_zeroes + digits).join(spacer)
                         when :number
                           significant_digits.to_i.humanize(locale: locale)
                         end
