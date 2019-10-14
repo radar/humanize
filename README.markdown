@@ -57,7 +57,7 @@ require 'humanize'
 
 ```ruby
 Humanize.configure do |config|
-  config.default_locale = :en  # [:en, :fr, :tr, :de, :id], default: :en
+  config.default_locale = :en  # [:en, :es, :fr, :tr, :de, :id], default: :en
   config.decimals_as = :digits # [:digits, :number], default: :digits
 end
 ```
@@ -83,6 +83,7 @@ You can choose how you want to display decimals:
 Currently supported locales:
 
 * English: `:en`
+* Spanish: `:es`
 * French: `:fr`
 * Turkish: `:tr`
 * Azerbaijani `:az`
