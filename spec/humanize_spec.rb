@@ -30,6 +30,26 @@ RSpec.describe "Humanize" do
       end
     end
 
+    describe 'malaysia specific rules' do
+      before do
+        Humanize.config.default_locale = :ms
+      end
+
+      context 'one thousand' do
+        it 'equals "satu ribu" when it is not the only thousand in its thousands range' do
+          expect(1_101_000.humanize).to eql('satu juta seratus satu ribu')
+          expect(2_201_042.humanize).to eql('dua juta dua ratus satu ribu empat puluh dua')
+        end
+
+        it 'equals "seribu" when it is the lone thousand in its thousands range' do
+          expect(1_000.humanize).to eql('seribu')
+          expect(1_042.humanize).to eql('seribu empat puluh dua')
+          expect(1_001_042.humanize).to eql('satu juta seribu empat puluh dua')
+          expect(1_000_001_042.humanize).to eql('satu bilion seribu empat puluh dua')
+        end
+      end
+    end
+
     describe 'azerbaijani specific rules' do
       it 'one thousand and two equals "min iki"' do
         expect(1002.humanize(locale: :az)).to eql('min iki')
