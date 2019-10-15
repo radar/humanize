@@ -32,8 +32,8 @@ module Humanize
     # NOTE: add locales here in ealphabetical order
     when :az, :de, :en, :es, :fr, :id, :pt, :ru
       [Object.const_get("Humanize::#{locale.capitalize}"), SPACE]
-    when :th
-      [Humanize::Th, EMPTY]
+    when :sv, :th
+      [Object.const_get("Humanize::#{locale.capitalize}"), EMPTY]
     when :tr
       [Humanize::Tr, SPACE]
     else
