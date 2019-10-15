@@ -91,6 +91,7 @@ Currently supported locales:
 * Thai: `:th`
 * Russian: `:ru` (except for decimals)
 * Portuguese: `:pt`
+* Swedish: `:sv`
 
 ## Testing
 

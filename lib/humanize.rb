@@ -44,6 +44,8 @@ module Humanize
       [Humanize::Pt, SPACE]
     when :ru
       [Humanize::Ru, SPACE]
+    when :sv
+      [Humanize::Sv, EMPTY]
     when :th
       [Humanize::Th, EMPTY]
     when :tr
