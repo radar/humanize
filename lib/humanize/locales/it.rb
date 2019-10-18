@@ -22,13 +22,14 @@ module Humanize
         prefix = parts[i+1]
         parts -= [prefix]
         
-        if lot == LOTS[1]
-          parts[i] = prefix == SUB_ONE_GROUPING[1] ? "mille" : "#{prefix}#{lot}"
-          next
+        parts[i] = if lot == LOTS[1]
+          prefix == SUB_ONE_GROUPING[1] ? "mille" : "#{prefix}#{lot}"
+        else
+          plural = lot[0...-1] + 'i'
+          prefix == SUB_ONE_GROUPING[1] ? "un #{lot}" : "#{prefix} #{plural}"
         end
-        
-        plural = lot[0...-1] + 'i'
-        parts[i] = prefix == SUB_ONE_GROUPING[1] ? "un #{lot}" : "#{prefix} #{plural},"
+
+        parts[i] += ',' if i + 1 != parts.size
       end
       
       parts
