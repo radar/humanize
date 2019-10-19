@@ -90,18 +90,14 @@ module Humanize
   def humanize_as_currency(locale: Humanize.config.default_locale,
                            decimals_as: Humanize.config.decimals_as,
                            currency: Humanize.config.default_currency)
+    unit_value = self.to_i.humanize(locale: locale,
+                                    decimals_as: decimals_as)
+    subunit_value = nil
     if is_a?(Float) || is_a?(BigDecimal)
-      unit_value = self.to_i.humanize(locale: locale,
-                                      decimals_as: decimals_as)
       subunit_value = (self.modulo(1).round(2) * 100).humanize(locale: locale,
                                                                decimals_as: decimals_as)
-      locale_class, spacer = Humanize.for_locale(locale)
-    else
-      locale_class, spacer = Humanize.for_locale(locale)
-      unit_value = self.to_i.humanize(locale: locale,
-                                      decimals_as: decimals_as)
-      subunit_value = nil
     end
+    locale_class, spacer = Humanize.for_locale(locale)
     process_currency(unit_value, subunit_value, currency, locale_class)
   end
 
