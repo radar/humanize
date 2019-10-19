@@ -129,10 +129,11 @@ module Humanize
   end
 
   class Configuration
-    attr_accessor :default_locale, :decimals_as
+    attr_accessor :default_locale, :decimals_as, :default_currency
 
     def initialize
       @default_locale = :en
+      @default_currency = :usd
       @decimals_as = :digits
     end
   end
