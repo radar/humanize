@@ -146,4 +146,15 @@ RSpec.describe "Humanize" do
       expect(BigDecimal('123.45').humanize).to eql('one hundred and twenty-three point four five')
     end
   end
+
+  describe 'when called for currency' do
+    it 'converts to currency correctly' do
+      expect(1.humanize_as_currency(:currency => :usd, :decimals_as => :number)).to eql('one dollar')
+      expect(1.01.humanize_as_currency(:currency => :usd, :decimals_as => :number)).to eql('one dollar and one cent')
+      expect(1.1.humanize_as_currency(:currency => :usd, :decimals_as => :number)).to eql('one dollar and ten cents')
+      expect(123.humanize_as_currency(:currency => :usd, :decimals_as => :number)).to eql('one hundred and twenty-three dollars')
+      expect(123.45.humanize_as_currency(:currency => :usd, :decimals_as => :number)).to eql('one hundred and twenty-three dollars and forty-five cents')
+    end
+  end
+
 end
