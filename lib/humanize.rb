@@ -36,6 +36,8 @@ module Humanize
       [Humanize::Th, EMPTY]
     when :tr
       [Humanize::Tr, SPACE]
+    when :jp
+      [Humanize::Jp, EMPTY]
     else
       raise "Unsupported humanize locale: #{locale}"
     end
@@ -43,7 +45,9 @@ module Humanize
 
   def self.stringify(parts, sign, spacer)
     output = parts.reverse.join(spacer).squeeze(spacer)
-    if locale_is?(:es) && sign
+    if locale_is?(:jp) && sign
+      "#{sign}#{output}"
+    elsif locale_is?(:es) && sign
       "#{output} #{sign}"
     elsif sign
       "#{sign} #{output}"
@@ -74,15 +78,15 @@ module Humanize
     decimals_as = :digits if leading_zeroes.any?
 
     decimals_as_words = case decimals_as
-                        when :digits
-                          digits = significant_digits.chars.map do |num|
-                            grouping[num.to_i]
-                          end
+    when :digits
+      digits = significant_digits.chars.map do |num|
+        grouping[num.to_i]
+      end
 
-                          (leading_zeroes + digits).join(spacer)
-                        when :number
-                          significant_digits.to_i.humanize(locale: locale)
-                        end
+      (leading_zeroes + digits).join(spacer)
+    when :number
+      significant_digits.to_i.humanize(locale: locale)
+    end
 
     parts.insert(0, decimals_as_words, locale_class::POINT)
   end
