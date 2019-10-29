@@ -93,6 +93,7 @@ Currently supported locales:
 * Russian: `:ru` (except for decimals)
 * Portuguese: `:pt`
 * Malaysia `:ms`
+* Japanese `:jp`
 
 ## Testing
 
