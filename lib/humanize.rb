@@ -45,12 +45,10 @@ module Humanize
 
   def self.stringify(parts, sign, spacer)
     output = parts.reverse.join(spacer).squeeze(spacer)
-    if locale_is?(:jp) && sign
-      "#{sign}#{output}"
-    elsif locale_is?(:es) && sign
-      "#{output} #{sign}"
+    if locale_is?(:es) && sign
+      "#{output}#{spacer}#{sign}"
     elsif sign
-      "#{sign} #{output}"
+      "#{sign}#{spacer}#{output}"
     else
       output
     end
