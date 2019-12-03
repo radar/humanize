@@ -75,16 +75,17 @@ module Humanize
     leading_zeroes = [grouping[0]] * exponent.abs
     decimals_as = :digits if leading_zeroes.any?
 
-    decimals_as_words = case decimals_as
-    when :digits
-      digits = significant_digits.chars.map do |num|
-        grouping[num.to_i]
-      end
+    decimals_as_words =
+      case decimals_as
+      when :digits
+        digits = significant_digits.chars.map do |num|
+          grouping[num.to_i]
+        end
 
-      (leading_zeroes + digits).join(spacer)
-    when :number
-      significant_digits.to_i.humanize(locale: locale)
-    end
+        (leading_zeroes + digits).join(spacer)
+      when :number
+        significant_digits.to_i.humanize(locale: locale)
+      end
 
     parts.insert(0, decimals_as_words, locale_class::POINT)
   end
