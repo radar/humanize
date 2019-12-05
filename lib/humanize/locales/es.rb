@@ -1,5 +1,4 @@
 require_relative 'constants/es'
-require 'pry'
 
 module Humanize
   class Es
