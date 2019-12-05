@@ -6,7 +6,7 @@ module Humanize
       iteration = 0
       parts = []
       until number.zero?
-        number, remainder = number.divmod(10000)
+        number, remainder = number.divmod(10_000)
         unless remainder.zero?
           add_grouping(parts, iteration)
           parts << SUB_ONE_GROUPING[remainder]
@@ -24,7 +24,7 @@ module Humanize
       grouping = LOTS[iteration]
       return unless grouping
 
-      parts << "#{grouping}"
+      parts << grouping.to_s
     end
   end
 end
