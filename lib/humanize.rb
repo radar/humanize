@@ -30,7 +30,7 @@ module Humanize
   def self.for_locale(locale)
     case locale.to_sym
     # NOTE: add locales here in ealphabetical order
-    when :az, :de, :en, :es, :fr, :id, :ms, :pt, :ru
+    when :az, :de, :en, :es, :fr, :id, :ms, :pt, :ru, :vi
       [Object.const_get("Humanize::#{locale.capitalize}"), SPACE]
     when :th
       [Humanize::Th, EMPTY]
