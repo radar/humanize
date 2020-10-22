@@ -1,5 +1,5 @@
 AllCops:
-  TargetRubyVersion: 2.3
+  TargetRubyVersion: 2.4
 
 Style/StringLiterals:
   Enabled: false
@@ -10,7 +10,7 @@ Style/FrozenStringLiteralComment:
 Style/Documentation:
   Enabled: false
 
-Metrics/LineLength:
+Layout/LineLength:
   Max: 200
   Exclude:
     - lib/humanize/locales/constants/*.rb
