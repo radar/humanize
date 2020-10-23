@@ -94,6 +94,7 @@ Currently supported locales:
 * Portuguese: `:pt`
 * Malaysia `:ms`
 * Japanese `:jp`
+* Vietnamese `:vi`
 
 ## Testing
 
