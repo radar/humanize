@@ -8,11 +8,11 @@ module Humanize
       until number.zero?
         number, remainder = number.divmod(1000)
 
-        if !remainder.zero?
+        if remainder.positive?
           parts << LOTS[iteration] if iteration.positive?
           parts << SUB_ONE_GROUPING[remainder]
           add_linked_word(parts, remainder) if number.positive?
-        elsif iteration.positive? && (iteration % 3).zero?
+        elsif iteration.positive? && iteration.modulo(3).zero?
           parts << LOTS[3]
         end
 
