@@ -11,7 +11,13 @@ RSpec.describe Humanize, "fr locale" do
     [8.15, 'huit virgule un cinq'],
     [1002, 'mille deux'],
     [2001, 'deux mille un'],
-    [10_000, 'dix mille']
+    [10_000, 'dix mille'],
+    [1_000_000, "un million"],
+    [2_000_000, "deux millions"],
+    [5_000_000, "cinq millions"],
+    [1_000_000_000, "un milliard"],
+    [2_000_000_000, "deux milliards"],
+    [5_000_000_000, "cinq milliards"]
   ]
 
   tests.each do |num, output|

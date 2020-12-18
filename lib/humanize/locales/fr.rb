@@ -8,7 +8,7 @@ module Humanize
       until number.zero?
         number, remainder = number.divmod(1000)
         unless remainder.zero?
-          add_grouping(parts, iteration)
+          add_grouping(parts, iteration, remainder)
 
           parts << SUB_ONE_GROUPING[remainder] unless exactly_one_thousand?(remainder, parts)
         end
@@ -25,8 +25,16 @@ module Humanize
       remainder == 1 && parts.last.to_s.strip == 'mille'
     end
 
-    def add_grouping(parts, iteration)
-      grouping = LOTS[iteration]
+    def plural_for_lots(remainder, word, iteration)
+      if remainder > 1 && iteration >= 2
+        "#{word}s"
+      else
+        word
+      end
+    end
+
+    def add_grouping(parts, iteration, remainder)
+      grouping = plural_for_lots(remainder, LOTS[iteration], iteration)
       return unless grouping
 
       parts << grouping
