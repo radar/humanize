@@ -9,7 +9,6 @@ Gem::Specification.new do |s|
   s.files         = `git ls-files`.split($/)
   s.test_files    = s.files.grep(%r{^(spec)/})
   s.homepage = "https://github.com/radar/humanize"
-  s.rubygems_version = "2.5.1"
   s.summary = "Extension to Numeric to humanize numbers"
 
   s.add_development_dependency 'mutant'
