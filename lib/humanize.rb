@@ -90,6 +90,27 @@ module Humanize
     parts.insert(0, decimals_as_words, locale_class::POINT)
   end
 
+  def humanize_as_currency(locale: Humanize.config.default_locale,
+                           decimals_as: Humanize.config.decimals_as,
+                           currency: Humanize.config.default_currency)
+    unit_value = self.to_i.humanize(locale: locale,
+                                    decimals_as: decimals_as)
+    subunit_value = nil
+    if is_a?(Float) || is_a?(BigDecimal)
+      subunit_value = (self.modulo(1).round(2) * 100).humanize(locale: locale,
+                                                               decimals_as: decimals_as)
+    end
+    locale_class, spacer = Humanize.for_locale(locale)
+    process_currency(unit_value, subunit_value, currency, locale_class)
+  end
+
+  def process_currency(unit_value, subunit_value, currency, locale_class)
+    currency_units = locale_class::CURRENCY[currency.to_sym]
+    result = unit_value + " #{unit_value == locale_class::SUB_ONE_GROUPING[1] ? currency_units[:unit_name] : currency_units[:units_name]}"
+    result += " #{currency_units[:unit_subunit_connector]} #{subunit_value} #{subunit_value == locale_class::SUB_ONE_GROUPING[1] ? currency_units[:subunit_name] : currency_units[:subunits_name]}" if subunit_value
+    result
+  end
+
   class << self
     attr_writer :config
   end
@@ -107,10 +128,11 @@ module Humanize
   end
 
   class Configuration
-    attr_accessor :default_locale, :decimals_as
+    attr_accessor :default_locale, :decimals_as, :default_currency
 
     def initialize
       @default_locale = :en
+      @default_currency = :usd
       @decimals_as = :digits
     end
   end
