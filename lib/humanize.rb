@@ -38,6 +38,8 @@ module Humanize
       [Humanize::Tr, SPACE]
     when :jp
       [Humanize::Jp, EMPTY]
+    when :"fr-CH"
+      [Humanize::FrCh, SPACE]
     else
       raise "Unsupported humanize locale: #{locale}"
     end
