@@ -9,7 +9,7 @@ RSpec.describe Humanize, "fr CH locale" do
 
   tests = [
     [71, 'septante-et-un'],
-    [80.15, 'huitantes virgule un cinq'],
+    [80.15, 'huitante virgule un cinq'],
     [1090, 'mille nonante'],
     [2095, 'deux mille nonante-cinq'],
     [10_000, 'dix mille'],
