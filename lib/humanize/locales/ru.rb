@@ -45,7 +45,7 @@ module Humanize
         parts = parts.sub(wrong, right) if parts.include?(wrong)
       end
 
-      parts.split(' ').reverse
+      parts.split.reverse
     end
   end
 end

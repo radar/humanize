@@ -7,7 +7,7 @@ RSpec.describe Humanize, "ms locale" do
     end
   end
 
-  # rubocop:disable Metrics/LineLength
+  # rubocop:disable Layout/LineLength
   ms_tests = [
     [-1, "minus satu"],
     [-0.042, "minus sifar titik sifar empat dua"],
@@ -54,7 +54,7 @@ RSpec.describe Humanize, "ms locale" do
     [44_333_221_111_112_176_514_321_007_310, "empat puluh empat oktil tiga ratus tiga puluh tiga septillion dua ratus dua puluh satu sextillion seratus sebelas quintillion seratus dua belas quadrillion seratus tujuh puluh enam trilion lima ratus empat belas bilion tiga ratus dua puluh satu juta tujuh ribu tiga ratus sepuluh"],
     [444_333_221_111_112_176_514_321_007_310, "empat ratus empat puluh empat oktil tiga ratus tiga puluh tiga septillion dua ratus dua puluh satu sextillion seratus sebelas quintillion seratus dua belas quadrillion seratus tujuh puluh enam trilion lima ratus empat belas bilion tiga ratus dua puluh satu juta tujuh ribu tiga ratus sepuluh"]
   ]
-  # rubocop:enable Metrics/LineLength
+  # rubocop:enable Layout/LineLength
 
   ms_tests.each do |num, output|
     it "#{num} is equal to #{output}" do
