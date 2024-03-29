@@ -7,7 +7,7 @@ module Humanize
         number, remainder = number.divmod(1_000_000)
         million_parts = humanize(number, million_level + 1)
         sub_million_parts = million_humanize(remainder)
-        sub_million_parts << " " << MILLION * million_level << million_parts.reverse
+        sub_million_parts << " " << (MILLION * million_level) << million_parts.reverse
       else
         million_humanize(number)
       end

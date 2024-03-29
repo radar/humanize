@@ -28,9 +28,9 @@ module Humanize
 
     def correct_one_thousand(parts)
       lots = LOTS.drop(2)
-      wrong_1000_re = /(?<=#{lots.join(" |")} )\s*satu ribu|^satu ribu/
+      wrong_1000_re = /(?<=#{lots.join(' |')} )\s*satu ribu|^satu ribu/
       parts = parts.reverse.join(" ").sub(wrong_1000_re, 'seribu')
-      parts.split(" ").reverse
+      parts.split.reverse
     end
   end
 end

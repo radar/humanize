@@ -8,7 +8,7 @@ RSpec.describe Humanize, "vi locale" do
     end
   end
 
-  # rubocop:disable Metrics/LineLength
+  # rubocop:disable Layout/LineLength
   vi_tests = [
     [1.0 / 0, "vô cùng"],
     [-1.0 / 0, "âm vô cùng"],
@@ -224,7 +224,7 @@ RSpec.describe Humanize, "vi locale" do
     [21_381_614_863_421_954_863_524_785_362_147_732_846_952_142_365_124_547_856_633_666_999_875_477_632_147_444_102_005_000_975_635_102_036_900_000_114_475_304_024_201_832_905_401_151_191_113_789_528_888_007_415, "hai mươi mốt tỷ ba trăm tám mươi mốt triệu sáu trăm mười bốn nghìn tám trăm sáu mươi ba tỷ bốn trăm hai mươi mốt triệu chín trăm năm mươi bốn nghìn tám trăm sáu mươi ba tỷ năm trăm hai mươi bốn triệu bảy trăm tám mươi lăm nghìn ba trăm sáu mươi hai tỷ một trăm bốn mươi bảy triệu bảy trăm ba mươi hai nghìn tám trăm bốn mươi sáu tỷ chín trăm năm mươi hai triệu một trăm bốn mươi hai nghìn ba trăm sáu mươi lăm tỷ một trăm hai mươi bốn triệu năm trăm bốn mươi bảy nghìn tám trăm năm mươi sáu tỷ sáu trăm ba mươi ba triệu sáu trăm sáu mươi sáu nghìn chín trăm chín mươi chín tỷ tám trăm bảy mươi lăm triệu bốn trăm bảy mươi bảy nghìn sáu trăm ba mươi hai tỷ một trăm bốn mươi bảy triệu bốn trăm bốn mươi bốn nghìn một trăm linh hai tỷ không trăm linh năm triệu chín trăm bảy mươi lăm tỷ sáu trăm ba mươi lăm triệu một trăm linh hai nghìn không trăm ba mươi sáu tỷ chín trăm triệu một trăm mười bốn tỷ bốn trăm bảy mươi lăm triệu ba trăm linh bốn nghìn không trăm hai mươi bốn tỷ hai trăm linh một triệu tám trăm ba mươi hai nghìn chín trăm linh năm tỷ bốn trăm linh một triệu một trăm năm mươi mốt nghìn một trăm chín mươi mốt tỷ một trăm mười ba triệu bảy trăm tám mươi chín nghìn năm trăm hai mươi tám tỷ tám trăm tám mươi tám triệu không trăm linh bảy nghìn bốn trăm mười lăm"],
     [921_381_614_863_421_954_863_524_785_362_147_732_846_952_142_365_124_547_856_633_666_999_875_477_632_147_444_102_005_000_975_635_102_036_900_000_114_475_304_024_201_832_905_401_151_191_113_789_528_888_007_415, "chín trăm hai mươi mốt tỷ ba trăm tám mươi mốt triệu sáu trăm mười bốn nghìn tám trăm sáu mươi ba tỷ bốn trăm hai mươi mốt triệu chín trăm năm mươi bốn nghìn tám trăm sáu mươi ba tỷ năm trăm hai mươi bốn triệu bảy trăm tám mươi lăm nghìn ba trăm sáu mươi hai tỷ một trăm bốn mươi bảy triệu bảy trăm ba mươi hai nghìn tám trăm bốn mươi sáu tỷ chín trăm năm mươi hai triệu một trăm bốn mươi hai nghìn ba trăm sáu mươi lăm tỷ một trăm hai mươi bốn triệu năm trăm bốn mươi bảy nghìn tám trăm năm mươi sáu tỷ sáu trăm ba mươi ba triệu sáu trăm sáu mươi sáu nghìn chín trăm chín mươi chín tỷ tám trăm bảy mươi lăm triệu bốn trăm bảy mươi bảy nghìn sáu trăm ba mươi hai tỷ một trăm bốn mươi bảy triệu bốn trăm bốn mươi bốn nghìn một trăm linh hai tỷ không trăm linh năm triệu chín trăm bảy mươi lăm tỷ sáu trăm ba mươi lăm triệu một trăm linh hai nghìn không trăm ba mươi sáu tỷ chín trăm triệu một trăm mười bốn tỷ bốn trăm bảy mươi lăm triệu ba trăm linh bốn nghìn không trăm hai mươi bốn tỷ hai trăm linh một triệu tám trăm ba mươi hai nghìn chín trăm linh năm tỷ bốn trăm linh một triệu một trăm năm mươi mốt nghìn một trăm chín mươi mốt tỷ một trăm mười ba triệu bảy trăm tám mươi chín nghìn năm trăm hai mươi tám tỷ tám trăm tám mươi tám triệu không trăm linh bảy nghìn bốn trăm mười lăm"]
   ]
-  # rubocop:enable Metrics/LineLength
+  # rubocop:enable Layout/LineLength
 
   vi_tests.each do |num, output|
     it "#{num} is equal to #{output}" do
