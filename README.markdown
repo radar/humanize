@@ -95,6 +95,7 @@ Currently supported locales:
 * Malaysia `:ms`
 * Japanese `:jp`
 * Vietnamese `:vi`
+* Traditional Chinese `:zh-tw`
 
 ## Testing
 
