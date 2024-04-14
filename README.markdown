@@ -85,6 +85,7 @@ Currently supported locales:
 * English: `:en`
 * Spanish: `:es`
 * French: `:fr`
+* Swiss French: `:'fr-CH'`
 * Turkish: `:tr`
 * Azerbaijani `:az`
 * German: `:de`
