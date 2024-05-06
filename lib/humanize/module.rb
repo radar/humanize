@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 require 'bigdecimal'
-require_relative 'humanize/locales'
+require_relative './locales'
 
 module Humanize
   SPACE = ' '.freeze
@@ -116,16 +118,4 @@ module Humanize
       @decimals_as = :digits
     end
   end
-end
-
-class Integer
-  include Humanize
-end
-
-class Float
-  include Humanize
-end
-
-class BigDecimal
-  include Humanize
 end
