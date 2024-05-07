@@ -4,8 +4,6 @@ require 'bigdecimal'
 require_relative './locales'
 
 module Humanize
-  SPACE = ' '.freeze
-  EMPTY = ''.freeze
   # Big numbers are big: http://wiki.answers.com/Q/What_number_is_after_vigintillion&src=ansTT
 
   class << self
@@ -35,15 +33,15 @@ module Humanize
       case locale.to_sym
       # NOTE: add locales here in ealphabetical order
       when :az, :de, :en, :es, :fr, :id, :ms, :pt, :ru, :vi
-        [Object.const_get("Humanize::#{locale.capitalize}"), SPACE]
+        [Object.const_get("Humanize::#{locale.capitalize}"), ' ']
       when :th
-        [Humanize::Th, EMPTY]
+        [Humanize::Th, '']
       when :tr
-        [Humanize::Tr, SPACE]
+        [Humanize::Tr, ' ']
       when :jp
-        [Humanize::Jp, EMPTY]
+        [Humanize::Jp, '']
       when :'fr-CH'
-        [Humanize::FrCh, SPACE]
+        [Humanize::FrCh, ' ']
       else
         raise "Unsupported humanize locale: #{locale}"
       end
