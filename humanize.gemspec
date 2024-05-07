@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = "humanize"
-  s.version = "3.0.0"
+  s.version = "3.1.0"
 
   s.required_ruby_version = '>= 3.1'
   s.require_paths = ["lib"]
