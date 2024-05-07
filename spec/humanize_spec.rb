@@ -8,25 +8,25 @@ RSpec.describe "Humanize" do
   describe 'locale option' do
     it 'uses default locale' do
       Humanize.config.default_locale = :fr
-      expect(42.humanize).to eql('quarante-deux')
+      expect(Humanize.format(42)).to eql('quarante-deux')
     end
 
     it 'uses locale passed as argument if given' do
       Humanize.config.default_locale = :en
-      expect(42.humanize(locale: :fr)).to eql('quarante-deux')
+      expect(Humanize.format(42, locale: :fr)).to eql('quarante-deux')
     end
 
     describe 'turkish specific rules' do
       it 'one thousand and two equals "bin iki"' do
-        expect(1002.humanize(locale: :tr)).to eql('bin iki')
+        expect(Humanize.format(1002, locale: :tr)).to eql('bin iki')
       end
 
       it 'two thousand and one equals "iki bin bir' do
-        expect(2001.humanize(locale: :tr)).to eql('iki bin bir')
+        expect(Humanize.format(2001, locale: :tr)).to eql('iki bin bir')
       end
 
       it 'ten thousand equals "on bin"' do
-        expect(10_000.humanize(locale: :tr)).to eql('on bin')
+        expect(Humanize.format(10_000, locale: :tr)).to eql('on bin')
       end
     end
 
@@ -37,30 +37,30 @@ RSpec.describe "Humanize" do
 
       context 'one thousand' do
         it 'equals "satu ribu" when it is not the only thousand in its thousands range' do
-          expect(1_101_000.humanize).to eql('satu juta seratus satu ribu')
-          expect(2_201_042.humanize).to eql('dua juta dua ratus satu ribu empat puluh dua')
+          expect(Humanize.format(1_101_000)).to eql('satu juta seratus satu ribu')
+          expect(Humanize.format(2_201_042)).to eql('dua juta dua ratus satu ribu empat puluh dua')
         end
 
         it 'equals "seribu" when it is the lone thousand in its thousands range' do
-          expect(1_000.humanize).to eql('seribu')
-          expect(1_042.humanize).to eql('seribu empat puluh dua')
-          expect(1_001_042.humanize).to eql('satu juta seribu empat puluh dua')
-          expect(1_000_001_042.humanize).to eql('satu bilion seribu empat puluh dua')
+          expect(Humanize.format(1_000)).to eql('seribu')
+          expect(Humanize.format(1_042)).to eql('seribu empat puluh dua')
+          expect(Humanize.format(1_001_042)).to eql('satu juta seribu empat puluh dua')
+          expect(Humanize.format(1_000_001_042)).to eql('satu bilion seribu empat puluh dua')
         end
       end
     end
 
     describe 'azerbaijani specific rules' do
       it 'one thousand and two equals "min iki"' do
-        expect(1002.humanize(locale: :az)).to eql('min iki')
+        expect(Humanize.format(1002, locale: :az)).to eql('min iki')
       end
 
       it 'two thousand and one equals "iki min bir' do
-        expect(2001.humanize(locale: :az)).to eql('iki min bir')
+        expect(Humanize.format(2001, locale: :az)).to eql('iki min bir')
       end
 
       it 'ten thousand equals "on min"' do
-        expect(10_000.humanize(locale: :az)).to eql('on min')
+        expect(Humanize.format(10_000, locale: :az)).to eql('on min')
       end
     end
 
@@ -71,15 +71,15 @@ RSpec.describe "Humanize" do
 
       context 'one thousand' do
         it 'equals "satu ribu" when it is not the only thousand in its thousands range' do
-          expect(1_101_000.humanize).to eql('satu juta seratus satu ribu')
-          expect(2_201_042.humanize).to eql('dua juta dua ratus satu ribu empat puluh dua')
+          expect(Humanize.format(1_101_000)).to eql('satu juta seratus satu ribu')
+          expect(Humanize.format(2_201_042)).to eql('dua juta dua ratus satu ribu empat puluh dua')
         end
 
         it 'equals "seribu" when it is the lone thousand in its thousands range' do
-          expect(1_000.humanize).to eql('seribu')
-          expect(1_042.humanize).to eql('seribu empat puluh dua')
-          expect(1_001_042.humanize).to eql('satu juta seribu empat puluh dua')
-          expect(1_000_001_042.humanize).to eql('satu miliar seribu empat puluh dua')
+          expect(Humanize.format(1_000)).to eql('seribu')
+          expect(Humanize.format(1_042)).to eql('seribu empat puluh dua')
+          expect(Humanize.format(1_001_042)).to eql('satu juta seribu empat puluh dua')
+          expect(Humanize.format(1_000_001_042)).to eql('satu miliar seribu empat puluh dua')
         end
       end
     end
@@ -88,12 +88,12 @@ RSpec.describe "Humanize" do
   describe 'decimals_as option' do
     it 'uses value from configuration' do
       Humanize.config.decimals_as = :number
-      expect(0.42.humanize).to eql('zero point forty-two')
+      expect(Humanize.format(0.42)).to eql('zero point forty-two')
     end
 
     it 'uses value passed as argument if given' do
       Humanize.config.decimals_as = :number
-      expect(0.42.humanize(decimals_as: :digits)).to eql('zero point four two')
+      expect(Humanize.format(0.42, decimals_as: :digits)).to eql('zero point four two')
     end
 
     describe 'when set as number' do
@@ -102,8 +102,8 @@ RSpec.describe "Humanize" do
       end
 
       it 'reads the decimals as digits if led by zero(s)' do
-        expect(0.042.humanize).to eql('zero point zero four two')
-        expect(0.0042.humanize).to eql('zero point zero zero four two')
+        expect(Humanize.format(0.042)).to eql('zero point zero four two')
+        expect(Humanize.format(0.0042)).to eql('zero point zero zero four two')
       end
     end
   end
@@ -111,20 +111,8 @@ RSpec.describe "Humanize" do
   describe 'both options work together' do
     it 'work together' do
       expect(
-        0.42.humanize(locale: :fr, decimals_as: :number)
+        Humanize.format(0.42, locale: :fr, decimals_as: :number)
       ).to eql('zéro virgule quarante-deux')
-    end
-  end
-
-  describe 'when called on instances of Rational, Complex, and Date::Infinity' do
-    it 'will raise NoMethodError' do
-      expect { Rational(1, 3).humanize }.to raise_error(NoMethodError, /humanize/)
-      expect { Complex(1 + 2i).humanize }.to raise_error(NoMethodError, /humanize/)
-      if defined? Date::Infinity
-        expect do
-          Date::Infinity.new.humanize
-        end.to raise_error(NoMethodError, /humanize/)
-      end
     end
   end
 
@@ -134,16 +122,16 @@ RSpec.describe "Humanize" do
       neg_inf = -inf
       nan = inf + neg_inf
 
-      expect(inf.humanize).to eql('infinity')
-      expect(neg_inf.humanize).to eql('negative infinity')
-      expect(nan.humanize).to eql('undefined')
+      expect(Humanize.format(inf)).to eql('infinity')
+      expect(Humanize.format(neg_inf)).to eql('negative infinity')
+      expect(Humanize.format(nan)).to eql('undefined')
     end
   end
 
   describe 'when called on bigdecimal with decimal fractions' do
     it 'reads the decimal digits' do
-      expect(BigDecimal('123').humanize).to eql('one hundred and twenty-three')
-      expect(BigDecimal('123.45').humanize).to eql('one hundred and twenty-three point four five')
+      expect(Humanize.format(BigDecimal('123'))).to eql('one hundred and twenty-three')
+      expect(Humanize.format(BigDecimal('123.45'))).to eql('one hundred and twenty-three point four five')
     end
   end
 end

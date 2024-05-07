@@ -8,24 +8,25 @@ module Humanize
   EMPTY = ''.freeze
   # Big numbers are big: http://wiki.answers.com/Q/What_number_is_after_vigintillion&src=ansTT
 
-  def humanize(locale: Humanize.config.default_locale,
-               decimals_as: Humanize.config.decimals_as)
+  def self.format(number,
+                  locale: Humanize.config.default_locale,
+                  decimals_as: Humanize.config.decimals_as)
     locale_class, spacer = Humanize.for_locale(locale)
 
-    return locale_class::SUB_ONE_GROUPING[0] if zero?
+    return locale_class::SUB_ONE_GROUPING[0] if number.zero?
 
-    infinity = to_f.infinite?
+    infinity = number.to_f.infinite?
     if infinity
       infinity_word = locale_class::INFINITY
       return infinity == 1 ? infinity_word : "#{locale_class::NEGATIVE}#{spacer}#{infinity_word}"
-    elsif is_a?(Float) && nan?
+    elsif number.is_a?(Float) && number.nan?
       return locale_class::UNDEFINED
     end
 
-    sign = locale_class::NEGATIVE if negative?
+    sign = locale_class::NEGATIVE if number.negative?
 
-    parts = locale_class.new.humanize(abs)
-    process_decimals(locale_class, locale, parts, decimals_as, spacer)
+    parts = locale_class.new.humanize(number.abs)
+    Humanize.process_decimals(number, locale_class, locale, parts, decimals_as, spacer)
     Humanize.stringify(parts, sign, spacer)
   end
 
@@ -62,15 +63,15 @@ module Humanize
     Humanize.config.default_locale == locale
   end
 
-  def process_decimals(locale_class, locale, parts, decimals_as, spacer)
-    return unless is_a?(Float) || is_a?(BigDecimal)
+  def self.process_decimals(number, locale_class, locale, parts, decimals_as, spacer)
+    return unless number.is_a?(Float) || number.is_a?(BigDecimal)
 
     # Why 15?
     # (byebug) BigDecimal.new(number, 15)
     # 0.8000015e1
     # (byebug) BigDecimal.new(number, 16)
     # 0.8000014999999999e1
-    decimal = BigDecimal(self, 15) - BigDecimal(to_i)
+    decimal = BigDecimal(number, 15) - BigDecimal(number.to_i)
 
     _sign, significant_digits, _base, exponent = decimal.split
     return if significant_digits == "0"
