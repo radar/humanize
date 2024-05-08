@@ -39,7 +39,7 @@ module Humanize
     when :jp
       [Humanize::Jp, EMPTY]
     when :'zh-tw'
-      [Humanize::ZhTw, EMPTY]        
+      [Humanize::ZhTw, EMPTY]
     when :'fr-CH'
       [Humanize::FrCh, SPACE]
     else
