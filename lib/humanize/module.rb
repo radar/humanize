@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 require 'bigdecimal'
 require_relative 'locales'
 
@@ -25,13 +23,13 @@ module Humanize
       sign = locale_class::NEGATIVE if number.negative?
 
       parts = locale_class.new.humanize(number.abs)
-      Humanize.process_decimals(number, locale_class, locale, parts, decimals_as, spacer)
+      process_decimals(number, locale_class, locale, parts, decimals_as, spacer)
       Humanize.stringify(parts, sign, spacer)
     end
 
     def for_locale(locale)
       case locale.to_sym
-      # NOTE: add locales here in ealphabetical order
+      # NOTE: add locales here in alphabetical order
       when :az, :de, :en, :es, :fr, :id, :ms, :pt, :ru, :vi
         [Object.const_get("Humanize::#{locale.capitalize}"), ' ']
       when :th
@@ -40,6 +38,8 @@ module Humanize
         [Humanize::Tr, ' ']
       when :jp
         [Humanize::Jp, '']
+      when :'zh-tw'
+        [Humanize::ZhTw, '']
       when :'fr-CH'
         [Humanize::FrCh, ' ']
       else
@@ -62,10 +62,7 @@ module Humanize
       Humanize.config.default_locale == locale
     end
 
-    # rubocop:disable Metrics/ParameterLists
     def process_decimals(number, locale_class, locale, parts, decimals_as, spacer)
-      # rubocop:enable Metrics/ParameterLists
-
       return unless number.is_a?(Float) || number.is_a?(BigDecimal)
 
       # Why 15?
