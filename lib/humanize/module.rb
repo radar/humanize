@@ -90,7 +90,7 @@ module Humanize
 
           (leading_zeroes + digits).join(spacer)
         when :number
-          significant_digits.to_i.humanize(locale:)
+          Humanize.format(significant_digits.to_i, locale:)
         end
 
       parts.insert(0, decimals_as_words, locale_class::POINT)
