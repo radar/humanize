@@ -62,7 +62,9 @@ module Humanize
       Humanize.config.default_locale == locale
     end
 
+    # rubocop:disable Metrics/ParameterLists
     def process_decimals(number, locale_class, locale, parts, decimals_as, spacer)
+      # rubocop:enable Metrics/ParameterLists
       return unless number.is_a?(Float) || number.is_a?(BigDecimal)
 
       # Why 15?
