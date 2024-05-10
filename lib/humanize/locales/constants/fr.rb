@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Humanize
   class Fr
     INFINITY = 'infini'.freeze

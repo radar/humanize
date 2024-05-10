@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module Humanize
   class Id
     INFINITY = 'tak terhingga'.freeze

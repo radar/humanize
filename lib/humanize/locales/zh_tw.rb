@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'constants/zh_tw'
 
 module Humanize
