@@ -23,7 +23,9 @@ All the way up to 156 digit numbers:
 
 If you are dealing with numbers larger than 156 digits, we accept patches. Word list is sourced from: [ Wordlist.source ]
 
-## Usage
+## Usage (Extends Ruby Core)
+Note: this extends to Ruby core classes `Integer`, `Float`, and `BigDecimal`.
+See below for usage without extending Ruby core.
 
 ### Install the gem using RubyGems
 
@@ -53,29 +55,75 @@ require 'humanize'
 0.001.humanize => "zero point zero zero one"
 ```
 
+##  Usage (Without Extending Ruby Core)
+Note: this usage does not extend Ruby core.
+Instead it relies on explicitly calling the pure function `Humanize.format`.
+
+### Install the gem using RubyGems
+
+```bash
+gem install humanize
+```
+
+or:
+
+### Add it to your Gemfile
+
+```ruby
+gem 'humanize', require: false
+```
+
+### Include the module in your program
+
+```ruby
+require 'humanize/module' # does not extend Ruby corex
+```
+
+### Call the format function on the numbers
+
+```ruby
+Humanize.format(100) => "one hundred"
+Humanize.format(1001) => "one thousand and one"
+Humanize.format(0.001) => "zero point zero zero one"
+```
+
 ## Configuration
 
 ```ruby
 Humanize.configure do |config|
-  config.default_locale = :en  # [:en, :es, :fr, :tr, :de, :id], default: :en
+  config.default_locale = :en  # [:en, :es, :fr, :'fr-CH', :tr, :az, :de, :id, :th, :ru, :pt, :ms, :jp, :vi, :'zh-tw'], default: :en
   config.decimals_as = :digits # [:digits, :number], default: :digits
 end
 ```
 
-Default values can be overriden:
+The default locale can be overridden by passing an explicit `locale:`:
 
 ```ruby
 42.humanize(locale: :fr) # => "quarante-deux"
 1666.humanize(locale: :tr) # => "bin altı yüz altmış altı"
 ```
 
-## Decimals
+Or, functionally:
 
-You can choose how you want to display decimals:
+```ruby
+Humanize.format(42, locale: :fr) # => "quarante-deux"
+Humanize.format(1666, locale: :tr) # => "bin altı yüz altmış altı"
+```
+
+### Decimals
+
+Similarly, the default display of decimals can be overridden by passing an explicit `decimals_as:` value:
 
 ```ruby
 0.42.humanize(decimals_as: :digits) # => "zero point four two"
-0.42.humanize(decimals_as: :number) # => "zero point fourty-two"
+0.42.humanize(decimals_as: :number) # => "zero point forty-two"
+```
+
+Or, functionally:
+
+```ruby
+Humanize.format(0.42, decimals_as: :digits) # => "zero point four two"
+Humanize.format(0.42, decimals_as: :number) # => "zero point forty-two"
 ```
 
 ## I18n
