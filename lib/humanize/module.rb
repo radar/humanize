@@ -8,7 +8,7 @@ module Humanize
 
   class << self
     def format(number,
-               locale: Humanize.config.default_locale,
+               locale: Humanize.config.locale,
                decimals_as: Humanize.config.decimals_as)
       locale_class, spacer = Humanize.for_locale(locale)
 
@@ -61,7 +61,7 @@ module Humanize
     end
 
     def locale_is?(locale)
-      Humanize.config.default_locale == locale
+      Humanize.config.locale == locale
     end
 
     # rubocop:disable Metrics/ParameterLists
@@ -114,10 +114,12 @@ module Humanize
   end
 
   class Configuration
-    attr_accessor :default_locale, :decimals_as
+    attr_accessor :locale, :decimals_as
+    alias default_locale locale
+    alias default_locale= locale=
 
     def initialize
-      @default_locale = :en
+      @locale = :en
       @decimals_as = :digits
     end
   end

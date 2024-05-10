@@ -5,7 +5,7 @@ require 'spec_helper'
 RSpec.describe Humanize, "th locale" do
   before do
     Humanize.configure do |config|
-      config.default_locale = :th
+      config.locale = :th
     end
   end
 

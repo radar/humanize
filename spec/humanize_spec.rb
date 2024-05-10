@@ -9,12 +9,12 @@ RSpec.describe "Humanize" do
 
   describe 'locale option' do
     it 'uses default locale' do
-      Humanize.config.default_locale = :fr
+      Humanize.config.locale = :fr
       expect(Humanize.format(42)).to eql('quarante-deux')
     end
 
     it 'uses locale passed as argument if given' do
-      Humanize.config.default_locale = :en
+      Humanize.config.locale = :en
       expect(Humanize.format(42, locale: :fr)).to eql('quarante-deux')
     end
 
@@ -34,7 +34,7 @@ RSpec.describe "Humanize" do
 
     describe 'malaysia specific rules' do
       before do
-        Humanize.config.default_locale = :ms
+        Humanize.config.locale = :ms
       end
 
       context 'one thousand' do
@@ -68,7 +68,7 @@ RSpec.describe "Humanize" do
 
     describe 'indonesian specific rules' do
       before do
-        Humanize.config.default_locale = :id
+        Humanize.config.locale = :id
       end
 
       context 'one thousand' do

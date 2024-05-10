@@ -8,21 +8,41 @@ module Humanize
       Humanize.reset_config
     end
 
-    describe "#default_locale" do
+    describe "#default_locale (deprecated)" do
       it "default value is :en" do
         expect(Humanize.config.default_locale).to eq(:en)
       end
 
       it "value can be changed using a block" do
         Humanize.configure do |config|
-          config.default_locale = :fr
+          config.locale = :fr
         end
         expect(Humanize.config.default_locale).to eq(:fr)
+        expect(Humanize.config.locale).to eq(:fr)
       end
 
       it "value can be changed directly" do
-        Humanize.config.default_locale = :fr
+        Humanize.config.locale = :fr
         expect(Humanize.config.default_locale).to eq(:fr)
+        expect(Humanize.config.locale).to eq(:fr)
+      end
+    end
+
+    describe "#locale" do
+      it "default value is :en" do
+        expect(Humanize.config.locale).to eq(:en)
+      end
+
+      it "value can be changed using a block" do
+        Humanize.configure do |config|
+          config.locale = :fr
+        end
+        expect(Humanize.config.locale).to eq(:fr)
+      end
+
+      it "value can be changed directly" do
+        Humanize.config.locale = :fr
+        expect(Humanize.config.locale).to eq(:fr)
       end
     end
   end

@@ -5,7 +5,7 @@ require 'spec_helper'
 RSpec.describe Humanize, "vi locale" do
   before do
     Humanize.configure do |config|
-      config.default_locale = :vi
+      config.locale = :vi
       config.decimals_as = :number
     end
   end
