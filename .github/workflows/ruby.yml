@@ -6,20 +6,24 @@ on:
   workflow_dispatch:
 
 jobs:
-  build:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+          ruby-version: "3.3"
+      - run: bundle exec rubocop
+  test:
+    runs-on: ubuntu-latest
     strategy:
       matrix:
-        ruby_version: [3.3, 3.2, 3.1]
-
-    runs-on: ubuntu-latest
-
+        ruby: [3.3, 3.2, 3.1]
     steps:
-    - uses: actions/checkout@v4
-    - uses: ruby/setup-ruby@v1
-      with:
-        bundler-cache: true
-        ruby-version: ${{ matrix.ruby_version }}
-    - name: Build and test with Rake
-      run: |
-        bundle exec rspec
-        bundle exec rubocop
+      - uses: actions/checkout@v4
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+          ruby-version: ${{ matrix.ruby }}
+      - run: bundle exec rspec
