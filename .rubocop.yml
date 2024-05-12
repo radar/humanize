@@ -2,19 +2,7 @@ AllCops:
   TargetRubyVersion: 3.1
   NewCops: enable
 
-Metrics/CollectionLiteralLength:
-  Enabled: false
-
 Gemspec/DevelopmentDependencies:
-  Enabled: false
-
-Style/StringLiterals:
-  Enabled: false
-
-Style/FrozenStringLiteralComment:
-  Enabled: false
-
-Style/Documentation:
   Enabled: false
 
 Layout/LineLength:
@@ -22,25 +10,38 @@ Layout/LineLength:
   Exclude:
     - lib/humanize/locales/constants/*.rb
 
-Metrics/MethodLength:
-  Max: 30
-
 Metrics/AbcSize:
   Max: 30
-
-Metrics/CyclomaticComplexity:
-  Max: 10
-
-Metrics/PerceivedComplexity:
-  Max: 10
 
 Metrics/BlockLength:
   Exclude:
     - spec/**/*.rb
 
+Metrics/CollectionLiteralLength:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Max: 10
+
+Metrics/MethodLength:
+  Max: 30
+
+Metrics/PerceivedComplexity:
+  Max: 10
+
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/SpecialGlobalVars:
+  Enabled: false
+
+Style/StringLiterals:
+  Enabled: false
+
 Style/WordArray:
   Exclude:
     - lib/humanize/locales/constants/*.rb
 
-Style/SpecialGlobalVars:
-  Enabled: false
