@@ -9,6 +9,7 @@ Gem::Specification.new do |s|
   s.files = `git ls-files`.split($/)
   s.homepage = "https://github.com/radar/humanize"
   s.summary = "Extension to Numeric to humanize numbers"
+  s.license = 'MIT'
 
   s.add_development_dependency 'mutant'
   s.add_development_dependency 'mutant-rspec'
