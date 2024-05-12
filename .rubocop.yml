@@ -1,46 +1,23 @@
+inherit_from: .rubocop_todo.yml
+
 AllCops:
-  TargetRubyVersion: 3.1
   NewCops: enable
-
-Metrics/CollectionLiteralLength:
-  Enabled: false
-
-Gemspec/DevelopmentDependencies:
-  Enabled: false
-
-Style/StringLiterals:
-  Enabled: false
-
-Style/FrozenStringLiteralComment:
-  Enabled: false
-
-Style/Documentation:
-  Enabled: false
+  TargetRubyVersion: 3.1
 
 Layout/LineLength:
-  Max: 200
   Exclude:
     - lib/humanize/locales/constants/*.rb
-
-Metrics/MethodLength:
-  Max: 30
-
-Metrics/AbcSize:
-  Max: 30
-
-Metrics/CyclomaticComplexity:
-  Max: 10
-
-Metrics/PerceivedComplexity:
-  Max: 10
 
 Metrics/BlockLength:
   Exclude:
     - spec/**/*.rb
 
+Metrics/CollectionLiteralLength:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
 Style/WordArray:
   Exclude:
     - lib/humanize/locales/constants/*.rb
-
-Style/SpecialGlobalVars:
-  Enabled: false
