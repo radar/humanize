@@ -6,10 +6,12 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.authors = ["Jack Chen", "Ryan Bigg"]
   s.email = "me@ryanbigg.com"
-  s.files = `git ls-files`.split($/)
   s.homepage = "https://github.com/radar/humanize"
   s.summary = "Extension to Numeric to humanize numbers"
   s.license = 'MIT'
+
+  s.files = Dir["lib/**/*"].reject { |f| File.directory?(f) }
+  s.files += ["humanize.gemspec", "LICENSE.md", "README.markdown"]
 
   s.add_development_dependency 'mutant'
   s.add_development_dependency 'mutant-rspec'
