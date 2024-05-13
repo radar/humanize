@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 module Humanize
-  def humanize(locale: Humanize.config.default_locale,
+  def humanize(locale: Humanize.config.locale,
                decimals_as: Humanize.config.decimals_as)
     Humanize.format(self,
                     locale:,

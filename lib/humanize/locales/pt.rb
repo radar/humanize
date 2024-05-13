@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative 'constants/pt'
 
 module Humanize
@@ -41,7 +43,7 @@ module Humanize
       grouping = LOTS[iteration]
       return unless grouping
 
-      grouping.sub! 'lhão', 'lhões' if plural
+      grouping = grouping.sub('lhão', 'lhões') if plural
 
       parts << "#{grouping}#{conjunction(parts, use_and)}"
     end

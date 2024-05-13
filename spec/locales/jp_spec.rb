@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 require 'spec_helper'
 
 RSpec.describe Humanize, 'jp locale' do
   before do
     Humanize.configure do |config|
-      config.default_locale = :jp
+      config.locale = :jp
     end
   end
 

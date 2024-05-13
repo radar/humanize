@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 require 'spec_helper'
 
 RSpec.describe Humanize, 'zh tw locale' do
   before do
     Humanize.configure do |config|
-      config.default_locale = :'zh-tw'
+      config.locale = :'zh-tw'
     end
   end
 

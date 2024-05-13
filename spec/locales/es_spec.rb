@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 require 'spec_helper'
 
 RSpec.describe Humanize, "es locale" do
   before do
     Humanize.configure do |config|
-      config.default_locale = :es
+      config.locale = :es
     end
   end
   es_tests = [
