@@ -15,11 +15,6 @@ Gem::Specification.new do |s|
   s.files = Dir["lib/**/*"].reject { |f| File.directory?(f) }
   s.files += ["humanize.gemspec", "LICENSE.md", "README.markdown"]
 
-  s.add_development_dependency 'mutant'
-  s.add_development_dependency 'mutant-rspec'
-  s.add_development_dependency 'pry-byebug'
-  s.add_development_dependency 'rspec'
-  s.add_development_dependency 'rubocop'
   s.metadata['rubygems_mfa_required'] = 'true'
   s.metadata['bug_tracker_uri'] = "#{s.homepage}/issues"
   s.metadata['source_code_uri'] = "#{s.homepage}/tree/v#{s.version}"
