@@ -3,3 +3,9 @@
 source 'https://rubygems.org'
 
 gemspec
+
+gem 'mutant'
+gem 'mutant-rspec'
+gem 'pry-byebug'
+gem 'rspec'
+gem 'rubocop'
