@@ -150,7 +150,7 @@ Currently supported locales:
 
 Install development dependencies by running `bundle install`.
 
-You can run mutation testing by calling `bin/run_mutant`.
+You can run mutation testing by calling `bundle exec mutant run`.
 
 ## Credits
 

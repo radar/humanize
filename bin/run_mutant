@@ -1,3 +1,0 @@
-#!/bin/bash
-
-mutant --include lib --require humanize --use rspec Humanize
