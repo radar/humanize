@@ -1,0 +1,10 @@
+includes:
+  - "lib"
+requires:
+  - "humanize"
+integration:
+  name: "rspec"
+matcher:
+  subjects:
+    - "Humanize"
+usage: "opensource"
