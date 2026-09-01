@@ -91,7 +91,7 @@ Humanize.format(0.001) => "zero point zero zero one"
 
 ```ruby
 Humanize.configure do |config|
-  config.locale = :en  # [:en, :es, :fr, :'fr-CH', :tr, :az, :de, :id, :th, :ru, :pt, :ms, :jp, :vi, :'zh-tw'], default: :en
+  config.locale = :en  # [:en, :es, :fr, :'fr-CH', :tr, :az, :de, :id, :th, :ru, :pt, :ms, :jp, :vi, :'zh-tw', :ar], default: :en
   config.decimals_as = :digits # [:digits, :number], default: :digits
 end
 ```
@@ -145,6 +145,7 @@ Currently supported locales:
 * Japanese `:jp`
 * Vietnamese `:vi`
 * Traditional Chinese `:zh-tw`
+* Arabic `:ar`
 
 ## Testing
 
